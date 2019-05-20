@@ -76,13 +76,6 @@ def main():
 	end = datetime.now()
 	print(f"Chudnovsky: {end - start}")
 
-	with open("pi-billion.txt", 'r') as f:
-		pi_bill = f.read(n).strip()
-	if pi != pi_bill:
-		print(pi)
-		print(pi_bill)
-	print(pi_bill == pi)
-
 
 if __name__ == "__main__":
 	main()
