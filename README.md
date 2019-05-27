@@ -25,3 +25,17 @@ This script contains three functions to calculate Pi. Scripts measures time eval
 ### 2. [crypto_numbers.py](./scripts/crypto_numbers.py)
 
 This script contains useful functions I used for my cryptography related projects such as generating random prime numbers, factorization of numbers etc.
+
+### 3. [integral_calculator.py](./scripts/integral_calculator.py)
+
+This script contains three functions to calculate integrals:
+
+1. [Rectangle method](https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Rectangle_method.html)
+
+2. [Trapezoidal method](https://en.wikipedia.org/wiki/Trapezoidal_rule)
+
+3. [Simpson's method](https://en.wikipedia.org/wiki/Simpson%27s_rule)
+
+### 4. [Calculator](./scripts/Calculator)
+
+Every beginner programmer must write its own calculator, so here is mine.
