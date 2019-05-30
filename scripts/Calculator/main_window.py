@@ -101,15 +101,19 @@ class CalculatorApp(QtWidgets.QMainWindow,
         :param char:
         :return:
         """
+
+        # lst is last entered character
         if self.expression != "":
             lst = self.expression[-1]
         else:
             lst = ""
 
         if char.isdigit():
+            # Digit can't come after closed parenthesis
             if lst == ")":
                 return
 
+            # If current expression is result of calculation, erase it and
             if self.is_result:
                 self.expression = char
                 self.result_field.setText(self.expression)
@@ -123,6 +127,8 @@ class CalculatorApp(QtWidgets.QMainWindow,
         if char == ".":
 
             if lst.isdigit():
+
+                # There must not be two dots in one number
                 if "." in self.expression.split(" ")[-1]:
                     return
 
@@ -131,15 +137,20 @@ class CalculatorApp(QtWidgets.QMainWindow,
                     self.result_field.setText(self.expression)
                     return
 
-            if self.expression == ".":
+            # Dot can't be first character in the expression
+            if self.expression == "":
                 return
 
         if char in math_parser.FUNCTIONS:
+
+            # If current expression is the result of calculation so calculate
+            #  the function immediately
             if self.is_result:
                 self.expression = f"{char}({self.expression})"
                 self.calculate()
                 return
 
+            # Function can't come after digit
             if lst.isdigit():
                 return
 
@@ -148,13 +159,17 @@ class CalculatorApp(QtWidgets.QMainWindow,
             return
 
         if char in math_parser.OPERATORS:
+
+            # Operator can come only after the number or after closed parenthesis
             if lst.isdigit() or self.expression[-1] == ")":
                 self.expression += f" {char} "
                 self.result_field.setText(self.expression)
-            self.is_result = False
+                self.is_result = False
             return
 
         if char == "(":
+
+            # Open parenthesis can't come after digit
             if lst.isdigit():
                 return
 
@@ -162,6 +177,8 @@ class CalculatorApp(QtWidgets.QMainWindow,
             self.result_field.setText(self.expression)
 
         if char == ")":
+
+            # Closed parenthesis can come only after digit or closed parenthesis
             if not lst.isdigit() and lst != ")":
                 return
 

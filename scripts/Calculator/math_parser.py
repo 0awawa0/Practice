@@ -27,7 +27,7 @@ FUNCTIONS = {
 }
 
 
-def parse_expression(expression: str):
+def parse_expression(expression):
     """
     This function parses the math expression, excludes all useless characters
     and returns list with numbers, operators, functions, parentherses and
@@ -43,6 +43,7 @@ def parse_expression(expression: str):
 
         if expression[pointer] in NUMBERS:
 
+            # If we meet number we start to read the number to the end
             number = ""
             while expression[pointer] in NUMBERS or expression[pointer] == '.':
                 if expression[pointer] == '.':
@@ -55,7 +56,7 @@ def parse_expression(expression: str):
                 pointer += 1
                 if pointer >= len(expression):
                     break
-
+            # After we've read the number we append it to the out list
             out.append(float(number))
             continue
 
@@ -65,14 +66,18 @@ def parse_expression(expression: str):
             continue
 
         if expression[pointer] in "(),":
+            # Open parenthesis, closed parenthesis or separators go to the
+            #  out list. Syntax Errors will be revealed later
             out.append(expression[pointer])
             pointer += 1
             continue
 
+        # Spaces are ignored
         if expression[pointer] == " ":
             pointer += 1
             continue
 
+        # All other characters are supposed to be part of function name
         function_name = ""
         while expression[pointer] != "(":
             try:
@@ -92,17 +97,21 @@ def parse_expression(expression: str):
     return out
 
 
-def shunting_yard(expression: list):
+def shunting_yard(expression):
     """
     This function implements Shunting yard algorithm. 
     Function needs preprocessed list from parse_expression function.
     Function returns list of expression in reversed polish notation.
     """
+
+    # Don't know if it's necessary to explain the algorithm but whatever.
     if isinstance(expression, str):
         expression = parse_expression(expression)
 
     out = []
+    # Stack is for operands
     stack = []
+    # This stack contains count of arguments for functions
     functions_args_counter = []
 
     for token in expression:
@@ -116,6 +125,8 @@ def shunting_yard(expression: list):
             continue
 
         if token == ",":
+            # If we meet the separator so there must be a function with many
+            #  arguments and it must be on the stack
             functions_args_counter[-1] += 1
             while stack[-1] != "(":
                 try:
@@ -129,10 +140,12 @@ def shunting_yard(expression: list):
             if len(stack) == 0:
                 stack.append(token)
                 continue
+
             op2 = stack[-1]
             if op2 not in OPERATORS:
                 stack.append(token)
                 continue
+
             op2 = OPERATORS[op2]
             while (op1.assoc == "Left" and op1.prec <= op2.prec or
                    op1.assoc == "Right" and op1.prec < op2.prec) and len(stack) > 0:
@@ -147,11 +160,16 @@ def shunting_yard(expression: list):
         if token == ")":
             while stack[-1] != "(":
                 out.append(stack.pop())
+
             stack.pop(len(stack)-1)
+
             if stack[-1] in FUNCTIONS:
+
                 if FUNCTIONS[stack[-1]].arg_count == "multiple":
                     out.append(functions_args_counter[-1] + 1)
+
                 out.append(stack.pop())
+
                 functions_args_counter.pop()
             continue
 
@@ -163,7 +181,7 @@ def shunting_yard(expression: list):
     return out
 
 
-def calculate(expression: list):
+def calculate(expression):
     """
     This function calculates the expression in reversed polish notation.
     Function takes list from shunting_yard function.
@@ -176,23 +194,32 @@ def calculate(expression: list):
     if isinstance(expression, str):
         expression = shunting_yard(expression)
 
+    # Well, the calculation is pretty simple. I read tokens from the list
+    #  until I meet the function or operator.
     stack = []
-    right_stack = []
     for token in expression:
+
+        # If I meet the number I just put it on the stack
         if isinstance(token, float) or isinstance(token, int):
-            if len(right_stack) < 0:
-                op1 = stack.pop()
-                op2 = token
-                oper = right_stack.pop()
-                stack.append(OPERATORS[oper].func(op1, op2))
-            else:
-                stack.append(token)
+            stack.append(token)
             continue
+
+        # If I meet the operator, I pop two operands from the stack,
+        #  calculate the operation and put the result on the stack
         if token in OPERATORS:
             op2 = stack.pop()
             op1 = stack.pop()
             stack.append(OPERATORS[token].func(op1, op2))
             continue
+
+        # Idea of calculation of the functions is the same as for operators.
+        # Although some functions have many arguments, that's why I count amount
+        # of arguments in the shunting_yard function. When I meet the
+        # multi-argument function I know that first number on the stack is  the
+        # count of arguments for function. So I read this number and after that
+        # I read arguments from the stack to the list and pass it to the
+        #  function. Result is being pushed to the stack.
+        # For function with just one argument calculation is primitive.
         if token in FUNCTIONS:
             if FUNCTIONS[token].arg_count == "multiple":
                 count = stack.pop()
@@ -202,6 +229,7 @@ def calculate(expression: list):
                 stack.append(FUNCTIONS[token].func(stack.pop()))
             continue
 
+    # After all calculations there must be only one value on the stack.
     return stack.pop()
 
 
