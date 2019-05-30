@@ -9,7 +9,7 @@ class Heap:
     """
 
     def __init__(self, array):
-        self.heap = array
+        self.heap = array[:]
         self.size = len(array) - 1
         self.build_heap()
 
@@ -93,17 +93,57 @@ def insertion_sort(array):
     return array
 
 
+def quick_sort(array, p, r):
+    """
+    This function implements quick sort algorithm
+
+    Time: O(n*lg(n))
+    """
+
+    def partition(array, p, r):
+        x = array[r]
+        i = p - 1
+
+        for j in range(p, r):
+            if array[j] <= x:
+                i = i + 1
+                array[i], array[j] = array[j], array[i]
+        array[i + 1], array[r] = array[r], array[i + 1]
+        return i + 1
+
+    if p < r:
+        q = partition(array, p, r)
+        quick_sort(array, p, q-1)
+        quick_sort(array, q+1, r)
+
+    return array
+
+
 if __name__ == "__main__":
-    a = [random.randint(-10000, 10000) for _ in range(10000)]
+    a1 = [random.randint(-100000, 100000) for _ in range(100000)]
+    a2 = a1[:]
+    a3 = a1[:]
+    a4 = a1[:]
+    a5 = a1[:]
     print("Array generated")
 
-    start = datetime.now()
-    insertion_sort(a)
-    end = datetime.now()
-    print(f"Insertion sort time: {end - start}")
+    start1 = datetime.now()
+    h = Heap(a2)
+    end1 = datetime.now()
+    h.heap_sort()
+    print(f"Heap sort time: {end1 - start1}")
+
+    start2 = datetime.now()
+    quick_sort(a3, 0, len(a3)-1)
+    end2 = datetime.now()
+    print(f"Quick sort time: {end2 - start2}")
+
+    start3 = datetime.now()
+    a4.sort()
+    end3 = datetime.now()
+    print(f"Python sort time: {end3 - start3}")
 
     start = datetime.now()
-    h = Heap(a)
+    insertion_sort(a1)
     end = datetime.now()
-    h.heap_sort()
-    print(f"Heap sort time: {end - start}")
+    print(f"Insertion sort time: {end - start}")
