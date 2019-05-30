@@ -44,5 +44,11 @@ Every beginner programmer must write its own calculator, so here is mine.
 
 This script contains one function that implements searching of the subbarray with highest sum of elements.
 Example:
+
     array: 1 2 3 -9 9 1 -2
+    
     max_subarray: 9 1
+
+### 6. [sort.py](./scripts/sort.py)
+
+This script contains different sorting algorithm implementations.

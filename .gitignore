@@ -1,3 +1,5 @@
+.idea
+__pycache__
 pi-billion.txt
 scripts/Calculator/__pycache__
 scripts/Calculator/.idea
