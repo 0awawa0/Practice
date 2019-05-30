@@ -39,3 +39,10 @@ This script contains three functions to calculate integrals:
 ### 4. [Calculator](./scripts/Calculator)
 
 Every beginner programmer must write its own calculator, so here is mine.
+
+### 5. [max_subarray.py](./scripts/max_subarray.py)
+
+This script contains one function that implements searching of the subbarray with highest sum of elements.
+Example:
+    array: 1 2 3 -9 9 1 -2
+    max_subarray: 9 1
