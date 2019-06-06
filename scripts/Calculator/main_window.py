@@ -35,6 +35,7 @@ class CalculatorApp(QtWidgets.QMainWindow,
         self.mul_button.clicked.connect(lambda: self.insert_text("*"))
         self.division_button.clicked.connect(lambda: self.insert_text("/"))
         self.pow_button.clicked.connect(lambda: self.insert_text("^"))
+        self.mod_button.clicked.connect(lambda: self.insert_text("%"))
 
         self.sin_button.clicked.connect(lambda: self.insert_text("sin"))
         self.cos_button.clicked.connect(lambda: self.insert_text("cos"))
@@ -42,6 +43,9 @@ class CalculatorApp(QtWidgets.QMainWindow,
         self.cotan_button.clicked.connect(lambda: self.insert_text("ctg"))
 
         self.dot_button.clicked.connect(lambda: self.insert_text("."))
+
+        self.actionRegular.triggered.connect(self.load_regular_interface)
+        self.actionExtended.triggered.connect(self.load_extended_interface)
 
         self.del_button.clicked.connect(self.delete)
         self.clear_button.clicked.connect(self.clear_field)
@@ -211,6 +215,14 @@ class CalculatorApp(QtWidgets.QMainWindow,
         self.expression = f"{result}"
         self.result_field.setText(f"{result}")
         self.is_result = True
+
+    def load_extended_interface(self):
+        self.actionRegular.setChecked(False)
+        self.actionExtended.setChecked(True)
+
+    def load_regular_interface(self):
+        self.actionRegular.setChecked(True)
+        self.actionExtended.setChecked(False)
 
 
 if __name__ == "__main__":

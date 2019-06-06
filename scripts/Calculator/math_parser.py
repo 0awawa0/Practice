@@ -15,7 +15,8 @@ OPERATORS = {
     "-": Operator("1", "Left", operator.sub),
     "*": Operator("2", "Left", operator.mul),
     "/": Operator("2", "Left", operator.truediv),
-    "^": Operator("3", "Right", operator.pow)
+    "^": Operator("3", "Right", operator.pow),
+    "%": Operator("2", "Left", operator.mod)
 }
 
 FUNCTIONS = {
