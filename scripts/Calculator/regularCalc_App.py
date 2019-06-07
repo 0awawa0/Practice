@@ -1,11 +1,11 @@
 #
-import mainWindow_interface
+import regularCalc_interface
 from PyQt5 import QtWidgets
 import math_parser
 
 
-class CalculatorApp(QtWidgets.QMainWindow,
-                    mainWindow_interface.Ui_MainWindow):
+class RegularCalcApp(QtWidgets.QMainWindow,
+                      regularCalc_interface.Ui_MainWindow):
 
     def __init__(self):
 
@@ -44,7 +44,9 @@ class CalculatorApp(QtWidgets.QMainWindow,
 
         self.dot_button.clicked.connect(lambda: self.insert_text("."))
 
-        self.actionRegular.triggered.connect(self.load_regular_interface)
+        self.actionRegular.triggered.connect(
+            lambda: self.actionRegular.setChecked(True)
+        )
         self.actionExtended.triggered.connect(self.load_extended_interface)
 
         self.del_button.clicked.connect(self.delete)
@@ -217,17 +219,17 @@ class CalculatorApp(QtWidgets.QMainWindow,
         self.is_result = True
 
     def load_extended_interface(self):
+        import extendedCalc_App
+        window = extendedCalc_App.ExtendedCalcApp()
+        window.show()
+        self.close()
         self.actionRegular.setChecked(False)
         self.actionExtended.setChecked(True)
-
-    def load_regular_interface(self):
-        self.actionRegular.setChecked(True)
-        self.actionExtended.setChecked(False)
 
 
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    window = CalculatorApp()
+    window = RegularCalcApp()
     window.show()
     app.exec_()

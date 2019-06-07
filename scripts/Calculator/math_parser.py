@@ -24,7 +24,24 @@ FUNCTIONS = {
     "cos": Function(1, lambda x: math.cos(math.radians(x))),
     "tg": Function(1, lambda x: math.tan(math.radians(x))),
     "ctg": Function(1, lambda x: 1 / math.tan(math.radians(x))),
-    "max": Function("multiple", max)
+    "max": Function("multiple", max),
+    "log": Function(1, lambda x: math.log10(x)),
+    "ln": Function(1, lambda x: math.log(x)),
+    "factorial": Function(1, lambda x: math.factorial(x)),
+    "sqrt": Function(1, lambda x: math.sqrt(x)),
+    "exp": Function(1, lambda x: math.exp(x)),
+    "asin": Function(1, lambda x: math.degrees(math.asin(x))),
+    "acos": Function(1, lambda x: math.degrees(math.acos(x))),
+    "atg": Function(1, lambda x: math.degrees(math.atan(x))),
+    "actg": Function(1, lambda x: math.degrees(1 / math.atan(x))),
+    "sinh": Function(1, lambda x: math.sinh(math.radians(x))),
+    "cosh": Function(1, lambda x: math.cosh(math.radians(x))),
+    "tgh": Function(1, lambda x: math.tanh(math.radians(x))),
+    "ctgh": Function(1, lambda x: 1 / math.tanh(math.radians(x))),
+    "asinh": Function(1, lambda x: math.degrees(math.asinh(x))),
+    "acosh": Function(1, lambda x: math.degrees(math.acosh(x))),
+    "atgh": Function(1, lambda x: math.degrees(math.atanh(x))),
+    "actgh": Function(1, lambda x: math.degrees(1 / math.atanh(x)))
 }
 
 
