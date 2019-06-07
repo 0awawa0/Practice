@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets
 import extendedCalc_interface
-import math_parser
+from math_parser_test import MathParser
 
 
 class ExtendedCalcApp(QtWidgets.QMainWindow,
@@ -13,6 +13,8 @@ class ExtendedCalcApp(QtWidgets.QMainWindow,
         self.expression = ""
         self.is_result = False
         self.mem = None
+
+        self.parser = MathParser()
 
         # Connect buttons to functions
         self.opparen_button.clicked.connect(lambda: self.insert_text("("))
@@ -68,6 +70,7 @@ class ExtendedCalcApp(QtWidgets.QMainWindow,
         self.actionExtended.triggered.connect(
             lambda: self.actionExtended.setChecked(True)
         )
+        self.actionProgrammer.triggered.connect(self.load_programmer_interface)
 
         self.del_button.clicked.connect(self.delete)
         self.clear_button.clicked.connect(self.clear_field)
@@ -161,13 +164,14 @@ class ExtendedCalcApp(QtWidgets.QMainWindow,
                 else:
                     self.expression += char
                     self.result_field.setText(self.expression)
+                    self.is_result = False
                     return
 
             # Dot can't be first character in the expression
             if self.expression == "":
                 return
 
-        if char in math_parser.FUNCTIONS:
+        if char in MathParser.FUNCTIONS:
 
             # If current expression is the result of calculation so calculate
             #  the function immediately
@@ -184,7 +188,7 @@ class ExtendedCalcApp(QtWidgets.QMainWindow,
             self.result_field.setText(self.expression)
             return
 
-        if char in math_parser.OPERATORS:
+        if char in MathParser.OPERATORS:
 
             # Operator can come only after the number or after closed parenthesis
             if lst.isdigit() or self.expression[-1] == ")":
@@ -217,18 +221,19 @@ class ExtendedCalcApp(QtWidgets.QMainWindow,
         :return:
         """
         try:
-            result = round(math_parser.calculate(self.expression), 4)
+            # result = round(math_parser.calculate(self.expression), 4)
+            result = round(self.parser.calculate(self.expression), 4)
         except SyntaxError as exception:
             self.expression = ""
             self.is_result = False
             self.mem = None
             self.result_field.setText(f"Wrong syntax! {exception}")
             return
-        except Exception:
+        except Exception as exception:
             self.expression = ""
             self.is_result = False
             self.mem = None
-            self.result_field.setText(f"Wrong syntax!")
+            self.result_field.setText(exception)
             return
 
         if int(result) == result:
@@ -243,8 +248,12 @@ class ExtendedCalcApp(QtWidgets.QMainWindow,
         window = regularCalc_App.RegularCalcApp()
         window.show()
         self.close()
-        self.actionRegular.setChecked(False)
-        self.actionExtended.setChecked(True)
+
+    def load_programmer_interface(self):
+        import programmerCalc_App
+        window = programmerCalc_App.ProgrammerCalcApp()
+        window.show()
+        self.close()
 
 
 if __name__ == "__main__":

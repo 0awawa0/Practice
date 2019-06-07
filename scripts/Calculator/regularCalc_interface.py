@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'mainWindow.ui'
+# Form implementation generated from reading ui file 'regularCalc.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.2
 #
@@ -331,8 +331,12 @@ class Ui_MainWindow(object):
         self.actionExtended = QtWidgets.QAction(MainWindow)
         self.actionExtended.setCheckable(True)
         self.actionExtended.setObjectName("actionExtended")
+        self.actionProgrammer = QtWidgets.QAction(MainWindow)
+        self.actionProgrammer.setCheckable(True)
+        self.actionProgrammer.setObjectName("actionProgrammer")
         self.menuOptions.addAction(self.actionRegular)
         self.menuOptions.addAction(self.actionExtended)
+        self.menuOptions.addAction(self.actionProgrammer)
         self.menuBar.addAction(self.menuOptions.menuAction())
 
         self.retranslateUi(MainWindow)
@@ -378,4 +382,5 @@ class Ui_MainWindow(object):
         self.menuOptions.setTitle(_translate("MainWindow", "Options"))
         self.actionRegular.setText(_translate("MainWindow", "Regular"))
         self.actionExtended.setText(_translate("MainWindow", "Extended"))
+        self.actionProgrammer.setText(_translate("MainWindow", "Programmer"))
 

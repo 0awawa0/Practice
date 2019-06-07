@@ -546,6 +546,7 @@ p, li { white-space: pre-wrap; }
     </property>
     <addaction name="actionRegular"/>
     <addaction name="actionExtended"/>
+    <addaction name="actionProgrammer"/>
    </widget>
    <addaction name="menuOptions"/>
   </widget>
@@ -566,6 +567,14 @@ p, li { white-space: pre-wrap; }
    </property>
    <property name="text">
     <string>Extended</string>
+   </property>
+  </action>
+  <action name="actionProgrammer">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Programmer</string>
    </property>
   </action>
  </widget>

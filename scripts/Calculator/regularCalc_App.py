@@ -1,11 +1,10 @@
-#
 import regularCalc_interface
 from PyQt5 import QtWidgets
-import math_parser
+from math_parser_test import MathParser
 
 
 class RegularCalcApp(QtWidgets.QMainWindow,
-                      regularCalc_interface.Ui_MainWindow):
+                     regularCalc_interface.Ui_MainWindow):
 
     def __init__(self):
 
@@ -14,6 +13,8 @@ class RegularCalcApp(QtWidgets.QMainWindow,
         self.expression = ""
         self.is_result = False
         self.mem = None
+
+        self.parser = MathParser()
 
         # Connect buttons to functions
         self.opparen_button.clicked.connect(lambda: self.insert_text("("))
@@ -48,6 +49,7 @@ class RegularCalcApp(QtWidgets.QMainWindow,
             lambda: self.actionRegular.setChecked(True)
         )
         self.actionExtended.triggered.connect(self.load_extended_interface)
+        self.actionProgrammer.triggered.connect(self.load_programmer_interface)
 
         self.del_button.clicked.connect(self.delete)
         self.clear_button.clicked.connect(self.clear_field)
@@ -141,13 +143,14 @@ class RegularCalcApp(QtWidgets.QMainWindow,
                 else:
                     self.expression += char
                     self.result_field.setText(self.expression)
+                    self.is_result = False
                     return
 
             # Dot can't be first character in the expression
             if self.expression == "":
                 return
 
-        if char in math_parser.FUNCTIONS:
+        if char in MathParser.FUNCTIONS:
 
             # If current expression is the result of calculation so calculate
             #  the function immediately
@@ -164,7 +167,7 @@ class RegularCalcApp(QtWidgets.QMainWindow,
             self.result_field.setText(self.expression)
             return
 
-        if char in math_parser.OPERATORS:
+        if char in MathParser.OPERATORS:
 
             # Operator can come only after the number or after closed parenthesis
             if lst.isdigit() or self.expression[-1] == ")":
@@ -197,18 +200,19 @@ class RegularCalcApp(QtWidgets.QMainWindow,
         :return:
         """
         try:
-            result = round(math_parser.calculate(self.expression), 4)
+            # result = round(math_parser.calculate(self.expression), 4)
+            result = round(self.parser.calculate(self.expression), 4)
         except SyntaxError as exception:
             self.expression = ""
             self.is_result = False
             self.mem = None
             self.result_field.setText(f"Wrong syntax! {exception}")
             return
-        except Exception:
+        except Exception as exception:
             self.expression = ""
             self.is_result = False
             self.mem = None
-            self.result_field.setText(f"Wrong syntax!")
+            self.result_field.setText(exception)
             return
 
         if int(result) == result:
@@ -223,8 +227,12 @@ class RegularCalcApp(QtWidgets.QMainWindow,
         window = extendedCalc_App.ExtendedCalcApp()
         window.show()
         self.close()
-        self.actionRegular.setChecked(False)
-        self.actionExtended.setChecked(True)
+
+    def load_programmer_interface(self):
+        import programmerCalc_App
+        window = programmerCalc_App.ProgrammerCalcApp()
+        window.show()
+        self.close()
 
 
 if __name__ == "__main__":
