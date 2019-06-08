@@ -1,6 +1,6 @@
 import sys
 from PyQt5 import QtWidgets
-import regularCalc_App
+from src import regularCalc_App
 
 
 def run():

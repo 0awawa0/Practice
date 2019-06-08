@@ -1,6 +1,6 @@
-import regularCalc_interface
+from interface import regularCalc_interface
 from PyQt5 import QtWidgets
-from math_parser_test import MathParser
+from src.math_parser_test import MathParser
 
 
 class RegularCalcApp(QtWidgets.QMainWindow,
@@ -223,21 +223,14 @@ class RegularCalcApp(QtWidgets.QMainWindow,
         self.is_result = True
 
     def load_extended_interface(self):
-        import extendedCalc_App
+        from src import extendedCalc_App
         window = extendedCalc_App.ExtendedCalcApp()
         window.show()
         self.close()
 
     def load_programmer_interface(self):
-        import programmerCalc_App
+        from src import programmerCalc_App
         window = programmerCalc_App.ProgrammerCalcApp()
         window.show()
         self.close()
 
-
-if __name__ == "__main__":
-    import sys
-    app = QtWidgets.QApplication(sys.argv)
-    window = RegularCalcApp()
-    window.show()
-    app.exec_()
