@@ -340,7 +340,7 @@ class ProgrammerCalcApp(QtWidgets.QMainWindow,
 
         if self.expression == "":
             return
-        
+
         parsed = self.parser.parse_expression(self.expression)
         self.expression = ""
         for token in parsed:
