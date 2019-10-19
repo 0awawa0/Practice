@@ -52,3 +52,8 @@ Example:
 ### 6. [sort.py](./scripts/sort.py)
 
 This script contains different sorting algorithm implementations.
+
+
+### 7. [fibonacci.py](./scripts/fibonacci.py)
+
+This script contains two functions to calculate n-th number of Fibonacci sequence - slow and fast realisations. Also there is a function to calculate Pisano period and a function for fast calculation of Fn mod m.
