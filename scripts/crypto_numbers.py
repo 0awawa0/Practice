@@ -119,29 +119,31 @@ def get_prime(n: int) -> int:
         # 2) Complete number to 4 bits, so that highest bit is 1: 11 -> 1011
         if n <= 1:
             return
-        bits = list(bin(random.getrandbits(n))[2:])
-        bits[-1] = "1"
-        while len(bits) < n:
-            bits.insert(0, "0")
-        bits[0] = "1"
-        num = int("".join(bits), 2)
 
-        # Now I has actual n bits number, but I cant say it's prime
+        num = random.getrandbits(n) | (2 ** n + 1)
+
+        # Now I has actual n bits number, but I cant say that it's prime
         # So I check it
         # First, I check if the number is divisible by any of prime numbers
         # from 2 to 200
-        little_primes = [
-            2, 3, 5, 7, 11, 13, 17, 19,
-            23, 29, 31, 37, 41, 43, 47,
-            53, 59, 61, 67, 71, 73, 79,
-            83, 89, 97, 101, 103, 107,
-            109, 113, 127, 131, 139, 149,
-            151, 157, 163, 167, 173, 179,
-            181, 191, 193, 197, 199
-        ]
-        little_checks = [num % p == 0 and num != p for p in little_primes]
-        if True in little_checks:
-            continue
+
+        def check_small_primes(n):
+            little_primes = [
+                2, 3, 5, 7, 11, 13, 17, 19,
+                23, 29, 31, 37, 41, 43, 47,
+                53, 59, 61, 67, 71, 73, 79,
+                83, 89, 97, 101, 103, 107,
+                109, 113, 127, 131, 139, 149,
+                151, 157, 163, 167, 173, 179,
+                181, 191, 193, 197, 199
+            ]
+
+            for p in little_primes:
+                if n % p == 0 and n != p:
+                    return False
+            return True
+
+        if not check_small_primes(num): continue
 
         # If it's not, I run Miller-Rabin test 10 times for this number
         # If number passes the test I return it. And it's prime with the
