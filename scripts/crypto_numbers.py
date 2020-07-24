@@ -6,26 +6,55 @@ There is a list of all functions in this module:
 import random
 
 
-def gcd(a: int, b: int) -> dict:
+# def gcd(a: int, b: int) -> dict:
+#     """Extended Euklid algorithm. Finds greatest common divisor of a and b
+
+#     Args:
+#         a -- first number
+#         b -- second number
+
+#     Return: dictionary with specified keys:
+#         reminder -- greatest common divisor
+#         x, y -- answers to equation ax + by = reminder
+#     """
+#     if b == 0:
+#         return {"x": 1, "y": 0, "reminder": a}
+#     else:
+#         answer = gcd(b, a % b)
+#         x = answer["x"]
+#         y = answer["y"]
+#         d = answer["reminder"]
+#         ret = {"reminder": d, "x": y, "y": x - a // b * y}
+#         return ret
+    
+    
+def gcd(n: int, m: int) -> dict:
     """Extended Euklid algorithm. Finds greatest common divisor of a and b
 
-    Args:
-        a -- first number
-        b -- second number
+     Args:
+         n -- first number
+         m -- second number
 
-    Return: dictionary with specified keys:
-        reminder -- greatest common divisor
-        x, y -- answers to equation ax + by = reminder
-    """
-    if b == 0:
-        return {"x": 1, "y": 0, "reminder": a}
-    else:
-        answer = gcd(b, a % b)
-        x = answer["x"]
-        y = answer["y"]
-        d = answer["reminder"]
-        ret = {"reminder": d, "x": y, "y": x - a // b * y}
-        return ret
+     Return: dictionary with specified keys:
+         reminder -- greatest common divisor
+         a, b -- answers to equation an + bm = reminder
+     """
+    a, a_ = 0, 1
+    b, b_ = 1, 0
+    
+    c, d = n, m
+    
+    q = c // d
+    r = c % d
+    while r:
+        c, d = d, r
+        a_, a = a, a_ - q * a
+        b_, b = b, b_ - q * b
+        
+        q = c // d
+        r = c % d
+        
+    return {"reminder": d, "a": a, "b": b}
 
 
 def is_prime(p: int, t: int) -> bool:
