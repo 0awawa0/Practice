@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains little scripts I made to improve my programming skills. Also, there are some scripts I used in other my projects and I find them useful.
+This repository contains some simple scripts I made just to improve my programming skills. Also there are solutions for common interview questions.
 
 ## Scripts
 
