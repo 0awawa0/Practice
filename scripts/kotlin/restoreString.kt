@@ -1,0 +1,26 @@
+
+/*
+Given a string s and an integer array indices of the same length.
+
+The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.
+
+Return the shuffled string.
+*/
+
+fun restoreString(s: String, indices: IntArray): String {
+    
+    val res = CharArray(s.length)
+    for (i in 0 until s.length) {
+        res[indices[i]] = s[i]
+    }
+        
+    return String(res)
+}
+
+fun main(args: Array<String>) {
+    print("Enter the string >> ")
+    val s = readLine()!!
+    print("Enter indices array >> ")
+    val indices = readLine()!!.split(",").map { it.toInt() }.toIntArray()
+    println("Shuffled string: ${restoreString(s, indices)}")
+}
