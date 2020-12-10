@@ -106,3 +106,11 @@ Each script in kotlin folder is made to solve certain task.
 |[findLoopStart](./scripts/kotlin/LinkedList/findLoopStart.kt)|Given a linked list, return the node where the cycle begins. If there is no cycle, return null.|
 |[findIntersection](./scripts/kotlin/LinkedList/findIntersection.kt)|Write a program to find the node at which the intersection of two singly linked lists begins.|
 |[middleNode](./scripts/kotlin/LinkedList/middleNode.kt)|Given a non-empty, singly linked list with head node head, return a middle node of linked list. If there are two middle nodes, return the second middle node.|
+
+
+#### Binary Tree
+| File | Task |
+|------|------|
+|[preorderTraversal](./scripts/kotlin/BinaryTree/preorderTraversal.kt)|Given the root of a binary tree, return the preorder traversal of its nodes' values.|
+|[inorderTraversal](./scripts/kotlin/BinaryTree/inorderTraversal.kt)|Given the root of a binary tree, return the inorder traversal of its nodes' values.|
+|[postorderTraversal](./scripts/kotlin/BinaryTree/postorderTraversal.kt)|Given the root of a binary tree, return the postorder traversal of its nodes' values.|
