@@ -97,7 +97,12 @@ Each script in kotlin folder is made to solve certain task.
 |[minSubsequence](./scripts/kotlin/minSubsequence.kt)|Given the array nums, obtain a subsequence of the array whose sum of elements is strictly greater than the sum of the non included elements in such subsequence.|
 |[canMakeArithmeticProgression](./scripts/kotlin/canMakeArithmeticProgression.kt)|Given an array of numbers `arr`. A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same. Return `true` if the array can be rearranged to form an arithmetic progression, otherwise, return `false`.|
 |[findLucky](./scripts/kotlin/findLucky.kt)|Given an array of integers arr, a lucky integer is an integer which has a frequency in the array equal to its value. Return a lucky integer in the array. If there are multiple lucky integers return the largest of them. If there is no lucky integer return -1.|
-|[transposeMatrix](./scripts/kotlin/transposeMatrix.kt)|Given a matrix `A`, return the transpose of `A`. The transpose of a matrix is the matrix flipped over it's main diagonal, switching the row and column indices of the matrix.
+|[transposeMatrix](./scripts/kotlin/transposeMatrix.kt)|Given a matrix `A`, return the transpose of `A`. The transpose of a matrix is the matrix flipped over it's main diagonal, switching the row and column indices of the matrix.|
+|[distributeCandies](./scripts/kotlin/distributeCandies.kt)|We distribute some number of candies, to a row of `n = num_people people` in the following way:
+We then give `1` candy to the first person, `2` candies to the second person, and so on until we give n candies to the last person.
+Then, we go back to the start of the row, giving `n + 1` candies to the first person, `n + 2` candies to the second person, and so on until we give `2 * n` candies to the last person.
+This process repeats (with us giving one more candy each time, and moving to the start of the row after we reach the end) until we run out of candies.  The last person will receive all of our remaining candies (not necessarily one more than the previous gift).
+Return an array (of length num_people and sum candies) that represents the final distribution of candies.|
 
 #### Linked list
 | File | Task |
