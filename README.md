@@ -126,3 +126,4 @@ Each script in kotlin folder is made to solve certain task.
 |[preorderTraversal](./scripts/kotlin/BinaryTree/preorderTraversal.kt)|Given the root of a binary tree, return the preorder traversal of its nodes' values.|
 |[inorderTraversal](./scripts/kotlin/BinaryTree/inorderTraversal.kt)|Given the root of a binary tree, return the inorder traversal of its nodes' values.|
 |[postorderTraversal](./scripts/kotlin/BinaryTree/postorderTraversal.kt)|Given the root of a binary tree, return the postorder traversal of its nodes' values.|
+|[goodNodes](./scripts/kotlin/BinaryTree/goodNodes.kt)|Given a binary tree `root`, a node `X` in the tree is named good if in the path from root to `X` there are no nodes with a value greater than `X`. Return the number of good nodes in the binary tree.|
