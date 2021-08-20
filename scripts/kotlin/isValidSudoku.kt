@@ -11,6 +11,8 @@ Note:
     Only the filled cells need to be validated according to the mentioned rules.
 
 */
+import kotlin.math.*
+
 fun isValidSudoku(board: Array<CharArray>): Boolean {
     val rowSets = Array<HashSet<Char>>(board.size) { HashSet<Char>() }
     val colSets = Array<HashSet<Char>>(board.size) { HashSet<Char>() }
