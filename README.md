@@ -101,6 +101,7 @@ Each script in kotlin folder is made to solve certain task.
 |[distributeCandies](./scripts/kotlin/distributeCandies.kt)|We distribute some number of candies, to a row of `n = num_people people` in the following way: We then give `1` candy to the first person, `2` candies to the second person, and so on until we give n candies to the last person. Then, we go back to the start of the row, giving `n + 1` candies to the first person, `n + 2` candies to the second person, and so on until we give `2 * n` candies to the last person. This process repeats (with us giving one more candy each time, and moving to the start of the row after we reach the end) until we run out of candies.  The last person will receive all of our remaining candies (not necessarily one more than the previous gift). Return an array (of length num_people and sum candies) that represents the final distribution of candies.|
 |[groupAnagrams](./scripts/kotlin/groupAnagrams.kt)|Given an array of strings strs, group the anagrams together. You can return the answer in any order. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.|
 |[findKClosestElements](./scripts/kotlin/findKClosestElements.kt)|Given a sorted integer array arr, two integers k and x, return the k closest integers to x in the array. The result should also be sorted in ascending order.|
+|[isValidSudoku](./scripts/kotlin/isValidSudoku.kt)|Determine if a `9 x 9` Sudoku board is valid|
 
 #### Linked list
 | File | Task |
