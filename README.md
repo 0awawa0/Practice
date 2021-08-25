@@ -102,7 +102,7 @@ Each script in kotlin folder is made to solve certain task.
 |[groupAnagrams](./scripts/kotlin/groupAnagrams.kt)|Given an array of strings strs, group the anagrams together. You can return the answer in any order. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.|
 |[findKClosestElements](./scripts/kotlin/findKClosestElements.kt)|Given a sorted integer array arr, two integers k and x, return the k closest integers to x in the array. The result should also be sorted in ascending order.|
 |[isValidSudoku](./scripts/kotlin/isValidSudoku.kt)|Determine if a `9 x 9` Sudoku board is valid|
-|[judgeSquareSum](./scripts/kotlin/judgeSquareSum.kt)|Given a non-negative integer `c`, decide whether there're two integers `a` and `b` such that `a^2 + b^2 = c`.|
+|[judgeSquareSum](./scripts/kotlin/judgeSquareSum.kt)|Given a non-negative integer `c`, decide whether there're two integers `a` and `b` such that `a^2+b^2=c`.|
 
 #### Linked list
 | File | Task |
