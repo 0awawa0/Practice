@@ -105,6 +105,7 @@ Each script in kotlin folder is made to solve certain task.
 |[judgeSquareSum](./scripts/kotlin/judgeSquareSum.kt)|Given a non-negative integer `c`, decide whether there're two integers `a` and `b` such that `a^2+b^2=c`.|
 |[maxIslandArea](./scripts/kotlin/maxIslandArea.kt)|You are given an m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water. The area of an island is the number of cells with a value `1` in the island. Return the maximum area of an island in grid. If there is no island, return `0`.|
 |[permutationInString](./scripts/kotlin/permutationInString.kt)|Given two strings `s1` and `s2`, return true if `s2` contains a permutation of `s1`, or false otherwise. In other words, return true if one of `s1`'s permutations is the substring of `s2`.|
+|[nearestZeros](./scripts/kotlin/nearestZeros.kt)|Given an `m x n` binary matrix mat, return the distance of the nearest `0` for each cell. The distance between two adjacent cells is `1`.|
 
 #### Linked list
 | File | Task |
