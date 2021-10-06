@@ -112,6 +112,7 @@ Each script in kotlin folder is made to solve certain task.
 |[longestTurbulentSubarray](./scripts/kotlin/longestTurbulentSubarray.kt)|Given an integer array `arr`, return the length of a maximum size turbulent subarray of `arr`. A subarray is turbulent if the comparison sign flips between each adjacent pair of elements in the subarray.|
 |[sprialMatrix](./scripts/kotlin/spiralMatrix.kt)|Given an `m x n` matrix, return all elements of the matrix in spiral order.|
 [islandPerimeter](./scripts/kotlin/islandPerimeter.kt)|You are given `row x col` grid representing a map where `grid[i][j] = 1` represents land and `grid[i][j] = 0` represents water. Grid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).The island doesn't have "lakes", meaning the water inside isn't connected to the water around the island. One cell is a square with side length `1`. The grid is rectangular, width and height don't exceed `100`. Determine the perimeter of the island.|
+|[findAllDuplicates](./scripts/kotlin/findAllDuplicates.kt)|Given an integer array nums of length `n` where all the integers of nums are in the range `[1, n]` and each integer appears once or twice, return an array of all the integers that appears twice.|
 
 #### Linked list
 | File | Task |
