@@ -115,6 +115,7 @@ Each script in kotlin folder is made to solve certain task.
 |[findAllDuplicates](./scripts/kotlin/findAllDuplicates.kt)|Given an integer array nums of length `n` where all the integers of nums are in the range `[1, n]` and each integer appears once or twice, return an array of all the integers that appears twice.|
 |[frequencySort](./scripts/kotlin/frequencySort.kt)|Given a string `s`, sort it in decreasing order based on the frequency of the characters. The frequency of a character is the number of times it appears in the string. Return the sorted string. If there are multiple answers, return any of them.|
 |[minStack](./scripts/kotlin/minStack.kt)|Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.|
+|[threeSum](./scripts/kotlin/threeSum.kt)|Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.|
 
 #### Linked list
 | File | Task |
