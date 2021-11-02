@@ -116,6 +116,7 @@ Each script in kotlin folder is made to solve certain task.
 |[frequencySort](./scripts/kotlin/frequencySort.kt)|Given a string `s`, sort it in decreasing order based on the frequency of the characters. The frequency of a character is the number of times it appears in the string. Return the sorted string. If there are multiple answers, return any of them.|
 |[minStack](./scripts/kotlin/minStack.kt)|Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.|
 |[threeSum](./scripts/kotlin/threeSum.kt)|Given an integer array nums, return all the triplets `[nums[i], nums[j], nums[k]]` such that `i != j`, `i != k`, and `j != k`, and `nums[i] + nums[j] + nums[k] == 0`.|
+|[uniquePaths](./scripts/kotlin/uniquePaths.kt)|You are given an `m x n` integer array grid where `grid[i][j]` could be: `1` representing the starting square. There is exactly one starting square. `2` representing the ending square. There is exactly one ending square. `0` representing empty squares we can walk over. `-1` representing obstacles that we cannot walk over. Return the number of 4-directional walks from the starting square to the ending square, that walk over every non-obstacle square exactly once.|
 
 #### Linked list
 | File | Task |
