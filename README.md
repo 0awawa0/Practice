@@ -120,6 +120,7 @@ Each script in kotlin folder is made to solve certain task.
 |[sumRootToLeafNumbers](./scripts/kotlin/sumRootToLeafNumbers.kt)|You are given the root of a binary tree containing digits from `0` to `9` only. Each root-to-leaf path in the tree represents a number. For example, the root-to-leaf path `1 -> 2 -> 3` represents the number `123`. Return the total sum of all root-to-leaf numbers. Test cases are generated so that the answer will fit in a 32-bit integer. A leaf node is a node with no children.|
 |[numberOfWords](./scripts/kotlin/numberOfWords.kt)|-|
 |[bestTimeToBuyStocks](./scripts/kotlin/bestTimeToBuyStocks.kt)|You are given an integer array prices where `prices[i]` is the price of a given stock on the `i`th day. On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any time. However, you can buy it then immediately sell it on the same day. Find and return the maximum profit you can achieve.|
+|[combinations](./scripts/kotlin/combinations.kt)|Efficient calculation of number of combinations of `r` elements from `n`|
 
 #### Linked list
 | File | Task |
