@@ -123,6 +123,7 @@ Each script in kotlin folder is made to solve certain task.
 |[combinations](./scripts/kotlin/combinations.kt)|Efficient calculation of number of combinations of `r` elements from `n`|
 |[countOfUniquePaths](./scripts/kotlin/countOfUniquePaths.kt)|A robot is located at the top-left corner of a `m x n` grid. The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid. How many possible unique paths are there?|
 |[allPathsFromSourceToTarget](./scripts/kotlin/allPathsFromSourceToTarget.kt)| Given a directed acyclic graph (DAG) of n nodes labeled from `0` to `n - 1`, find all possible paths from node `0` to node `n - 1` and return them in any order. The graph is given as follows: `graph[i]` is a list of all nodes you can visit from node `i` (i.e., there is a directed edge from node `i` to node `graph[i][j]`).|
+|[minimumDeletions](./scripts/kotlin/minimumDeletions.kt)|You are given a 0-indexed array of distinct integers nums. There is an element in nums that has the lowest value and an element that has the highest value. We call them the minimum and maximum respectively. Your goal is to remove both these elements from the array. A deletion is defined as either removing an element from the front of the array or removing an element from the back of the array. Return the minimum number of deletions it would take to remove both the minimum and maximum element from the array.|
 
 #### Linked list
 | File | Task |
