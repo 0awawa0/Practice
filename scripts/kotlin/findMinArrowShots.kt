@@ -8,7 +8,7 @@ Given the array points, return the minimum number of arrows that must be shot to
 */
 
 fun findMinArrowShots(points: Array<IntArray>): Int {
-  points.sortBy { it[0] }
+  points.sortBy { it[1] }
   var currentPoint = points[0]
   var count = 1
   for (i in 1 until points.size) {
@@ -16,9 +16,8 @@ fun findMinArrowShots(points: Array<IntArray>): Int {
     if (point[0] > currentPoint[1]) {
       count++
       currentPoint = point
-    } else {
-      if (currentPoint[1] > point[1]) currentPoint = point
     }
   }
+        
   return count
 }
