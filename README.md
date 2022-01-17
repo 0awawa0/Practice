@@ -133,6 +133,7 @@ Each script in kotlin folder is made to solve certain task.
 |[cherryPick](./scripts/kotlin/cherryPick.kt)|Description is in the file|
 |[findMinArrowShots](./scripts/kotlin/findMinArrowShots.kt)|Given the array `points`, return the minimum number of arrows that must be shot to burst all balloons.|
 |[StockSpanner](./scripts/kotlin/StockSpanner.kt)|Design an algorithm that collects daily price quotes for some stock and returns the span of that stock's price for the current day.|
+|[maxRunTime](./scripts/kotlin/maxRunTime.kt)|You have `n` computers. You are given the integer `n` and a `0`-indexed integer array batteries where the `i`th battery can run a computer for `batteries[i]` minutes. You are interested in running all n computers simultaneously using the given batteries. Return the maximum number of minutes you can run all the n computers simultaneously.|
 
 #### Linked list
 | File | Task |
