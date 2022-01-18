@@ -134,6 +134,7 @@ Each script in kotlin folder is made to solve certain task.
 |[findMinArrowShots](./scripts/kotlin/findMinArrowShots.kt)|Given the array `points`, return the minimum number of arrows that must be shot to burst all balloons.|
 |[StockSpanner](./scripts/kotlin/StockSpanner.kt)|Design an algorithm that collects daily price quotes for some stock and returns the span of that stock's price for the current day.|
 |[maxRunTime](./scripts/kotlin/maxRunTime.kt)|You have `n` computers. You are given the integer `n` and a `0`-indexed integer array batteries where the `i`th battery can run a computer for `batteries[i]` minutes. You are interested in running all n computers simultaneously using the given batteries. Return the maximum number of minutes you can run all the n computers simultaneously.|
+|[canPlaceFlowers](./scripts/kotlin/canPlaceFlowers.kt)|You have a long flowerbed in which some of the plots are planted, and some are not. However, flowers cannot be planted in adjacent plots. Given an integer array flowerbed containing `0`'s and `1`'s, where `0` means empty and `1` means not empty, and an integer `n`, return if `n` new flowers can be planted in the flowerbed without violating the no-adjacent-flowers rule.|
 
 #### Linked list
 | File | Task |
