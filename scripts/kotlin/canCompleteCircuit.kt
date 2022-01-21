@@ -8,19 +8,17 @@ Given two integer arrays gas and cost, return the starting gas station's index i
 */
 
 fun canCompleteCircuit(gas: IntArray, cost: IntArray): Int {
-  val runningSum = IntArray(gas.size)
-  runningSum[0] = gas[0] - cost[0]
-        
+  var runningSum = gas[0] - cost[0]
   var minIndex = 0
-  var minValue = runningSum[0]
-  for (i in 1 until runningSum.size) {
-    runningSum[i] = runningSum[i - 1] + (gas[i] - cost[i])
-    if (minValue > runningSum[i]) {
-      minValue = runningSum[i]
+  var minValue = runningSum
+  for (i in 1 until gas.size) {
+    runningSum = runningSum + (gas[i] - cost[i])
+    if (minValue > runningSum) {
+      minValue = runningSum
       minIndex = i
     }
   }
         
-  if (runningSum.last() < 0) return -1
-  else return (minIndex + 1) % runningSum.size
+  if (runningSum < 0) return -1
+  else return (minIndex + 1) % gas.size
 }
