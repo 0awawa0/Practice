@@ -139,6 +139,7 @@ Each script in kotlin folder is made to solve certain task.
 |[highestRankedKItems](./scripts/kotlin/highestRankedKItems.kt)|Description is inside the code file|
 |[numberOfArrays](./scripts/kotlin/numberOfArrays.kt)|You are given a `0`-indexed array of `n` integers `differences`, which describes the differences between each pair of consecutive integers of a hidden sequence of length `(n + 1)`. More formally, call the hidden sequence `hidden`, then we have that `differences[i] = hidden[i + 1] - hidden[i]`. You are further given two integers `lower` and `upper` that describe the inclusive range of values `[lower, upper]` that the `hidden` sequence can contain. Return the number of possible hidden sequences there are. If there are no possible sequences, return `0`.|
 |[sequentialDigits](./scripts/kotlin/sequentialDigits.kt)|An integer has sequential digits if and only if each digit in the number is one more than the previous digit. Return a sorted list of all the integers in the range `[low, high]` inclusive that have sequential digits.|
+|[WordDictionary](./scripts/kotlin/WordDictionary.kt)|Design a data structure that supports adding new words and finding if a string matches any previously added string.|
 
 #### Linked list
 | File | Task |
