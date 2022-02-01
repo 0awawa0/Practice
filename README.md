@@ -141,6 +141,7 @@ Each script in kotlin folder is made to solve certain task.
 |[sequentialDigits](./scripts/kotlin/sequentialDigits.kt)|An integer has sequential digits if and only if each digit in the number is one more than the previous digit. Return a sorted list of all the integers in the range `[low, high]` inclusive that have sequential digits.|
 |[WordDictionary](./scripts/kotlin/WordDictionary.kt)|Design a data structure that supports adding new words and finding if a string matches any previously added string.|
 |[maxScoreIndices](./scripts/kotlin/maxScoreIndices.kt)|Description is inside the code file|
+|[maximumDifference](./scripts/kotlin/maximumDifference.kt)|Given a `0`-indexed integer array nums of size `n`, find the maximum difference between `nums[i]` and `nums[j]` (i.e., `nums[j] - nums[i]`), such that `0 <= i < j < n` and `nums[i] < nums[j]`. Return the maximum difference. If no such i and j exists, return `-1`.|
 
 #### Linked list
 | File | Task |
