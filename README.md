@@ -143,6 +143,7 @@ Each script in kotlin folder is made to solve certain task.
 |[maxScoreIndices](./scripts/kotlin/maxScoreIndices.kt)|Description is inside the code file|
 |[maximumDifference](./scripts/kotlin/maximumDifference.kt)|Given a `0`-indexed integer array nums of size `n`, find the maximum difference between `nums[i]` and `nums[j]` (i.e., `nums[j] - nums[i]`), such that `0 <= i < j < n` and `nums[i] < nums[j]`. Return the maximum difference. If no such i and j exists, return `-1`.|
 |[findAnagrams](./scripts/kotlin/findAnagrams.kt)|Given two strings `s` and `p`, return an array of all the start indices of `p`'s anagrams in `s`. You may return the answer in any order. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.|
+|[isAnagram](./scripts/kotlin/isAnagram.kt)|Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.|
 
 #### Linked list
 | File | Task |
