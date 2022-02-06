@@ -145,6 +145,7 @@ Each script in kotlin folder is made to solve certain task.
 |[findAnagrams](./scripts/kotlin/findAnagrams.kt)|Given two strings `s` and `p`, return an array of all the start indices of `p`'s anagrams in `s`. You may return the answer in any order. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.|
 |[isAnagram](./scripts/kotlin/isAnagram.kt)|Given two strings `s` and `t`, return `true` if `t` is an anagram of `s`, and `false` otherwise. An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.|
 |[findMaxLength](./scripts/kotlin/findMaxLength.kt)|Given a binary array `nums`, return the maximum length of a contiguous subarray with an equal number of `0` and `1`.|
+|[smallestNumber](./scripts/kotlin/smallestNumber.kt)|You are given an integer `num`. Rearrange the digits of `num` such that its value is minimized and it does not contain any leading zeros. Return the rearranged number with minimal value. Note that the sign of the number does not change after rearranging the digits.|
 
 #### Linked list
 | File | Task |
