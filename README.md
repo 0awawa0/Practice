@@ -151,6 +151,8 @@ Each script in kotlin folder is made to solve certain task.
 |[findPairs](./scripts/kotlin/findPairs.kt)|Given an array of integers `nums` and an integer `k`, return the number of unique `k`-diff pairs in the array.|
 |[subarraySum](./scripts/kotlin/subarraySum.kt)|Given an array of integers `nums` and an integer `k`, return the total number of continuous subarrays whose sum equals to `k`.|
 |[checkInclusion](./scripts/kotlin/checkInclusion.kt)|Given two strings `s1` and `s2`, return `true` if `s2` contains a permutation of `s1`, or `false` otherwise. In other words, return `true` if one of `s1`'s permutations is the substring of `s2`.|
+|[ladderLength](./scripts/kotlin/ladderLength.kt)|Given two words, `beginWord` and `endWord`, and a dictionary `wordList`, return the number of words in the shortest transformation sequence from `beginWord` to `endWord`, or `0` if no such sequence exists.|
+
 
 #### Linked list
 | File | Task |
