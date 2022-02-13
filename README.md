@@ -152,7 +152,7 @@ Each script in kotlin folder is made to solve certain task.
 |[subarraySum](./scripts/kotlin/subarraySum.kt)|Given an array of integers `nums` and an integer `k`, return the total number of continuous subarrays whose sum equals to `k`.|
 |[checkInclusion](./scripts/kotlin/checkInclusion.kt)|Given two strings `s1` and `s2`, return `true` if `s2` contains a permutation of `s1`, or `false` otherwise. In other words, return `true` if one of `s1`'s permutations is the substring of `s2`.|
 |[ladderLength](./scripts/kotlin/ladderLength.kt)|Given two words, `beginWord` and `endWord`, and a dictionary `wordList`, return the number of words in the shortest transformation sequence from `beginWord` to `endWord`, or `0` if no such sequence exists.|
-|[minimumOperations](./scripts/kotlin/minimumLperations.kt)|You are given a `0`-indexed array `nums` consisting of `n` positive integers. Return the minimum number of operations required to make the array alternating.|
+|[minimumOperations](./scripts/kotlin/minimumOperations.kt)|You are given a `0`-indexed array `nums` consisting of `n` positive integers. Return the minimum number of operations required to make the array alternating.|
 
 
 #### Linked list
