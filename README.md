@@ -158,6 +158,7 @@ Each script in kotlin folder is made to solve certain task.
 |[pascalsTriangleII](./scripts/kotlin/pascalsTriangleII.kt)|Given an integer `rowIndex`, return the `rowIndexth` (`0`-indexed) row of the Pascal's triangle.|
 |[singleNumber](./scripts/kotlin/singleNumber.kt)|Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.|
 |[validPalindrome](./scripts/kotlin/validPalindrome.kt)|Given a string `s`, return `true` if the `s` can be palindrome after deleting at most one character from it.|
+|[isPalindrome](./scripts/kotlin/isPalindrome.kt)|Given a string `s`, return `true` if it is a palindrome, or `false` otherwise.|
 
 
 #### Linked list
