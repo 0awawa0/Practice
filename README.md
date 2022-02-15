@@ -159,6 +159,7 @@ Each script in kotlin folder is made to solve certain task.
 |[singleNumber](./scripts/kotlin/singleNumber.kt)|Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.|
 |[validPalindrome](./scripts/kotlin/validPalindrome.kt)|Given a string `s`, return `true` if the `s` can be palindrome after deleting at most one character from it.|
 |[isPalindrome](./scripts/kotlin/isPalindrome.kt)|Given a string `s`, return `true` if it is a palindrome, or `false` otherwise.|
+|[convertToTile](./scripts/kotlin/convertToTitle.kt)|Given an integer `columnNumber`, return its corresponding column title as it appears in an Excel sheet.|
 
 
 #### Linked list
