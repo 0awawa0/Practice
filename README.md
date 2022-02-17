@@ -163,6 +163,7 @@ Each script in kotlin folder is made to solve certain task.
 |[majorityElement](./scripts/kotlin/majorityElement.kt)|Given an array `nums` of size `n`, return the majority element. The majority element is the element that appears more than `⌊n / 2⌋` times. You may assume that the majority element always exists in the array.|
 |[titleToNumber](./scripts/kotlin/titleToNumber.kt)|Given a string columnTitle that represents the column title as appear in an Excel sheet, return its corresponding column number.|
 |[combinationSum](./scripts/kotlin/combinationSum.kt)|Given an array of distinct integers `candidates` and a target integer `target`, return a list of all unique combinations of candidates where the chosen numbers sum to `target`. |
+|[reverseBits](./scripts/kotlin/reverseBits.kt)|Reverse bits of a given 32 bits unsigned integer.|
 
 
 #### Linked list
