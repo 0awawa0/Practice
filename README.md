@@ -164,6 +164,7 @@ Each script in kotlin folder is made to solve certain task.
 |[titleToNumber](./scripts/kotlin/titleToNumber.kt)|Given a string columnTitle that represents the column title as appear in an Excel sheet, return its corresponding column number.|
 |[combinationSum](./scripts/kotlin/combinationSum.kt)|Given an array of distinct integers `candidates` and a target integer `target`, return a list of all unique combinations of candidates where the chosen numbers sum to `target`. |
 |[reverseBits](./scripts/kotlin/reverseBits.kt)|Reverse bits of a given 32 bits unsigned integer.|
+|[happyNumber](./scripts/kotlin/happyNumber.kt)|Write an algorithm to determine if a number `n` is happy.|
 
 
 #### Linked list
