@@ -166,6 +166,7 @@ Each script in kotlin folder is made to solve certain task.
 |[reverseBits](./scripts/kotlin/reverseBits.kt)|Reverse bits of a given 32 bits unsigned integer.|
 |[happyNumber](./scripts/kotlin/happyNumber.kt)|Write an algorithm to determine if a number `n` is happy.|
 |[removeKDigits](./scripts/kotlin/removeKDigits.kt)|Given string `num` representing a non-negative integer `num`, and an integer `k`, return the smallest possible integer after removing `k` digits from `num`.|
+|[isUgly](./scripts/kotlin/isUgly.kt)|An ugly number is a positive integer whose prime factors are limited to `2`, `3`, and `5`. Given an integer `n`, return `true` if `n` is an ugly number.|
 
 
 #### Linked list
