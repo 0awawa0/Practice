@@ -168,6 +168,7 @@ Each script in kotlin folder is made to solve certain task.
 |[removeKDigits](./scripts/kotlin/removeKDigits.kt)|Given string `num` representing a non-negative integer `num`, and an integer `k`, return the smallest possible integer after removing `k` digits from `num`.|
 |[isUgly](./scripts/kotlin/isUgly.kt)|An ugly number is a positive integer whose prime factors are limited to `2`, `3`, and `5`. Given an integer `n`, return `true` if `n` is an ugly number.|
 |[isIsomorphic](./scripts/kotlin/isIsomorphic.kt)|Given two strings `s` and `t`, determine if they are isomorphic.|
+|[containsDuplicate](./scripts/kotlin/containsDuplicate.kt)|Given an integer array `nums`, return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.|
 
 
 #### Linked list
