@@ -169,6 +169,7 @@ Each script in kotlin folder is made to solve certain task.
 |[isUgly](./scripts/kotlin/isUgly.kt)|An ugly number is a positive integer whose prime factors are limited to `2`, `3`, and `5`. Given an integer `n`, return `true` if `n` is an ugly number.|
 |[isIsomorphic](./scripts/kotlin/isIsomorphic.kt)|Given two strings `s` and `t`, determine if they are isomorphic.|
 |[containsDuplicate](./scripts/kotlin/containsDuplicate.kt)|Given an integer array `nums`, return `true` if any value appears at least twice in the array, and return `false` if every element is distinct.|
+|[containsNearbyDuplicate](./scripts/kotlin/containsNearbyDuplicate.kt)|Given an integer array `nums` and an integer `k`, return `true` if there are two distinct indices `i` and `j` in the array such that `nums[i] == nums[j]` and `abs(i - j) <= k`.|
 
 
 #### Linked list
