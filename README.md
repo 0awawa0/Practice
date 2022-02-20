@@ -173,6 +173,7 @@ Each script in kotlin folder is made to solve certain task.
 |[longestPalindrome](./scripts/kotlin/longestPalindrome.kt)|Given a string `s`, return the longest palindromic substring in `s`.|
 |[minimumDeviation](./scripts/kotlin/minimumDeviation.kt)|Description is in the file.|
 |[sumOfThree](./scripts/kotlin/sumOfThree.kt)|Given an integer `num`, return three consecutive integers (as a sorted array) that sum to `num`. If num cannot be expressed as the sum of three consecutive integers, return an empty array.|
+|[countPairs](./scripts/kotlin/countPairs.kt)|Given a `0`-indexed integer array `nums` of length `n` and an integer `k`, return the number of pairs `(i, j)` where `0 <= i < j < n`, such that `nums[i] == nums[j]` and `(i * j)` is divisible by `k`.|
 
 
 #### Linked list
