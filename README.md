@@ -174,6 +174,7 @@ Each script in kotlin folder is made to solve certain task.
 |[minimumDeviation](./scripts/kotlin/minimumDeviation.kt)|Description is in the file.|
 |[sumOfThree](./scripts/kotlin/sumOfThree.kt)|Given an integer `num`, return three consecutive integers (as a sorted array) that sum to `num`. If num cannot be expressed as the sum of three consecutive integers, return an empty array.|
 |[countPairs](./scripts/kotlin/countPairs.kt)|Given a `0`-indexed integer array `nums` of length `n` and an integer `k`, return the number of pairs `(i, j)` where `0 <= i < j < n`, such that `nums[i] == nums[j]` and `(i * j)` is divisible by `k`.|
+|[maximumEvenSplit](./scripts/kotlin/maximumEvenSplit.kt)|You are given an integer `finalSum`. Split it into a sum of a maximum number of unique positive even integers. Return a list of integers that represent a valid split containing a maximum number of integers. If no valid split exists for `finalSum`, return an empty list. You may return the integers in any order.|
 
 
 #### Linked list
