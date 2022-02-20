@@ -172,7 +172,7 @@ Each script in kotlin folder is made to solve certain task.
 |[containsNearbyDuplicate](./scripts/kotlin/containsNearbyDuplicate.kt)|Given an integer array `nums` and an integer `k`, return `true` if there are two distinct indices `i` and `j` in the array such that `nums[i] == nums[j]` and `abs(i - j) <= k`.|
 |[longestPalindrome](./scripts/kotlin/longestPalindrome.kt)|Given a string `s`, return the longest palindromic substring in `s`.|
 |[minimumDeviation](./scripts/kotlin/minimumDeviation.kt)|Description is in the file.|
-|[sumOfThree](./scripts/kotlin/sumofThree.kt)|Given an integer `num`, return three consecutive integers (as a sorted array) that sum to `num`. If num cannot be expressed as the sum of three consecutive integers, return an empty array.|
+|[sumOfThree](./scripts/kotlin/sumOfThree.kt)|Given an integer `num`, return three consecutive integers (as a sorted array) that sum to `num`. If num cannot be expressed as the sum of three consecutive integers, return an empty array.|
 
 
 #### Linked list
