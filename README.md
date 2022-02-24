@@ -198,6 +198,7 @@ Each script in kotlin folder is made to solve certain task.
 |[linkedListRandom](./scripts/kotlin/LinkedList/linkedListRandom.kt)|Given a singly linked list, return a random node's value from the linked list. Each node must have the same probability of being chosen.|
 |[deleteDuplicates](./scripts/kotlin/LinkedList/deleteDuplicates.kt)|Given the `head` of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.|
 |[swapPairs](./scripts/kotlin/LinkedList/swapPairs.kt)|Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)|
+|[sortList](./scripts/kotlin/LinkedList/sortList.kt)|Given the head of a linked list, return the list after sorting it in ascending order.|
 
 
 #### Binary Tree
