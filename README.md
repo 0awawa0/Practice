@@ -177,6 +177,7 @@ Each script in kotlin folder is made to solve certain task.
 |[maximumEvenSplit](./scripts/kotlin/maximumEvenSplit.kt)|You are given an integer `finalSum`. Split it into a sum of a maximum number of unique positive even integers. Return a list of integers that represent a valid split containing a maximum number of integers. If no valid split exists for `finalSum`, return an empty list. You may return the integers in any order.|
 |[cloneGraph](./scripts/kotlin/cloneGraph.kt)|Given a reference of a `node` in a connected undirected graph. Return a __deep copy (clone)__ of the graph. Each node in the graph contains a `value` (`int`) and a `list` (`List[Node]`) of its neighbors.|
 |[compareVersion](./scripts/kotlin/compareVersion.kt)|Given two version numbers, `version1` and `version2`, compare them.|
+|[minStep](./scripts/kotlin/minStep.kt)|You are given two strings `s` and `t`. In one step, you can append any character to either `s` or `t`. Return the minimum number of steps to make `s` and `t` anagrams of each other.|
 
 
 #### Linked list
