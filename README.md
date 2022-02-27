@@ -220,3 +220,4 @@ Each script in kotlin folder is made to solve certain task.
 [isBalanced](./scripts/kotlin/BinaryTree/isBalanced.kt)|Given a binary tree, determine if it is height-balanced. A height-balanced binary tree is defined as a binary tree in which the left and right subtrees of every node differ in height by no more than `1`.|
 |[minDepth](./scripts/kotlin/BinaryTree/minDepth.kt)|Given a binary tree, find its minimum depth. The minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node. Note: A leaf is a node with no children.|
 |[hasPathSum](./scripts/kotlin/BinaryTree/hasPathSum.kt)|Given the root of a binary tree and an integer `targetSum`, return `true` if the tree has a root-to-leaf path such that adding up all the values along the path equals `targetSum`.|
+|[widthOfBinaryTree](./scripts/kotlin/BinaryTree/widthOfBinaryTree.kt)|Given the root of a binary tree, return the maximum width of the given tree.|
