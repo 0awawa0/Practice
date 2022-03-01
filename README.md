@@ -182,6 +182,7 @@ Each script in kotlin folder is made to solve certain task.
 |[MyQueue](./scripts/kotlin/MyQueue.kt)|Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (`push`, `peek`, `pop`, and `empty`).|
 |[countBits](./scripts/kotlin/countBits.kt)|Given an integer `n`, return an array `ans` of length `n + 1` such that for each `i` (`0 <= i <= n`), `ans[i]` is the number of `1`'s in the binary representation of `i`.|
 |[reverseVowels](./scripts/kotlin/reverseVowels.kt)|Given a string `s`, reverse only all the vowels in the string and return it.|
+|[threeSumClosest](./scripts/kotlin/threeSumClosest.kt)|Given an integer array `nums` of length `n` and an integer `target`, find three integers in `nums` such that the sum is closest to target. Return the sum of the three integers.|
 
 
 #### Linked list
