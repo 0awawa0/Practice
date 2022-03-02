@@ -186,6 +186,7 @@ Each script in kotlin folder is made to solve certain task.
 |[isSubsequence](./scripts/kotlin/isSubsequence.kt)|Given two strings `s` and `t`, return `true` if `s` is a subsequence of `t`, or `false` otherwise.|
 |[fourSum](./scripts/kotlin/fourSum.kt)|Description is in the file.|
 |[countOdds](./scripts/kotlin/countOdds.kt)|Given two non-negative integers `low` and `high`. Return the count of odd numbers between `low` and `high` (inclusive).|
+|[averageSalary](./scripts/kotlin/averageSalary.kt)|You are given an array of unique integers salary where `salary[i]` is the salary of the `i`th employee. Return the average salary of employees excluding the minimum and maximum salary.|
 
 
 #### Linked list
