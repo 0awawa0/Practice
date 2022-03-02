@@ -184,6 +184,7 @@ Each script in kotlin folder is made to solve certain task.
 |[reverseVowels](./scripts/kotlin/reverseVowels.kt)|Given a string `s`, reverse only all the vowels in the string and return it.|
 |[threeSumClosest](./scripts/kotlin/threeSumClosest.kt)|Given an integer array `nums` of length `n` and an integer `target`, find three integers in `nums` such that the sum is closest to target. Return the sum of the three integers.|
 |[isSubsequence](./scripts/kotlin/isSubsequence.kt)|Given two strings `s` and `t`, return `true` if `s` is a subsequence of `t`, or `false` otherwise.|
+|[fourSum](./scripts/kotlin/fourSum.kt)|Description is in the file.|
 
 
 #### Linked list
