@@ -190,6 +190,7 @@ Each script in kotlin folder is made to solve certain task.
 |[numberOfArithmeticSlices](./scripts/kotlin/numberOfArithmeticSlices.kt)|Given an integer array `nums`, return the number of arithmetic subarrays of `nums`.|
 |[intersection](./scripts/kotlin/intersection.kt)|Given two integer arrays `nums1` and `nums2`, return an array of their intersection. Each element in the result must be unique and you may return the result in any order.|
 |[isPerfectSquare](./scripts/kotlin/isPerfectSquare.kt)|Given a positive integer `num`, write a function which returns `True` if `num` is a perfect square else `False`.|
+|[firstUniqChar](./scripts/kotlin/firstUniqChar.kt)|Given a string `s`, find the first non-repeating character in it and return its index. If it does not exist, return `-1`.|
 
 
 #### Linked list
