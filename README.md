@@ -189,6 +189,7 @@ Each script in kotlin folder is made to solve certain task.
 |[averageSalary](./scripts/kotlin/averageSalary.kt)|You are given an array of unique integers salary where `salary[i]` is the salary of the `i`th employee. Return the average salary of employees excluding the minimum and maximum salary.|
 |[numberOfArithmeticSlices](./scripts/kotlin/numberOfArithmeticSlices.kt)|Given an integer array `nums`, return the number of arithmetic subarrays of `nums`.|
 |[intersection](./scripts/kotlin/intersection.kt)|Given two integer arrays `nums1` and `nums2`, return an array of their intersection. Each element in the result must be unique and you may return the result in any order.|
+|[isPerfectSquare](./scripts/kotlin/isPerfectSquare.kt)|Given a positive integer `num`, write a function which returns `True` if `num` is a perfect square else `False`.|
 
 
 #### Linked list
