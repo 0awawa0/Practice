@@ -192,6 +192,7 @@ Each script in kotlin folder is made to solve certain task.
 |[isPerfectSquare](./scripts/kotlin/isPerfectSquare.kt)|Given a positive integer `num`, write a function which returns `True` if `num` is a perfect square else `False`.|
 |[firstUniqChar](./scripts/kotlin/firstUniqChar.kt)|Given a string `s`, find the first non-repeating character in it and return its index. If it does not exist, return `-1`.|
 |[champagneTower](./scripts/kotlin/champagneTower.kt)|Description in the file|
+|[largestPerimeter](./scripts/kotlin/largestPerimeter.kt)|Given an integer array `nums`, return the largest perimeter of a triangle with a non-zero area, formed from three of these lengths. If it is impossible to form any triangle of a non-zero area, return `0`.|
 
 
 #### Linked list
