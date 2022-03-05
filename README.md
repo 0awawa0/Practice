@@ -196,6 +196,7 @@ Each script in kotlin folder is made to solve certain task.
 |[nearestValidPoint](./scripts/kotlin/nearestValidPoint.kt)|Description in the file|
 |[areAlmostEqual](./scripts/kotlin/areAlmostEqual.kt)|You are given two strings `s1` and `s2` of equal length. A string swap is an operation where you choose two indices in a string (not necessarily different) and swap the characters at these indices. Return `true` if it is possible to make both strings equal by performing at most one string swap on exactly one of the strings. Otherwise, return `false`.|
 |[arraySign](./scripts/kotlin/arraySign.kt)|You are given an integer array `nums`. Let `product` be the product of all values in the array `nums`. Return `signFunc(product)`.|
+|[deleteAndEarn](./scripts/kotlin/deleteAndEarn.kt)|Description in the file.|
 
 
 #### Linked list
