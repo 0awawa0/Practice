@@ -198,6 +198,7 @@ Each script in kotlin folder is made to solve certain task.
 |[arraySign](./scripts/kotlin/arraySign.kt)|You are given an integer array `nums`. Let `product` be the product of all values in the array `nums`. Return `signFunc(product)`.|
 |[deleteAndEarn](./scripts/kotlin/deleteAndEarn.kt)|Description in the file.|
 |[checkStraightLine](./scripts/kotlin/checkStraightLine.kt)|You are given an array coordinates, `coordinates[i] = [x, y]`, where `[x, y]` represents the coordinate of a point. Check if these points make a straight line in the XY plane.|
+|[countOfOrders](./scripts/kotlin/countOfOrders.kt)|Given `n` orders, each order consist in pickup and delivery services. Count all valid pickup/delivery possible sequences such that `delivery(i)` is always after of `pickup(i)`.|
 
 
 #### Linked list
