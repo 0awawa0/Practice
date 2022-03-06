@@ -242,3 +242,4 @@ Each script in kotlin folder is made to solve certain task.
 |[widthOfBinaryTree](./scripts/kotlin/BinaryTree/widthOfBinaryTree.kt)|Given the root of a binary tree, return the maximum width of the given tree.|
 |[binaryTreePaths](./scripts/kotlin/BinaryTree/binaryTreePaths.kt)|Given the root of a binary tree, return all root-to-leaf paths in any order. A leaf is a node with no children.|
 |[lowestCommonAncestor](./scripts/kotlin/BinaryTree/lowestCommonAncestor.kt)|Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.|
+|[naryPreorderTraversal](./scripts/kotlin/BinaryTree/naryPreorderTraversal.kt)|Given the root of an `n`-ary tree, return the preorder traversal of its nodes' values.|
