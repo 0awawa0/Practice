@@ -200,6 +200,7 @@ Each script in kotlin folder is made to solve certain task.
 |[checkStraightLine](./scripts/kotlin/checkStraightLine.kt)|You are given an array coordinates, `coordinates[i] = [x, y]`, where `[x, y]` represents the coordinate of a point. Check if these points make a straight line in the XY plane.|
 |[countOfOrders](./scripts/kotlin/countOfOrders.kt)|Given `n` orders, each order consist in pickup and delivery services. Count all valid pickup/delivery possible sequences such that `delivery(i)` is always after of `pickup(i)`.|
 |[sumOddLengthsSubarrays](./scripts/kotlin/sumOddLengthsSubarrays.kt)|Given an array of positive integers `arr`, calculate the sum of all possible odd-length subarrays. Return the sum of all odd-length subarrays of `arr`.|
+|[matrixReshape](./scripts/kotlin/matrixReshape.kt)|Description in the file|
 
 
 #### Linked list
