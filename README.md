@@ -201,6 +201,7 @@ Each script in kotlin folder is made to solve certain task.
 |[countOfOrders](./scripts/kotlin/countOfOrders.kt)|Given `n` orders, each order consist in pickup and delivery services. Count all valid pickup/delivery possible sequences such that `delivery(i)` is always after of `pickup(i)`.|
 |[sumOddLengthsSubarrays](./scripts/kotlin/sumOddLengthsSubarrays.kt)|Given an array of positive integers `arr`, calculate the sum of all possible odd-length subarrays. Return the sum of all odd-length subarrays of `arr`.|
 |[matrixReshape](./scripts/kotlin/matrixReshape.kt)|Description in the file|
+|[mergeAlternatly](./scripts/kotlin/mergeAlternatly.kt)|You are given two strings `word1` and `word2`. Merge the strings by adding letters in alternating order, starting with `word1`. If a string is longer than the other, append the additional letters onto the end of the merged string. Return the merged string.|
 
 
 #### Linked list
