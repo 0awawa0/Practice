@@ -203,6 +203,7 @@ Each script in kotlin folder is made to solve certain task.
 |[matrixReshape](./scripts/kotlin/matrixReshape.kt)|Description in the file|
 |[mergeAlternatly](./scripts/kotlin/mergeAlternatly.kt)|You are given two strings `word1` and `word2`. Merge the strings by adding letters in alternating order, starting with `word1`. If a string is longer than the other, append the additional letters onto the end of the merged string. Return the merged string.|
 |[longestPalindrome2](./scripts/kotlin/longestPalindrome2.kt)|Given a string `s` which consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letters. Letters are case sensitive, for example, `"Aa"` is not considered a palindrome here.|
+|[addStrings](./scripts/kotlin/addStrings.kt)|Given two non-negative integers, `num1` and `num2` represented as string, return the sum of `num1` and `num2` as a string.|
 
 
 #### Linked list
