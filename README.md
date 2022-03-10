@@ -202,6 +202,7 @@ Each script in kotlin folder is made to solve certain task.
 |[sumOddLengthsSubarrays](./scripts/kotlin/sumOddLengthsSubarrays.kt)|Given an array of positive integers `arr`, calculate the sum of all possible odd-length subarrays. Return the sum of all odd-length subarrays of `arr`.|
 |[matrixReshape](./scripts/kotlin/matrixReshape.kt)|Description in the file|
 |[mergeAlternatly](./scripts/kotlin/mergeAlternatly.kt)|You are given two strings `word1` and `word2`. Merge the strings by adding letters in alternating order, starting with `word1`. If a string is longer than the other, append the additional letters onto the end of the merged string. Return the merged string.|
+|[longestPalindrome2](./scripts/kotlin/longestPalindrome2.kt)|Given a string `s` which consists of lowercase or uppercase letters, return the length of the longest palindrome that can be built with those letters. Letters are case sensitive, for example, `"Aa"` is not considered a palindrome here.|
 
 
 #### Linked list
