@@ -206,6 +206,7 @@ Each script in kotlin folder is made to solve certain task.
 |[addStrings](./scripts/kotlin/addStrings.kt)|Given two non-negative integers, `num1` and `num2` represented as string, return the sum of `num1` and `num2` as a string.|
 |[readBinaryWatch](./scripts/kotlin/readBinaryWatch.kt)|A binary watch has 4 LEDs on the top which represent the hours (0-11), and the 6 LEDs on the bottom represent the minutes (0-59). Each LED represents a zero or one, with the least significant bit on the right. Given an integer `turnedOn` which represents the number of LEDs that are currently on, return all possible times the watch could represent. You may return the answer in any order.|
 |[toHex](./scripts/kotlin/toHex.kt)|Given an integer `num`, return a string representing its hexadecimal representation. For negative integers, two’s complement method is used.|
+|[countSegments](./scripts/kotlin/countSegments.kt)|Given a string `s`, return the number of segments in the string. A segment is defined to be a contiguous sequence of non-space characters.|
 
 
 #### Linked list
