@@ -209,6 +209,7 @@ Each script in kotlin folder is made to solve certain task.
 |[countSegments](./scripts/kotlin/countSegments.kt)|Given a string `s`, return the number of segments in the string. A segment is defined to be a contiguous sequence of non-space characters.|
 |[addToArrayForm](./scripts/kotlin/addToArrayForm.kt)|The array-form of an integer `num` is an array representing its digits in left to right order. Given `num`, the array-form of an integer, and an integer `k`, return the array-form of the integer `num + k`.|
 |[sortByBits](./scripts/kotlin/sortByBits.kt)|You are given an integer array `arr`. Sort the integers in the array in ascending order by the number of `1`'s in their binary representation and in case of two or more integers have the same number of `1`'s you have to sort them in ascending order. Return the array after sorting it.|
+|[isMonotonic](./scripts/kotlin/isMonotonic.kt)|An array is monotonic if it is either monotone increasing or monotone decreasing. An array `nums` is monotone increasing if for all `i <= j`, `nums[i] <= nums[j]`. An array nums is monotone decreasing if for all `i <= j`, `nums[i] >= nums[j]`. Given an integer array `nums`, return `true` if the given array is monotonic, or `false` otherwise.|
 
 
 #### Linked list
