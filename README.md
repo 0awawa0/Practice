@@ -213,6 +213,7 @@ Each script in kotlin folder is made to solve certain task.
 |[licenseKeyFormatting](./scripts/kotlin/licenseKeyFormatting.kt)|You are given a license key represented as a string `s` that consists of only alphanumeric characters and dashes. The string is separated into `n + 1` groups by `n` dashes. You are also given an integer `k`. We want to reformat the string `s` such that each group contains exactly `k` characters, except for the first group, which could be shorter than `k` but still must contain at least one character. Furthermore, there must be a dash inserted between two groups, and you should convert all lowercase letters to uppercase. Return the reformatted license key.|
 |[constructRectangle](./scripts/kotlin/constructRectangle.kt)|Description in the file|
 |[digArtifacts](./scripts/kotlin/digArtifacts.kt)|Description in the file|
+|[findKDistantIndices](./scripts/kotlin/findKDistantIndices.kt)|You are given a `0`-indexed integer array `nums` and two integers `key` and `k`. A `k`-distant index is an index `i` of `nums` for which there exists at least one index `j` such that `|i - j| <= k` and `nums[j] == key`. Return a list of all `k`-distant indices sorted in increasing order.|
 
 
 #### Linked list
