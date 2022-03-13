@@ -212,6 +212,7 @@ Each script in kotlin folder is made to solve certain task.
 |[isMonotonic](./scripts/kotlin/isMonotonic.kt)|An array is monotonic if it is either monotone increasing or monotone decreasing. An array `nums` is monotone increasing if for all `i <= j`, `nums[i] <= nums[j]`. An array nums is monotone decreasing if for all `i <= j`, `nums[i] >= nums[j]`. Given an integer array `nums`, return `true` if the given array is monotonic, or `false` otherwise.|
 |[licenseKeyFormatting](./scripts/kotlin/licenseKeyFormatting.kt)|You are given a license key represented as a string `s` that consists of only alphanumeric characters and dashes. The string is separated into `n + 1` groups by `n` dashes. You are also given an integer `k`. We want to reformat the string `s` such that each group contains exactly `k` characters, except for the first group, which could be shorter than `k` but still must contain at least one character. Furthermore, there must be a dash inserted between two groups, and you should convert all lowercase letters to uppercase. Return the reformatted license key.|
 |[constructRectangle](./scripts/kotlin/constructRectangle.kt)|Description in the file|
+|[digArtifacts](./scripts/kotlin/digArtifacts.kt)|Description in the file|
 
 
 #### Linked list
