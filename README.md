@@ -214,6 +214,7 @@ Each script in kotlin folder is made to solve certain task.
 |[constructRectangle](./scripts/kotlin/constructRectangle.kt)|Description in the file|
 |[digArtifacts](./scripts/kotlin/digArtifacts.kt)|Description in the file|
 |[findKDistantIndices](./scripts/kotlin/findKDistantIndices.kt)|You are given a `0`-indexed integer array `nums` and two integers `key` and `k`. A `k`-distant index is an index `i` of `nums` for which there exists at least one index `j` such that `abs(i - j) <= k` and `nums[j] == key`. Return a list of all `k`-distant indices sorted in increasing order.|
+|[simplifyPath](./scripts/kotlin/simplifyPath.kt)|Description in the file|
 
 
 #### Linked list
