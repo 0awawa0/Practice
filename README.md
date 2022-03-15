@@ -217,6 +217,7 @@ Each script in kotlin folder is made to solve certain task.
 |[simplifyPath](./scripts/kotlin/simplifyPath.kt)|Description in the file|
 |[repeatedSubstringPattern](./scripts/kotlin/repeatedSubstringPattern.kt)|Given a string `s`, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.|
 |[minRemoveToMakeValid](./scripts/kotlin/minRemoveToMakeValid.kt)|Given a string `s` of `'('` , `')'` and lowercase English characters. Your task is to remove the minimum number of parentheses ( `'('` or `')'`, in any positions ) so that the resulting parentheses string is valid and return any valid string.|
+|[evalRPN](./scripts/kotlin/evalRPN.kt)|Evaluate the value of an arithmetic expression in Reverse Polish Notation.|
 
 
 #### Linked list
