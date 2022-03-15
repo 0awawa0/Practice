@@ -220,6 +220,7 @@ Each script in kotlin folder is made to solve certain task.
 |[evalRPN](./scripts/kotlin/evalRPN.kt)|Evaluate the value of an arithmetic expression in Reverse Polish Notation.|
 |[findContentChildren](./scripts/kotlin/findContentChildren.kt)|Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie. Each child `i` has a greed factor `g[i]`, which is the minimum size of a cookie that the child will be content with; and each cookie `j` has a size `s[j]`. If `s[j] >= g[i]`, we can assign the cookie `j` to the child `i`, and the child `i` will be content. Your goal is to maximize the number of your content children and output the maximum number.|
 |[findPoisonedDuration](./scripts/kotlin/findPoisonedDuration.kt)|Description in the file|
+|[findWords](./scripts/kotlin/findWords.kt)|Given an array of strings `words`, return the words that can be typed using letters of the alphabet on only one row of American keyboard.|
 
 
 #### Linked list
