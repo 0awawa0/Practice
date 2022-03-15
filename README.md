@@ -216,6 +216,7 @@ Each script in kotlin folder is made to solve certain task.
 |[findKDistantIndices](./scripts/kotlin/findKDistantIndices.kt)|You are given a `0`-indexed integer array `nums` and two integers `key` and `k`. A `k`-distant index is an index `i` of `nums` for which there exists at least one index `j` such that `abs(i - j) <= k` and `nums[j] == key`. Return a list of all `k`-distant indices sorted in increasing order.|
 |[simplifyPath](./scripts/kotlin/simplifyPath.kt)|Description in the file|
 |[repeatedSubstringPattern](./scripts/kotlin/repeatedSubstringPattern.kt)|Given a string `s`, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.|
+|[minRemoveToMakeValid](./scripts/kotlin/minRemoveToMakeValid.kt)|Given a string `s` of `'('` , `')'` and lowercase English characters. Your task is to remove the minimum number of parentheses ( `'('` or `')'`, in any positions ) so that the resulting parentheses string is valid and return any valid string.|
 
 
 #### Linked list
