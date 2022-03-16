@@ -221,6 +221,7 @@ Each script in kotlin folder is made to solve certain task.
 |[findContentChildren](./scripts/kotlin/findContentChildren.kt)|Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie. Each child `i` has a greed factor `g[i]`, which is the minimum size of a cookie that the child will be content with; and each cookie `j` has a size `s[j]`. If `s[j] >= g[i]`, we can assign the cookie `j` to the child `i`, and the child `i` will be content. Your goal is to maximize the number of your content children and output the maximum number.|
 |[findPoisonedDuration](./scripts/kotlin/findPoisonedDuration.kt)|Description in the file|
 |[findWords](./scripts/kotlin/findWords.kt)|Given an array of strings `words`, return the words that can be typed using letters of the alphabet on only one row of American keyboard.|
+|[validateStackSequences](./scripts/kotlin/validateStackSequences.kt)|Given two integer arrays `pushed` and `popped` each with distinct values, return `true` if this could have been the result of a sequence of push and pop operations on an initially empty stack, or `false` otherwise.|
 
 
 #### Linked list
