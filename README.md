@@ -269,3 +269,4 @@ Each script in kotlin folder is made to solve certain task.
 |[binaryTreePaths](./scripts/kotlin/BinaryTree/binaryTreePaths.kt)|Given the root of a binary tree, return all root-to-leaf paths in any order. A leaf is a node with no children.|
 |[lowestCommonAncestor](./scripts/kotlin/BinaryTree/lowestCommonAncestor.kt)|Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.|
 |[naryPreorderTraversal](./scripts/kotlin/BinaryTree/naryPreorderTraversal.kt)|Given the root of an `n`-ary tree, return the preorder traversal of its nodes' values.|
+|[isSubPath](./scripts/kotlin/BinaryTree/isSubPath.kt)|Given a binary tree `root` and a linked list with `head` as the first node. Return `True` if all the elements in the linked list starting from the head correspond to some downward path connected in the binary tree otherwise return `False`.|
