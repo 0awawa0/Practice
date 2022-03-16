@@ -222,6 +222,7 @@ Each script in kotlin folder is made to solve certain task.
 |[findPoisonedDuration](./scripts/kotlin/findPoisonedDuration.kt)|Description in the file|
 |[findWords](./scripts/kotlin/findWords.kt)|Given an array of strings `words`, return the words that can be typed using letters of the alphabet on only one row of American keyboard.|
 |[validateStackSequences](./scripts/kotlin/validateStackSequences.kt)|Given two integer arrays `pushed` and `popped` each with distinct values, return `true` if this could have been the result of a sequence of push and pop operations on an initially empty stack, or `false` otherwise.|
+|[multiply](./scripts/kotlin/multiply.kt)|Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, also represented as a string.|
 
 
 #### Linked list
