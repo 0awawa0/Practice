@@ -223,6 +223,7 @@ Each script in kotlin folder is made to solve certain task.
 |[findWords](./scripts/kotlin/findWords.kt)|Given an array of strings `words`, return the words that can be typed using letters of the alphabet on only one row of American keyboard.|
 |[validateStackSequences](./scripts/kotlin/validateStackSequences.kt)|Given two integer arrays `pushed` and `popped` each with distinct values, return `true` if this could have been the result of a sequence of push and pop operations on an initially empty stack, or `false` otherwise.|
 |[multiply](./scripts/kotlin/multiply.kt)|Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, also represented as a string.|
+|[converToBase7](./scripts/kotlin/converToBase7.kt)|Given an integer `num`, return a string of its base 7 representation.|
 
 
 #### Linked list
