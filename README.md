@@ -225,6 +225,7 @@ Each script in kotlin folder is made to solve certain task.
 |[multiply](./scripts/kotlin/multiply.kt)|Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, also represented as a string.|
 |[converToBase7](./scripts/kotlin/converToBase7.kt)|Given an integer `num`, return a string of its base 7 representation.|
 |[findRealtiveRanks](./scripts/kotlin/findRelativeRanks.kt)|Description in the file|
+|[scoreOfParentheses](./scripts/kotlin/scoreOfParentheses.kt)|Given a balanced parentheses string `s`, return the score of the string.|
 
 
 #### Linked list
