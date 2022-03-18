@@ -226,6 +226,7 @@ Each script in kotlin folder is made to solve certain task.
 |[converToBase7](./scripts/kotlin/converToBase7.kt)|Given an integer `num`, return a string of its base 7 representation.|
 |[findRealtiveRanks](./scripts/kotlin/findRelativeRanks.kt)|Description in the file|
 |[scoreOfParentheses](./scripts/kotlin/scoreOfParentheses.kt)|Given a balanced parentheses string `s`, return the score of the string.|
+|[removeDuplicateLetters](./scripts/kotlin/removeDuplicateLetters.kt)|Given a string `s`, remove duplicate letters so that every letter appears once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.|
 
 
 #### Linked list
