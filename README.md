@@ -227,6 +227,7 @@ Each script in kotlin folder is made to solve certain task.
 |[findRealtiveRanks](./scripts/kotlin/findRelativeRanks.kt)|Description in the file|
 |[scoreOfParentheses](./scripts/kotlin/scoreOfParentheses.kt)|Given a balanced parentheses string `s`, return the score of the string.|
 |[removeDuplicateLetters](./scripts/kotlin/removeDuplicateLetters.kt)|Given a string `s`, remove duplicate letters so that every letter appears once and only once. You must make sure your result is the smallest in lexicographical order among all possible results.|
+|[findRightInterval](./scripts/kotlin/findRightInterval.kt)|You are given an array of `intervals`, where `intervals[i] = [starti, endi]` and each `starti` is unique. The right interval for an interval `i` is an interval `j` such that `startj >= endi` and `startj` is minimized. Return an array of right interval indices for each interval `i`. If no right interval exists for interval `i`, then put `-1` at index `i`.|
 
 
 #### Linked list
