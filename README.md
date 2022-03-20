@@ -233,6 +233,7 @@ Each script in kotlin folder is made to solve certain task.
 |[findRotation](./scripts/kotlin/findRotation.kt)|Given two `n x n` binary matrices `mat` and `target`, return `true` if it is possible to make `mat` equal to `target` by rotating `mat` in 90-degree increments, or `false` otherwise.|
 |[halveArray](./scripts/kotlin/halveArray.kt)|You are given an array `nums` of positive integers. In one operation, you can choose any number from `nums` and reduce it to exactly half the number. (Note that you may choose this reduced number in future operations.) Return the minimum number of operations to reduce the sum of `nums` by at least half.|
 |[countCollisions](./scripts/kotlin/countCollisions.kt)|Description in the file|
+|[minDominoRotations](./scripts/kotlin/minDominoRotations.kt)|Description in the file|
 
 
 #### Linked list
