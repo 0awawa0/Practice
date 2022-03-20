@@ -231,6 +231,7 @@ Each script in kotlin folder is made to solve certain task.
 |[FreqStack](./scripts/kotlin/FreqStack.kt)|Design a stack-like data structure to push elements to the stack and pop the most frequent element from the stack.|
 |[rotate](./scripts/kotlin/rotate.kt)|You are given an `n x n` 2D matrix representing an image, rotate the image by 90 degrees (clockwise).|
 |[findRotation](./scripts/kotlin/findRotation.kt)|Given two `n x n` binary matrices `mat` and `target`, return `true` if it is possible to make `mat` equal to `target` by rotating `mat` in 90-degree increments, or `false` otherwise.|
+|[halveArray](./scripts/kotlin/halveArray.kt)|You are given an array `nums` of positive integers. In one operation, you can choose any number from `nums` and reduce it to exactly half the number. (Note that you may choose this reduced number in future operations.) Return the minimum number of operations to reduce the sum of `nums` by at least half.|
 
 
 #### Linked list
