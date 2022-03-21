@@ -234,6 +234,7 @@ Each script in kotlin folder is made to solve certain task.
 |[halveArray](./scripts/kotlin/halveArray.kt)|You are given an array `nums` of positive integers. In one operation, you can choose any number from `nums` and reduce it to exactly half the number. (Note that you may choose this reduced number in future operations.) Return the minimum number of operations to reduce the sum of `nums` by at least half.|
 |[countCollisions](./scripts/kotlin/countCollisions.kt)|Description in the file|
 |[minDominoRotations](./scripts/kotlin/minDominoRotations.kt)|Description in the file|
+|[partitionLabels](./scripts/kotlin/partitionLabels.kt)|You are given a string `s`. We want to partition the string into as many parts as possible so that each letter appears in at most one part. Note that the partition is done so that after concatenating all the parts in order, the resultant string should be `s`. Return a list of integers representing the size of these parts.|
 
 
 #### Linked list
