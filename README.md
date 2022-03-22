@@ -236,6 +236,7 @@ Each script in kotlin folder is made to solve certain task.
 |[minDominoRotations](./scripts/kotlin/minDominoRotations.kt)|Description in the file|
 |[partitionLabels](./scripts/kotlin/partitionLabels.kt)|You are given a string `s`. We want to partition the string into as many parts as possible so that each letter appears in at most one part. Note that the partition is done so that after concatenating all the parts in order, the resultant string should be `s`. Return a list of integers representing the size of these parts.|
 |[checkArithmeticSubarrays](./scripts/kotlin/checkArithmeticSubarrays.kt)|A sequence of numbers is called arithmetic if it consists of at least two elements, and the difference between every two consecutive elements is the same. More formally, a sequence `s` is arithmetic if and only if `s[i+1] - s[i] == s[1] - s[0]` for all valid `i`. You are given an array of `n` integers, `nums`, and two arrays of `m` integers each, `l` and `r`, representing the `m` range queries, where the `i`th query is the range `[l[i], r[i]]`. All the arrays are `0`-indexed. Return a list of boolean elements `answer`, where `answer[i]` is `true` if the subarray `nums[l[i]], nums[l[i]+1], ... , nums[r[i]]` can be rearranged to form an arithmetic sequence, and `false` otherwise.|
+|[getSmallestString](./scripts/kotlin/getSmallestString.kt)|Description in the file|
 
 
 #### Linked list
