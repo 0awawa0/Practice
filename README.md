@@ -290,3 +290,4 @@ Each script in kotlin folder is made to solve certain task.
 |[isSubPath](./scripts/kotlin/Tree/isSubPath.kt)|Given a binary tree `root` and a linked list with `head` as the first node. Return `True` if all the elements in the linked list starting from the head correspond to some downward path connected in the binary tree otherwise return `False`.|
 |[findMode](./scripts/kotlin/Tree/findMode.kt)|Given the root of a binary search tree (BST) with duplicates, return all the mode(s) (i.e., the most frequently occurred element) in it. If the tree has more than one mode, return them in any order.|
 |[levelOrder](./scripts/kotlin/Tree/levelOrder.kt)|Given an `n`-ary tree, return the level order traversal of its nodes' values.|
+|[numOfMinutes](./scripts/kotlin/Tree/numOfMinutes.kt)|Description in the file|
