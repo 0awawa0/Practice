@@ -241,6 +241,7 @@ Each script in kotlin folder is made to solve certain task.
 |[nextGreaterElement](./scripts/kotlin/nextGreaterElement.kt)|Given a positive integer `n`, find the smallest integer which has exactly the same digits existing in the integer `n` and is greater in value than `n`. If no such positive integer exists, return `-1`. Note that the returned integer should fit in 32-bit integer, if there is a valid answer but it does not fit in 32-bit integer, return `-1`.|
 |[brokenCalc](./scripts/kotlin/brokenCalc.kt)|There is a broken calculator that has the integer `startValue` on its display initially. In one operation, you can: 1) multiply the number on display by `2`, or; 2) subtract `1` from the number on display. Given two integers `startValue` and `target`, return the minimum number of operations needed to display `target` on the calculator.|
 |[numRescueBoats](./scripts/kotlin/numRescueBoats.kt)|You are given an array people where `people[i]` is the weight of the `i`th person, and an infinite number of boats where each boat can carry a maximum weight of `limit`. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit. Return the minimum number of boats to carry every given person.|
+|[numSubarrayProductLessThanK](./scripts/kotlin/numSubarrayProductLessThanK.kt)|Given an array of integers `nums` and an integer `k`, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than `k`.|
 
 
 #### Linked list
