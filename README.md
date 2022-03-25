@@ -242,6 +242,7 @@ Each script in kotlin folder is made to solve certain task.
 |[brokenCalc](./scripts/kotlin/brokenCalc.kt)|There is a broken calculator that has the integer `startValue` on its display initially. In one operation, you can: 1) multiply the number on display by `2`, or; 2) subtract `1` from the number on display. Given two integers `startValue` and `target`, return the minimum number of operations needed to display `target` on the calculator.|
 |[numRescueBoats](./scripts/kotlin/numRescueBoats.kt)|You are given an array people where `people[i]` is the weight of the `i`th person, and an infinite number of boats where each boat can carry a maximum weight of `limit`. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit. Return the minimum number of boats to carry every given person.|
 |[numSubarrayProductLessThanK](./scripts/kotlin/numSubarrayProductLessThanK.kt)|Given an array of integers `nums` and an integer `k`, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than `k`.|
+|[twoCitySchedCost](./scripts/kotlin/twoCityShedCost.kt)|A company is planning to interview `2n` people. Given the array costs where `costs[i] = [aCosti, bCosti]`, the cost of flying the `i`th person to city `a` is `aCosti`, and the cost of flying the `i`th person to city `b` is `bCosti`. Return the minimum cost to fly every person to a city such that exactly `n` people arrive in each city.|
 
 
 #### Linked list
