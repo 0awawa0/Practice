@@ -243,6 +243,7 @@ Each script in kotlin folder is made to solve certain task.
 |[numRescueBoats](./scripts/kotlin/numRescueBoats.kt)|You are given an array people where `people[i]` is the weight of the `i`th person, and an infinite number of boats where each boat can carry a maximum weight of `limit`. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit. Return the minimum number of boats to carry every given person.|
 |[numSubarrayProductLessThanK](./scripts/kotlin/numSubarrayProductLessThanK.kt)|Given an array of integers `nums` and an integer `k`, return the number of contiguous subarrays where the product of all the elements in the subarray is strictly less than `k`.|
 |[twoCitySchedCost](./scripts/kotlin/twoCityShedCost.kt)|A company is planning to interview `2n` people. Given the array costs where `costs[i] = [aCosti, bCosti]`, the cost of flying the `i`th person to city `a` is `aCosti`, and the cost of flying the `i`th person to city `b` is `bCosti`. Return the minimum cost to fly every person to a city such that exactly `n` people arrive in each city.|
+|[smallestRange](./scripts/kotlin/smallestRange.kt)|You are given an integer array `nums` and an integer `k`. For each index `i` where `0 <= i < nums.length`, change `nums[i]` to be either `nums[i] + k` or `nums[i] - k`. The score of `nums` is the difference between the maximum and minimum elements in `nums`. Return the minimum score of `nums` after changing the values at each index.|
 
 
 #### Linked list
