@@ -246,6 +246,7 @@ Each script in kotlin folder is made to solve certain task.
 |[smallestRange](./scripts/kotlin/smallestRange.kt)|You are given an integer array `nums` and an integer `k`. For each index `i` where `0 <= i < nums.length`, change `nums[i]` to be either `nums[i] + k` or `nums[i] - k`. The score of `nums` is the difference between the maximum and minimum elements in `nums`. Return the minimum score of `nums` after changing the values at each index.|
 |[NumMatrix](./scripts/kotlin/NumMatrix.kt)|Description in the file.|
 |[checkPerfectNumber](./scripts/kotlin/checkPerfectNumber.kt)|A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. A divisor of an integer `x` is an integer that can divide `x` evenly. Given an integer `n`, return `true` if `n` is a perfect number, otherwise return `false`.|
+|[kWeakestRows](./scripts/kotlin/kWeakestRows.kt)|Description in the file|
 
 
 #### Linked list
