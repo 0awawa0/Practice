@@ -247,6 +247,7 @@ Each script in kotlin folder is made to solve certain task.
 |[NumMatrix](./scripts/kotlin/NumMatrix.kt)|Description in the file.|
 |[checkPerfectNumber](./scripts/kotlin/checkPerfectNumber.kt)|A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. A divisor of an integer `x` is an integer that can divide `x` evenly. Given an integer `n`, return `true` if `n` is a perfect number, otherwise return `false`.|
 |[kWeakestRows](./scripts/kotlin/kWeakestRows.kt)|Description in the file|
+|[kthPalindrome](./scripts/kotlin/kthPalindrome.kt)|Given an integer array `queries` and a positive integer `intLength`, return an array `answer` where `answer[i]` is either the `queries[i]`th smallest positive palindrome of length `intLength` or `-1` if no such palindrome exists. A palindrome is a number that reads the same backwards and forwards. Palindromes cannot have leading zeros.|
 
 
 #### Linked list
