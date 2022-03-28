@@ -301,3 +301,4 @@ Each script in kotlin folder is made to solve certain task.
 |[findMode](./scripts/kotlin/Tree/findMode.kt)|Given the root of a binary search tree (BST) with duplicates, return all the mode(s) (i.e., the most frequently occurred element) in it. If the tree has more than one mode, return them in any order.|
 |[levelOrder](./scripts/kotlin/Tree/levelOrder.kt)|Given an `n`-ary tree, return the level order traversal of its nodes' values.|
 |[numOfMinutes](./scripts/kotlin/Tree/numOfMinutes.kt)|Description in the file|
+|[BSTIterator](./scripts/kotlin/Tree/BSTIterator.kt)|Description is in the file|
