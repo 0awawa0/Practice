@@ -250,6 +250,7 @@ Each script in kotlin folder is made to solve certain task.
 |[kthPalindrome](./scripts/kotlin/kthPalindrome.kt)|Given an integer array `queries` and a positive integer `intLength`, return an array `answer` where `answer[i]` is either the `queries[i]`th smallest positive palindrome of length `intLength` or `-1` if no such palindrome exists. A palindrome is a number that reads the same backwards and forwards. Palindromes cannot have leading zeros.|
 |[minDeletion](./scripts/kotlin/minDeletion.kt)|Description is in the file|
 |[findDuplicate](./scripts/kotlin/findDuplicate.kt)|Given an array of integers `nums` containing `n + 1` integers where each integer is in the range `[1, n]` inclusive. There is only one repeated number in `nums`, return this repeated number. You must solve the problem without modifying the array `nums` and uses only constant extra space.|
+|[SeatManager.kt](./scripts/kotlin/SeatManager.kt)|Description is in the file|
 
 
 #### Linked list
