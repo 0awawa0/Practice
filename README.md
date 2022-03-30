@@ -278,6 +278,7 @@ Each script in kotlin folder is made to solve certain task.
 |[deleteDuplicates2](./scripts/kotlin/LinkedList/deleteDuplicates2.kt)|Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list. Return the linked list sorted as well.|
 |[copyRandomList](./scripts/kotlin/LinkedList/copyRandomList.kt)|Description in the file|
 |[addTwoNumbers](./scripts/kotlin/LinkedList/addTwoNumbers.kt)|You are given two non-empty linked lists representing two non-negative integers. The most significant digit comes first and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number `0` itself.|
+|[searchMatrix](./scripts/kotlin/searchMatrix.kt)|Write an efficient algorithm that searches for a value `target` in an `m x n` integer matrix `matrix`.|
 
 
 #### Tree
