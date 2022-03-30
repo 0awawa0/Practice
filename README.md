@@ -253,6 +253,7 @@ Each script in kotlin folder is made to solve certain task.
 |[SeatManager](./scripts/kotlin/SeatManager.kt)|Description is in the file|
 |[lemonadeChange](./scripts/kotlin/lemonadeChange.kt)|Description is in the file|
 |[searchMatrix](./scripts/kotlin/searchMatrix.kt)|Write an efficient algorithm that searches for a value `target` in an `m x n` integer matrix `matrix`.|
+|[NestedIterator](./scripts/kotlin/NestedIterator.kt)|Description is in the file|
 
 
 #### Linked list
