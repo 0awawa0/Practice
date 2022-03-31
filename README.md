@@ -254,6 +254,8 @@ Each script in kotlin folder is made to solve certain task.
 |[lemonadeChange](./scripts/kotlin/lemonadeChange.kt)|Description is in the file|
 |[searchMatrix](./scripts/kotlin/searchMatrix.kt)|Write an efficient algorithm that searches for a value `target` in an `m x n` integer matrix `matrix`.|
 |[NestedIterator](./scripts/kotlin/NestedIterator.kt)|Description is in the file|
+|[AuthenticationManager.kt](./scripts/kotlin/AuthenticationManager.kt)|Description is in the file|
+|[splitArray.kt](./scripts/kotlin/splitArray.kt)|Given an array `nums` which consists of non-negative integers and an integer `m`, you can split the array into `m` non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these `m` subarrays.|
 
 
 #### Linked list
