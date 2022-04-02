@@ -258,6 +258,8 @@ Each script in kotlin folder is made to solve certain task.
 |[splitArray](./scripts/kotlin/splitArray.kt)|Given an array `nums` which consists of non-negative integers and an integer `m`, you can split the array into `m` non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these `m` subarrays.|
 |[MyCalendar](./scripts/kotlin/MyCalendar.kt)|Description is in the file|
 |[RandomizedSet](./scripts/kotlin/RandomizedSet.kt)|Description is in the file|
+|[numberOfWays](./scripts/kotlin/numberOfWays.kt)|Description is in the file|
+|[triangularSum](./scripts/kotlin/triangularSum.kt)|Description is in the file|
 
 
 #### Linked list
