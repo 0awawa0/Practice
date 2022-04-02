@@ -311,3 +311,4 @@ Each script in kotlin folder is made to solve certain task.
 |[levelOrder](./scripts/kotlin/Tree/levelOrder.kt)|Given an `n`-ary tree, return the level order traversal of its nodes' values.|
 |[numOfMinutes](./scripts/kotlin/Tree/numOfMinutes.kt)|Description in the file|
 |[BSTIterator](./scripts/kotlin/Tree/BSTIterator.kt)|Description is in the file|
+|[getMinimumDifference](./scripts/kotlin/Tree/getMinimumDifference.kt)|Given the `root` of a Binary Search Tree (BST), return the minimum absolute difference between the values of any two different nodes in the tree.|
