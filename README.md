@@ -260,6 +260,10 @@ Each script in kotlin folder is made to solve certain task.
 |[RandomizedSet](./scripts/kotlin/RandomizedSet.kt)|Description is in the file|
 |[numberOfWays](./scripts/kotlin/numberOfWays.kt)|Description is in the file|
 |[triangularSum](./scripts/kotlin/triangularSum.kt)|Description is in the file|
+|[nextPermutation](./scripts/kotlin/nextPermutation.kt)|Description is in the file|
+|[convertTime](./scripts/kotlin/convertTime.kt)|Description is in the file|
+|[findWinners](./scripts/kotlin/findWinners.kt)|Description is in the file|
+|[maximumCandies](./scripts/kotlin/maximumCandies.kt)|You are given a `0`-indexed integer array `candies`. Each element in the array denotes a pile of candies of size `candies[i]`. You can divide each pile into any number of sub piles, but you cannot merge two piles together. You are also given an integer `k`. You should allocate piles of candies to `k` children such that each child gets the same number of candies. Each child can take at most one pile of candies and some piles of candies may go unused. Return the maximum number of candies each child can get.|
 
 
 #### Linked list
