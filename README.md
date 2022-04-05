@@ -291,6 +291,8 @@ Each script in kotlin folder is made to solve certain task.
 |[copyRandomList](./scripts/kotlin/LinkedList/copyRandomList.kt)|Description in the file|
 |[addTwoNumbers](./scripts/kotlin/LinkedList/addTwoNumbers.kt)|You are given two non-empty linked lists representing two non-negative integers. The most significant digit comes first and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number `0` itself.|
 |[swapNodes](./scripts/kotlin/LinkedList/swapNodes.kt)|You are given the head of a linked list, and an integer `k`. Return the head of the linked list after swapping the values of the `k`th node from the beginning and the `k`th node from the end (the list is 1-indexed).|
+|[reverseStr](./scripts/kotlin/reverseStr.kt)|Given a string `s` and an integer `k`, reverse the first `k` characters for every `2k` characters counting from the start of the string. If there are fewer than `k` characters left, reverse all of them. If there are less than `2k` but greater than or equal to `k` characters, then reverse the first `k` characters and leave the other as original.|
+|[checkRecord](./scripts/kotlin/checkRecord.kt)|Description is in the file|
 
 
 #### Tree
