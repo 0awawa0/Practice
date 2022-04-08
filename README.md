@@ -266,6 +266,8 @@ Each script in kotlin folder is made to solve certain task.
 |[maximumCandies](./scripts/kotlin/maximumCandies.kt)|You are given a `0`-indexed integer array `candies`. Each element in the array denotes a pile of candies of size `candies[i]`. You can divide each pile into any number of sub piles, but you cannot merge two piles together. You are also given an integer `k`. You should allocate piles of candies to `k` children such that each child gets the same number of candies. Each child can take at most one pile of candies and some piles of candies may go unused. Return the maximum number of candies each child can get.|
 |[threeSumMulti](./scripts/kotlin/threeSumMulti.kt)|Given an integer array `arr`, and an integer `target`, return the number of tuples `i`, `j`, `k` such that `i < j < k` and `arr[i] + arr[j] + arr[k] == target`. As the answer can be very large, return it modulo `10^9 + 7`.|
 |[lastStoneWieght](./scripts/kotlin/lastStoneWeight.kt)|Description is in the file|
+|[KthLargest](./scripts/kotlin/KthLargest.kt)|Description is in the file|
+|[numIslands](./scripts/kotlin/numIslands.kt)|Given an `m x n` 2D binary grid grid which represents a map of `'1'`s (land) and `'0'`s (water), return the number of islands.|
 
 
 #### Linked list
