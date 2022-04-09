@@ -268,6 +268,7 @@ Each script in kotlin folder is made to solve certain task.
 |[lastStoneWieght](./scripts/kotlin/lastStoneWeight.kt)|Description is in the file|
 |[KthLargest](./scripts/kotlin/KthLargest.kt)|Description is in the file|
 |[numIslands](./scripts/kotlin/numIslands.kt)|Given an `m x n` 2D binary grid grid which represents a map of `'1'`s (land) and `'0'`s (water), return the number of islands.|
+|[topKFrequent](./scripts/kotlin/topKFrequent.kt)|Given an integer array `nums` and an integer `k`, return the `k` most frequent elements. You may return the answer in any order.|
 
 
 #### Linked list
