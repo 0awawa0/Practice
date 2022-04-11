@@ -269,6 +269,7 @@ Each script in kotlin folder is made to solve certain task.
 |[KthLargest](./scripts/kotlin/KthLargest.kt)|Description is in the file|
 |[numIslands](./scripts/kotlin/numIslands.kt)|Given an `m x n` 2D binary grid grid which represents a map of `'1'`s (land) and `'0'`s (water), return the number of islands.|
 |[topKFrequent](./scripts/kotlin/topKFrequent.kt)|Given an integer array `nums` and an integer `k`, return the `k` most frequent elements. You may return the answer in any order.|
+|[shiftGrid](./scripts/kotlin/shiftGrid.kt)|Given a 2D grid of size `m x n` and an integer `k`. You need to shift the grid `k` times. Return the 2D grid after applying shift operation `k` times.|
 
 
 #### Linked list
