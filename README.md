@@ -270,6 +270,10 @@ Each script in kotlin folder is made to solve certain task.
 |[numIslands](./scripts/kotlin/numIslands.kt)|Given an `m x n` 2D binary grid grid which represents a map of `'1'`s (land) and `'0'`s (water), return the number of islands.|
 |[topKFrequent](./scripts/kotlin/topKFrequent.kt)|Given an integer array `nums` and an integer `k`, return the `k` most frequent elements. You may return the answer in any order.|
 |[shiftGrid](./scripts/kotlin/shiftGrid.kt)|Given a 2D grid of size `m x n` and an integer `k`. You need to shift the grid `k` times. Return the 2D grid after applying shift operation `k` times.|
+|[calPoints](./scripts/kotlin/calPoints.kt)|Description is in the file|
+|[minimizeResult](./scripts/kotlin/minimizeResult.kt)|Description is in the file|
+|[maximumProduct](./scripts/kotlin/maximumProduct.kt)|You are given an array of non-negative integers `nums` and an integer `k`. In one operation, you may choose any element from `nums` and increment it by `1`. Return the maximum product of `nums` after at most `k` operations. Since the answer may be very large, return it modulo `10^9 + 7`.|
+|[largestInteger](./scripts/kotlin/largestInteger.kt)|You are given a positive integer `num`. You may swap any two digits of `num` that have the same parity (i.e. both odd digits or both even digits). Return the largest possible value of `num` after any number of swaps.|
 
 
 #### Linked list
