@@ -275,6 +275,7 @@ Each script in kotlin folder is made to solve certain task.
 |[maximumProduct](./scripts/kotlin/maximumProduct.kt)|You are given an array of non-negative integers `nums` and an integer `k`. In one operation, you may choose any element from `nums` and increment it by `1`. Return the maximum product of `nums` after at most `k` operations. Since the answer may be very large, return it modulo `10^9 + 7`.|
 |[largestInteger](./scripts/kotlin/largestInteger.kt)|You are given a positive integer `num`. You may swap any two digits of `num` that have the same parity (i.e. both odd digits or both even digits). Return the largest possible value of `num` after any number of swaps.|
 |[gameOfLife](./scripts/kotlin/gameOfLife.kt)|Description is in the file|
+|[generateMatrix](./scripts/kotlin/generateMatrix.kt)|Given a positive integer `n`, generate an `n x n` matrix filled with elements from `1` to `n^2` in spiral order.|
 
 
 #### Linked list
