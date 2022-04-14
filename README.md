@@ -333,3 +333,4 @@ Each script in kotlin folder is made to solve certain task.
 |[numOfMinutes](./scripts/kotlin/Tree/numOfMinutes.kt)|Description in the file|
 |[BSTIterator](./scripts/kotlin/Tree/BSTIterator.kt)|Description is in the file|
 |[getMinimumDifference](./scripts/kotlin/Tree/getMinimumDifference.kt)|Given the `root` of a Binary Search Tree (BST), return the minimum absolute difference between the values of any two different nodes in the tree.|
+|[searchBST](./scripts/kotlin/Tree/searchBST.kt)|You are given the root of a binary search tree (BST) and an integer `val`. Find the node in the BST that the node's value equals `val` and return the subtree rooted with that node. If such a node does not exist, return `null`.|
