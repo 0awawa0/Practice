@@ -276,6 +276,7 @@ Each script in kotlin folder is made to solve certain task.
 |[largestInteger](./scripts/kotlin/largestInteger.kt)|You are given a positive integer `num`. You may swap any two digits of `num` that have the same parity (i.e. both odd digits or both even digits). Return the largest possible value of `num` after any number of swaps.|
 |[gameOfLife](./scripts/kotlin/gameOfLife.kt)|Description is in the file|
 |[generateMatrix](./scripts/kotlin/generateMatrix.kt)|Given a positive integer `n`, generate an `n x n` matrix filled with elements from `1` to `n^2` in spiral order.|
+|[findPeakElement](./scripts/kotlin/findPeakElement.kt)|A peak element is an element that is strictly greater than its neighbors. Given an integer array `nums`, find a peak element, and return its index. If the array contains multiple peaks, return the index to any of the peaks. You may imagine that `nums[-1] = nums[n] = -∞`. You must write an algorithm that runs in `O(log n)` time.|
 
 
 #### Linked list
@@ -334,3 +335,4 @@ Each script in kotlin folder is made to solve certain task.
 |[BSTIterator](./scripts/kotlin/Tree/BSTIterator.kt)|Description is in the file|
 |[getMinimumDifference](./scripts/kotlin/Tree/getMinimumDifference.kt)|Given the `root` of a Binary Search Tree (BST), return the minimum absolute difference between the values of any two different nodes in the tree.|
 |[searchBST](./scripts/kotlin/Tree/searchBST.kt)|You are given the root of a binary search tree (BST) and an integer `val`. Find the node in the BST that the node's value equals `val` and return the subtree rooted with that node. If such a node does not exist, return `null`.|
+|[trimBST](./scripts/kotlin/Tree/trimBST.kt)|Given the root of a binary search tree and the lowest and highest boundaries as `low` and `high`, trim the tree so that all its elements lies in `[low, high]`. Trimming the tree should not change the relative structure of the elements that will remain in the tree (i.e., any node's descendant should remain a descendant). It can be proven that there is a unique answer. Return the root of the trimmed binary search tree. Note that the root may change depending on the given bounds.|
