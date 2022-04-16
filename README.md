@@ -277,6 +277,9 @@ Each script in kotlin folder is made to solve certain task.
 |[gameOfLife](./scripts/kotlin/gameOfLife.kt)|Description is in the file|
 |[generateMatrix](./scripts/kotlin/generateMatrix.kt)|Given a positive integer `n`, generate an `n x n` matrix filled with elements from `1` to `n^2` in spiral order.|
 |[findPeakElement](./scripts/kotlin/findPeakElement.kt)|A peak element is an element that is strictly greater than its neighbors. Given an integer array `nums`, find a peak element, and return its index. If the array contains multiple peaks, return the index to any of the peaks. You may imagine that `nums[-1] = nums[n] = -∞`. You must write an algorithm that runs in `O(log n)` time.|
+|[findClosestNumber](./scripts/kotlin/findClosestNumber.kt)|Given an integer array `nums` of size `n`, return the number with the value closest to `0` in `nums`. If there are multiple answers, return the number with the largest value.|
+|[ATM](./scripts/kotlin/ATM.kt)|Description is in the file|
+|[waysToBuyPensPencils](./scripts/kotlin/waysToBuyPensPencils.kt)|You are given an integer `total` indicating the amount of money you have. You are also given two integers `cost1` and `cost2` indicating the price of a pen and pencil respectively. You can spend part or all of your money to buy multiple quantities (or none) of each kind of writing utensil. Return the number of distinct ways you can buy some number of pens and pencils.|
 
 
 #### Linked list
