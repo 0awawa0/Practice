@@ -280,6 +280,9 @@ Each script in kotlin folder is made to solve certain task.
 |[findClosestNumber](./scripts/kotlin/findClosestNumber.kt)|Given an integer array `nums` of size `n`, return the number with the value closest to `0` in `nums`. If there are multiple answers, return the number with the largest value.|
 |[ATM](./scripts/kotlin/ATM.kt)|Description is in the file|
 |[waysToBuyPensPencils](./scripts/kotlin/waysToBuyPensPencils.kt)|You are given an integer `total` indicating the amount of money you have. You are also given two integers `cost1` and `cost2` indicating the price of a pen and pencil respectively. You can spend part or all of your money to buy multiple quantities (or none) of each kind of writing utensil. Return the number of distinct ways you can buy some number of pens and pencils.|
+|[minimumRounds](./scripts/kotlin/minimumRounds.kt)|You are given a `0`-indexed integer array `tasks`, where `tasks[i]` represents the difficulty level of a task. In each round, you can complete either `2` or `3` tasks of the same difficulty level. Return the minimum rounds required to complete all the tasks, or `-1` if it is not possible to complete all the tasks.|
+|[digitSum](./scripts/kotlin/digitSum.kt)|Description is in the file|
+|[backspaceCompare](./scripts/kotlin/backspaceCompare.kt)|Given two strings `s` and `t`, return `true` if they are equal when both are typed into empty text editors. `'#'` means a backspace character. Note that after backspacing an empty text, the text will continue empty.|
 
 
 #### Linked list
@@ -340,3 +343,4 @@ Each script in kotlin folder is made to solve certain task.
 |[searchBST](./scripts/kotlin/Tree/searchBST.kt)|You are given the root of a binary search tree (BST) and an integer `val`. Find the node in the BST that the node's value equals `val` and return the subtree rooted with that node. If such a node does not exist, return `null`.|
 |[trimBST](./scripts/kotlin/Tree/trimBST.kt)|Given the root of a binary search tree and the lowest and highest boundaries as `low` and `high`, trim the tree so that all its elements lies in `[low, high]`. Trimming the tree should not change the relative structure of the elements that will remain in the tree (i.e., any node's descendant should remain a descendant). It can be proven that there is a unique answer. Return the root of the trimmed binary search tree. Note that the root may change depending on the given bounds.|
 |[convertBST](./scripts/kotlin/Tree/convertBST.kt)|Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus the sum of all keys greater than the original key in BST.|
+|[increasingBST](./scripts/kotlin/Tree/increasingBST.kt)|Given the root of a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.|
