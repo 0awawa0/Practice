@@ -283,6 +283,7 @@ Each script in kotlin folder is made to solve certain task.
 |[minimumRounds](./scripts/kotlin/minimumRounds.kt)|You are given a `0`-indexed integer array `tasks`, where `tasks[i]` represents the difficulty level of a task. In each round, you can complete either `2` or `3` tasks of the same difficulty level. Return the minimum rounds required to complete all the tasks, or `-1` if it is not possible to complete all the tasks.|
 |[digitSum](./scripts/kotlin/digitSum.kt)|Description is in the file|
 |[backspaceCompare](./scripts/kotlin/backspaceCompare.kt)|Given two strings `s` and `t`, return `true` if they are equal when both are typed into empty text editors. `'#'` means a backspace character. Note that after backspacing an empty text, the text will continue empty.|
+|[minSubArrayLen](./scripts/kotlin/minSubArrayLen.kt)|Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a contiguous subarray `[numsl, numsl+1, ..., numsr-1, numsr]` of which the sum is greater than or equal to `target`. If there is no such subarray, return `0` instead.|
 
 
 #### Linked list
@@ -344,3 +345,4 @@ Each script in kotlin folder is made to solve certain task.
 |[trimBST](./scripts/kotlin/Tree/trimBST.kt)|Given the root of a binary search tree and the lowest and highest boundaries as `low` and `high`, trim the tree so that all its elements lies in `[low, high]`. Trimming the tree should not change the relative structure of the elements that will remain in the tree (i.e., any node's descendant should remain a descendant). It can be proven that there is a unique answer. Return the root of the trimmed binary search tree. Note that the root may change depending on the given bounds.|
 |[convertBST](./scripts/kotlin/Tree/convertBST.kt)|Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus the sum of all keys greater than the original key in BST.|
 |[increasingBST](./scripts/kotlin/Tree/increasingBST.kt)|Given the root of a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.|
+|[kthSmallest](./scripts/kotlin/Tree/kthSmallest.kt)|Given the root of a binary search tree, and an integer `k`, return the `k`th smallest value (`1`-indexed) of all the values of the nodes in the tree.|
