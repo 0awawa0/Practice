@@ -284,6 +284,7 @@ Each script in kotlin folder is made to solve certain task.
 |[digitSum](./scripts/kotlin/digitSum.kt)|Description is in the file|
 |[backspaceCompare](./scripts/kotlin/backspaceCompare.kt)|Given two strings `s` and `t`, return `true` if they are equal when both are typed into empty text editors. `'#'` means a backspace character. Note that after backspacing an empty text, the text will continue empty.|
 |[minSubArrayLen](./scripts/kotlin/minSubArrayLen.kt)|Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a contiguous subarray `[numsl, numsl+1, ..., numsr-1, numsr]` of which the sum is greater than or equal to `target`. If there is no such subarray, return `0` instead.|
+|[findCircleNum](./scripts/kotlin/findCircleNum.kt)|Description is in the file|
 
 
 #### Linked list
@@ -346,3 +347,4 @@ Each script in kotlin folder is made to solve certain task.
 |[convertBST](./scripts/kotlin/Tree/convertBST.kt)|Given the root of a Binary Search Tree (BST), convert it to a Greater Tree such that every key of the original BST is changed to the original key plus the sum of all keys greater than the original key in BST.|
 |[increasingBST](./scripts/kotlin/Tree/increasingBST.kt)|Given the root of a binary search tree, rearrange the tree in in-order so that the leftmost node in the tree is now the root of the tree, and every node has no left child and only one right child.|
 |[kthSmallest](./scripts/kotlin/Tree/kthSmallest.kt)|Given the root of a binary search tree, and an integer `k`, return the `k`th smallest value (`1`-indexed) of all the values of the nodes in the tree.|
+|[recoverTree](./scripts/kotlin/Tree/recoverTree.kt)|You are given the root of a binary search tree (BST), where the values of exactly two nodes of the tree were swapped by mistake. Recover the tree without changing its structure.|
