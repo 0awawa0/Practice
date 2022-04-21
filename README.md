@@ -285,6 +285,7 @@ Each script in kotlin folder is made to solve certain task.
 |[backspaceCompare](./scripts/kotlin/backspaceCompare.kt)|Given two strings `s` and `t`, return `true` if they are equal when both are typed into empty text editors. `'#'` means a backspace character. Note that after backspacing an empty text, the text will continue empty.|
 |[minSubArrayLen](./scripts/kotlin/minSubArrayLen.kt)|Given an array of positive integers `nums` and a positive integer `target`, return the minimal length of a contiguous subarray `[numsl, numsl+1, ..., numsr-1, numsr]` of which the sum is greater than or equal to `target`. If there is no such subarray, return `0` instead.|
 |[findCircleNum](./scripts/kotlin/findCircleNum.kt)|Description is in the file|
+|[shortestPathBinaryMatrix](./scripts/kotlin/shortestPathBinaryMatrix.kt)|Description is in the file|
 
 
 #### Linked list
