@@ -287,7 +287,10 @@ Each script in kotlin folder is made to solve certain task.
 |[findCircleNum](./scripts/kotlin/findCircleNum.kt)|Description is in the file|
 |[shortestPathBinaryMatrix](./scripts/kotlin/shortestPathBinaryMatrix.kt)|Description is in the file|
 |[MyHashMap](./scripts/kotlin/MyHashMap.kt)|Description is in the file|
-|[subsetsWithDup.kt](./scripts/kotlin/subsetsWithDup.kt)|Given an integer array `nums` that may contain duplicates, return all possible subsets (the power set). The solution set must not contain duplicate subsets. Return the solution in any order.|
+|[subsetsWithDup](./scripts/kotlin/subsetsWithDup.kt)|Given an integer array `nums` that may contain duplicates, return all possible subsets (the power set). The solution set must not contain duplicate subsets. Return the solution in any order.|
+|[Codec](./scripts/kotlin/Codec.kt)|Description is in the file|
+|[permuteUnique](./scripts/kotlin/permuteUnique.kt)|Given a collection of numbers, `nums`, that might contain duplicates, return all possible unique permutations in any order.|
+|[combinationSum2](./scripts/kotlin/combinationSum2.kt)|Description is in the file|
 
 
 #### Linked list
