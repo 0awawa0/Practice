@@ -9,12 +9,6 @@ You will excavate some cells of the grid and remove all the mud from them. If th
 
 Given a 0-indexed 2D integer array dig where dig[i] = [ri, ci] indicates that you will excavate the cell (ri, ci), return the number of artifacts that you can extract.
 
-The test cases are generated such that:
-
-    + No two artifacts overlap.
-    + Each artifact only covers at most 4 cells.
-    + The entries of dig are unique.
-
 */
 
 fun digArtifacts(n: Int, artifacts: Array<IntArray>, dig: Array<IntArray>): Int {
