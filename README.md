@@ -291,6 +291,10 @@ Each script in kotlin folder is made to solve certain task.
 |[Codec](./scripts/kotlin/Codec.kt)|Description is in the file|
 |[permuteUnique](./scripts/kotlin/permuteUnique.kt)|Given a collection of numbers, `nums`, that might contain duplicates, return all possible unique permutations in any order.|
 |[combinationSum2](./scripts/kotlin/combinationSum2.kt)|Description is in the file|
+|[UndergroundSystem](./scripts/kotlin/UndergroundSystem.kt)|Description is in the file|
+|[letterCombinations](./scripts/kotlin/letterCombinations.kt)|Given a string containing digits from `2-9` inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.|
+|[generateParenthesis](./scripts/kotlin/generateParenthesis.kt)|Given `n` pairs of parentheses, write a function to generate all combinations of well-formed parentheses.|
+|[exist](./scripts/kotlin/exist.kt)|Given an `m x n` grid of characters board and a string `word`, return `true` if word exists in the grid. The `word` can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.|
 
 
 #### Linked list
