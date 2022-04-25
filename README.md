@@ -206,6 +206,7 @@ Topics:
 |[MyHashMap](./scripts/kotlin/General/MyHashMap.kt)|Description is in the file|
 |[Codec](./scripts/kotlin/General/Codec.kt)|Description is in the file|
 |[UndergroundSystem](./scripts/kotlin//General/UndergroundSystem.kt)|Description is in the file|
+|[PeekingIterator](./scripts/kotlin/General/PeekingIterator.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -222,6 +223,7 @@ Topics:
 |[allPathsFromSourceToTarget](./scripts/kotlin/DFS&BFS/allPathsFromSourceToTarget.kt)| Given a directed acyclic graph (DAG) of n nodes labeled from `0` to `n - 1`, find all possible paths from node `0` to node `n - 1` and return them in any order. The graph is given as follows: `graph[i]` is a list of all nodes you can visit from node `i` (i.e., there is a directed edge from node `i` to node `graph[i][j]`).|
 |[uniquePaths](./scripts/kotlin/DFS&BFS/uniquePaths.kt)|You are given an `m x n` integer array grid where `grid[i][j]` could be: `1` representing the starting square. There is exactly one starting square. `2` representing the ending square. There is exactly one ending square. `0` representing empty squares we can walk over. `-1` representing obstacles that we cannot walk over. Return the number of 4-directional walks from the starting square to the ending square, that walk over every non-obstacle square exactly once.|
 |[sumRootToLeafNumbers](./scripts/kotlin/DFS&BFS/sumRootToLeafNumbers.kt)|You are given the root of a binary tree containing digits from `0` to `9` only. Each root-to-leaf path in the tree represents a number. For example, the root-to-leaf path `1 -> 2 -> 3` represents the number `123`. Return the total sum of all root-to-leaf numbers. Test cases are generated so that the answer will fit in a 32-bit integer. A leaf node is a node with no children.|
+|[jumpGame3](./scripts/kotlin/DFS%26BFS/jumpGame3.kt)|Given an array of non-negative integers `arr`, you are initially positioned at `start` index of the array. When you are at index `i`, you can jump to `i + arr[i]` or `i - arr[i]`, check if you can reach to any index with value `0`. Notice that you can not jump outside of the array at any time.|
 
 #### Stack
 
@@ -321,6 +323,10 @@ Topics:
 |[rottingOranges](./scripts/kotlin/DynamicProgramming/rottingOranges.kt)|You are given an `m x n` grid where each cell can have one of three values: `0` representing an empty cell, `1` representing a fresh orange, or `2` representing a rotten orange. Every minute, any fresh orange that is 4-directionally adjacent to a rotten orange becomes rotten. Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return `-1`.|
 |[nearestZeros](./scripts/kotlin/DynamicProgramming/nearestZeros.kt)|Given an `m x n` binary matrix mat, return the distance of the nearest `0` for each cell. The distance between two adjacent cells is `1`.|
 |[maxIslandArea](./scripts/kotlin/DynamicProgramming/maxIslandArea.kt)|You are given an m x n binary matrix grid. An island is a group of 1's (representing land) connected 4-directionally (horizontal or vertical.) You may assume all four edges of the grid are surrounded by water. The area of an island is the number of cells with a value `1` in the island. Return the maximum area of an island in grid. If there is no island, return `0`.|
+|[houseRobber](./scripts/kotlin/DynamicProgramming/houseRobber.kt)|You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and it will automatically contact the police if two adjacent houses were broken into on the same night. Given an integer array `nums` representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.|
+|[houseRobber2](./scripts/kotlin/DynamicProgramming/houseRobber2.kt)]|You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are arranged in a circle. That means the first house is the neighbor of the last one. Meanwhile, adjacent houses have a security system connected, and it will automatically contact the police if two adjacent houses were broken into on the same night. Given an integer array `nums` representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.|
+|[jumpGame](./scripts/kotlin/DynamicProgramming/jumpGame.kt)|You are given an integer array `nums`. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position. Return `true` if you can reach the last index, or `false` otherwise.|
+|[jumpGame2](./scripts/kotlin/DynamicProgramming/jumpGame2.kt)|Given an array of non-negative integers `nums`, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Your goal is to reach the last index in the minimum number of jumps. You can assume that you can always reach the last index.|
 
 #### Backtracking
 
