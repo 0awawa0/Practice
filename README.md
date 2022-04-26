@@ -274,6 +274,7 @@ Topics:
 |[halveArray](./scripts/kotlin/PriorityQueue/halveArray.kt)|You are given an array `nums` of positive integers. In one operation, you can choose any number from `nums` and reduce it to exactly half the number. (Note that you may choose this reduced number in future operations.) Return the minimum number of operations to reduce the sum of `nums` by at least half.|
 |[highestRankedKItems](./scripts/kotlin/PriorityQueue/highestRankedKItems.kt)|Description is inside the code file|
 |[carPooling](./scripts/kotlin/PriorityQueue/carPooling.kt)|There is a car with `capacity` empty seats. The vehicle only drives east (i.e., it cannot turn around and drive west). You are given the integer `capacity` and an array `trips` where `trip[i] = [numPassengersi, fromi, toi]` indicates that the `ith` trip has `numPassengersi` passengers and the locations to pick them up and drop them off are `fromi` and `toi` respectively. The locations are given as the number of kilometers due east from the car's initial location. Return `true` if it is possible to pick up and drop off all passengers for all the given trips, or `false` otherwise.|
+|[minCostPriorityQueue](./scripts/kotlin/PriorityQueue/minCostConnectPoints.kt)|Description is in the file|
 
 #### Math
 
