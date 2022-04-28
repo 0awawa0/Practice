@@ -276,6 +276,7 @@ Topics:
 |[highestRankedKItems](./scripts/kotlin/PriorityQueue/highestRankedKItems.kt)|Description is inside the code file|
 |[carPooling](./scripts/kotlin/PriorityQueue/carPooling.kt)|There is a car with `capacity` empty seats. The vehicle only drives east (i.e., it cannot turn around and drive west). You are given the integer `capacity` and an array `trips` where `trip[i] = [numPassengersi, fromi, toi]` indicates that the `ith` trip has `numPassengersi` passengers and the locations to pick them up and drop them off are `fromi` and `toi` respectively. The locations are given as the number of kilometers due east from the car's initial location. Return `true` if it is possible to pick up and drop off all passengers for all the given trips, or `false` otherwise.|
 |[minCostPriorityQueue](./scripts/kotlin/PriorityQueue/minCostConnectPoints.kt)|Description is in the file|
+|[minimumEffortPath](./scripts/kotlin/PriorityQueue/minimumEffortPath.kt)|Description is in the file|
 
 #### Math
 
@@ -329,6 +330,8 @@ Topics:
 |[houseRobber2](./scripts/kotlin/DynamicProgramming/houseRobber2.kt)]|You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed. All houses at this place are arranged in a circle. That means the first house is the neighbor of the last one. Meanwhile, adjacent houses have a security system connected, and it will automatically contact the police if two adjacent houses were broken into on the same night. Given an integer array `nums` representing the amount of money of each house, return the maximum amount of money you can rob tonight without alerting the police.|
 |[jumpGame](./scripts/kotlin/DynamicProgramming/jumpGame.kt)|You are given an integer array `nums`. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position. Return `true` if you can reach the last index, or `false` otherwise.|
 |[jumpGame2](./scripts/kotlin/DynamicProgramming/jumpGame2.kt)|Given an array of non-negative integers `nums`, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Your goal is to reach the last index in the minimum number of jumps. You can assume that you can always reach the last index.|
+|[numDecodings](./scripts/kotlin/DynamicProgramming/numDecodings.kt)|Description is in the file|
+|[wodBreak](./scripts/kotlin/DynamicProgramming/wordBreak.kt)|Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` can be segmented into a space-separated sequence of one or more dictionary words.|
 
 #### Backtracking
 
