@@ -225,6 +225,7 @@ Topics:
 |[sumRootToLeafNumbers](./scripts/kotlin/DFS&BFS/sumRootToLeafNumbers.kt)|You are given the root of a binary tree containing digits from `0` to `9` only. Each root-to-leaf path in the tree represents a number. For example, the root-to-leaf path `1 -> 2 -> 3` represents the number `123`. Return the total sum of all root-to-leaf numbers. Test cases are generated so that the answer will fit in a 32-bit integer. A leaf node is a node with no children.|
 |[jumpGame3](./scripts/kotlin/DFS%26BFS/jumpGame3.kt)|Given an array of non-negative integers `arr`, you are initially positioned at `start` index of the array. When you are at index `i`, you can jump to `i + arr[i]` or `i - arr[i]`, check if you can reach to any index with value `0`. Notice that you can not jump outside of the array at any time.|
 |[smallestStringWtihSwapes](./scripts/kotlin/DFS%26BFS/smallestStringWithSwapes.kt)|You are given a string `s`, and an array of pairs of indices in the string `pairs` where `pairs[i] = [a, b]` indicates 2 indices(`0`-indexed) of the string. You can swap the characters at any pair of indices in the given `pairs` any number of times. Return the lexicographically smallest string that `s` can be changed to after using the swaps.|
+|[isBipartite](./scripts/kotlin/DFS%26BFS/isBipartite.kt)|Description is in the file|
 
 #### Stack
 
@@ -332,6 +333,7 @@ Topics:
 |[jumpGame2](./scripts/kotlin/DynamicProgramming/jumpGame2.kt)|Given an array of non-negative integers `nums`, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Your goal is to reach the last index in the minimum number of jumps. You can assume that you can always reach the last index.|
 |[numDecodings](./scripts/kotlin/DynamicProgramming/numDecodings.kt)|Description is in the file|
 |[wodBreak](./scripts/kotlin/DynamicProgramming/wordBreak.kt)|Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` can be segmented into a space-separated sequence of one or more dictionary words.|
+|[findNumberOfLIS](./scripts/kotlin/DynamicProgramming/findNumberOfLIS.kt)|Given an integer array `nums`, return the number of longest increasing subsequences.|
 
 #### Backtracking
 
@@ -355,6 +357,7 @@ Topics:
 |[minimumDeletions](./scripts/kotlin/BinarySearch/minimumDeletions.kt)|You are given a 0-indexed array of distinct integers nums. There is an element in nums that has the lowest value and an element that has the highest value. We call them the minimum and maximum respectively. Your goal is to remove both these elements from the array. A deletion is defined as either removing an element from the front of the array or removing an element from the back of the array. Return the minimum number of deletions it would take to remove both the minimum and maximum element from the array.|
 |[searchInRotatedSortedArray](./scripts/kotlin/BinarySearch/searchInRotatedSortedArray.kt)|There is an integer array nums sorted in ascending order (with distinct values). Prior to being passed to your function, nums is rotated at an unknown pivot index `k` (`0 <= k < nums.length`) such that the resulting array is `[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]` (`0`-indexed). For example, `[0,1,2,4,5,6,7]` might be rotated at pivot index `3` and become `[4,5,6,7,0,1,2]`. Given the array `nums` after the rotation and an integer `target`, return the index of `target` if it is in `nums`, or `-1` if it is not in `nums`. You must write an algorithm with `O(log n)` runtime complexity.|
 |[peakIndexInMountainArray](./scripts/kotlin/BinarySearch/peakIndexInMountainArray.kt)|Given an integer array arr that is guaranteed to be a mountain, return any `i` such that `arr[0] < arr[1] < ... arr[i - 1] < arr[i] > arr[i + 1] > ... > arr[arr.length - 1]`.|
+|[lengthOfLIS](./scripts/kotlin/BinarySearch/lengthOfLIS.kt)|Given an integer array `nums`, return the length of the longest strictly increasing subsequence.|
 
 #### Linked list
 | File | Task |
