@@ -207,6 +207,8 @@ Topics:
 |[Codec](./scripts/kotlin/General/Codec.kt)|Description is in the file|
 |[UndergroundSystem](./scripts/kotlin//General/UndergroundSystem.kt)|Description is in the file|
 |[PeekingIterator](./scripts/kotlin/General/PeekingIterator.kt)|Description is in the file|
+|[minimumAverageDifference](./scripts/kotlin/General/minimumAverageDifference.kt)|Description is in the file|
+|[countUnguarded](./scripts/kotlin/General/countUnguarded.kt)|Description is in the file|
 
 #### DFS & BFS
 
