@@ -226,6 +226,7 @@ Topics:
 |[jumpGame3](./scripts/kotlin/DFS%26BFS/jumpGame3.kt)|Given an array of non-negative integers `arr`, you are initially positioned at `start` index of the array. When you are at index `i`, you can jump to `i + arr[i]` or `i - arr[i]`, check if you can reach to any index with value `0`. Notice that you can not jump outside of the array at any time.|
 |[smallestStringWtihSwapes](./scripts/kotlin/DFS%26BFS/smallestStringWithSwapes.kt)|You are given a string `s`, and an array of pairs of indices in the string `pairs` where `pairs[i] = [a, b]` indicates 2 indices(`0`-indexed) of the string. You can swap the characters at any pair of indices in the given `pairs` any number of times. Return the lexicographically smallest string that `s` can be changed to after using the swaps.|
 |[isBipartite](./scripts/kotlin/DFS%26BFS/isBipartite.kt)|Description is in the file|
+|[calcEquation](./scripts/kotlin/DFS%26BFS/calcEquation.kt)|You are given an array of variable pairs equations and an array of real numbers values, where `equations[i] = [Ai, Bi]` and `values[i]` represent the equation `Ai / Bi = values[i]`. Each `Ai` or `Bi` is a string that represents a single variable. You are also given some queries, where `queries[j] = [Cj, Dj]` represents the `j`th query where you must find the answer for `Cj / Dj = ?`. Return the answers to all queries. If a single answer cannot be determined, return `-1.0`.|
 
 #### Stack
 
@@ -334,6 +335,8 @@ Topics:
 |[numDecodings](./scripts/kotlin/DynamicProgramming/numDecodings.kt)|Description is in the file|
 |[wodBreak](./scripts/kotlin/DynamicProgramming/wordBreak.kt)|Given a string `s` and a dictionary of strings `wordDict`, return `true` if `s` can be segmented into a space-separated sequence of one or more dictionary words.|
 |[findNumberOfLIS](./scripts/kotlin/DynamicProgramming/findNumberOfLIS.kt)|Given an integer array `nums`, return the number of longest increasing subsequences.|
+|[longestCommonSubsequence](./scripts/kotlin/DynamicProgramming/longestCommonSubsequence.kt)|Given two strings `text1` and `text2`, return the length of their longest common subsequence. If there is no common subsequence, return `0`. A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters. A common subsequence of two strings is a subsequence that is common to both strings.|
+|[minDistance](./scripts/kotlin/DynamicProgramming/minDistance.kt)|Given two strings `word1` and `word2`, return the minimum number of steps required to make `word1` and `word2` the same. In one step, you can delete exactly one character in either string.|
 
 #### Backtracking
 
