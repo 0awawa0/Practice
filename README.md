@@ -209,6 +209,8 @@ Topics:
 |[PeekingIterator](./scripts/kotlin/General/PeekingIterator.kt)|Description is in the file|
 |[minimumAverageDifference](./scripts/kotlin/General/minimumAverageDifference.kt)|Description is in the file|
 |[countUnguarded](./scripts/kotlin/General/countUnguarded.kt)|Description is in the file|
+|[removeDigit](./scripts/kotlin/General/removeDigit.kt)|You are given a string `number` representing a positive integer and a character `digit`. Return the resulting string after removing exactly one occurrence of `digit` from `number` such that the value of the resulting string in decimal form is maximized.|
+|[countDistinct](./scripts/kotlin/General/countDistinct.kt)|Given an integer array `nums` and two integers `k` and `p`, return the number of distinct subarrays which have at most `k` elements divisible by `p`.|
 
 #### DFS & BFS
 
@@ -314,6 +316,7 @@ Topics:
 |[combinations](./scripts/kotlin/Math/combinations.kt)|Efficient calculation of number of combinations of `r` elements from `n`|
 |[judgeSquareSum](./scripts/kotlin/Math/judgeSquareSum.kt)|Given a non-negative integer `c`, decide whether there're two integers `a` and `b` such that `a^2+b^2=c`.|
 |[hammingDistance](./scripts/kotlin/Math/hammingDistance.kt)|The Hamming distance between two integers is the number of positions at which the corresponding bits are different. Given two integers x and y, calculate the Hamming distance.|
+|[integerBreak](./scripts/kotlin/Math/integerBreak.kt)|Given an integer `n`, break it into the `sum` of `k` positive integers, where `k >= 2`, and maximize the product of those integers. Return the maximum product you can get.|
 
 #### DynamicProgramming
 
@@ -339,6 +342,9 @@ Topics:
 |[findNumberOfLIS](./scripts/kotlin/DynamicProgramming/findNumberOfLIS.kt)|Given an integer array `nums`, return the number of longest increasing subsequences.|
 |[longestCommonSubsequence](./scripts/kotlin/DynamicProgramming/longestCommonSubsequence.kt)|Given two strings `text1` and `text2`, return the length of their longest common subsequence. If there is no common subsequence, return `0`. A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters. A common subsequence of two strings is a subsequence that is common to both strings.|
 |[minDistance](./scripts/kotlin/DynamicProgramming/minDistance.kt)|Given two strings `word1` and `word2`, return the minimum number of steps required to make `word1` and `word2` the same. In one step, you can delete exactly one character in either string.|
+|[coinChange](./scripts/kotlin/DynamicProgramming/coinChange.kt)|You are given an integer array `coins` representing coins of different denominations and an integer `amount` representing a total amount of money. Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return `-1`. You may assume that you have an infinite number of each kind of coin.|
+|[editDistance](./scripts/kotlin/DynamicProgramming/editDistance.kt)|Description is in the file|
+|[minimumCardPickup](./scripts/kotlin/DynamicProgramming/minimumCardPickup.kt)|You are given an integer array `cards` where `cards[i]` represents the value of the `i`th card. A pair of cards are matching if the cards have the same value. Return the minimum number of consecutive cards you have to pick up to have a pair of matching cards among the picked cards. If it is impossible to have matching cards, return `-1`.
 
 #### Backtracking
 
