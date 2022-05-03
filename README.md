@@ -211,6 +211,8 @@ Topics:
 |[countUnguarded](./scripts/kotlin/General/countUnguarded.kt)|Description is in the file|
 |[removeDigit](./scripts/kotlin/General/removeDigit.kt)|You are given a string `number` representing a positive integer and a character `digit`. Return the resulting string after removing exactly one occurrence of `digit` from `number` such that the value of the resulting string in decimal form is maximized.|
 |[countDistinct](./scripts/kotlin/General/countDistinct.kt)|Given an integer array `nums` and two integers `k` and `p`, return the number of distinct subarrays which have at most `k` elements divisible by `p`.|
+|[shuffleAnArray](./scripts/kotlin/General/shuffleAnArray.kt)|Description is in the file|
+|[findUnsortedSubarray](./scripts/kotlin/General/findUnsortedSubarray.kt)|Given an integer array `nums`, you need to find one continuous subarray that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order. Return the shortest such subarray and output its length.|
 
 #### DFS & BFS
 
