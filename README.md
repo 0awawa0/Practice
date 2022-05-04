@@ -213,6 +213,8 @@ Topics:
 |[countDistinct](./scripts/kotlin/General/countDistinct.kt)|Given an integer array `nums` and two integers `k` and `p`, return the number of distinct subarrays which have at most `k` elements divisible by `p`.|
 |[shuffleAnArray](./scripts/kotlin/General/shuffleAnArray.kt)|Description is in the file|
 |[findUnsortedSubarray](./scripts/kotlin/General/findUnsortedSubarray.kt)|Given an integer array `nums`, you need to find one continuous subarray that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order. Return the shortest such subarray and output its length.|
+|[maxOperations](./scripts/kotlin/General/maxOperations.kt)|You are given an integer array `nums` and an integer `k`. In one operation, you can pick two numbers from the array whose sum equals `k` and remove them from the array. Return the maximum number of operations you can perform on the array.|
+|[maxPoints](./scripts/kotlin/General/maxPoints.kt)|Given an array of points where `points[i] = [xi, yi]` represents a point on the X-Y plane, return the maximum number of points that lie on the same straight line.|
 
 #### DFS & BFS
 
