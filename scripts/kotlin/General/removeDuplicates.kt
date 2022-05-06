@@ -10,17 +10,10 @@ Return the final string after all such duplicate removals have been made.  It is
 fun removeDuplicates(S: String): String {
         
     val result = StringBuilder()
-    for (chr in S) {
-        if (result.isEmpty()) result.append(chr)
-        else {
-            if (result.last() == chr) {
-                result.deleteCharAt(result.length - 1)
-            } else {
-                result.append(chr)
-            }
-        }
+    for (i in s.indices) {
+        if (result.isNotEmpty() && result.last() == s[i]) result.deleteCharAt(result.lastIndex)
+        else result.append(s[i])
     }
-        
     return result.toString()
 }
 
