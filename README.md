@@ -254,6 +254,7 @@ Topics:
 |[removeKDigits](./scripts/kotlin/Stack/removeKDigits.kt)|Given string `num` representing a non-negative integer `num`, and an integer `k`, return the smallest possible integer after removing `k` digits from `num`.|
 |[StockSpanner](./scripts/kotlin/Stack/StockSpanner.kt)|Design an algorithm that collects daily price quotes for some stock and returns the span of that stock's price for the current day.|
 |[minStack](./scripts/kotlin/Stack/minStack.kt)|Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.|
+|[find132Pattern](./scripts/kotlin/Stack/find132Pattern.kt)|Given an array of `n` integers `nums`, a 132 pattern is a subsequence of three integers `nums[i]`, `nums[j]` and `nums[k]` such that `i < j < k` and `nums[i] < nums[k] < nums[j]`. Return `true` if there is a 132 pattern in `nums`, otherwise, return `false`.|
 
 #### Sorting
 
