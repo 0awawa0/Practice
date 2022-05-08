@@ -351,7 +351,8 @@ Topics:
 |[minDistance](./scripts/kotlin/DynamicProgramming/minDistance.kt)|Given two strings `word1` and `word2`, return the minimum number of steps required to make `word1` and `word2` the same. In one step, you can delete exactly one character in either string.|
 |[coinChange](./scripts/kotlin/DynamicProgramming/coinChange.kt)|You are given an integer array `coins` representing coins of different denominations and an integer `amount` representing a total amount of money. Return the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return `-1`. You may assume that you have an infinite number of each kind of coin.|
 |[editDistance](./scripts/kotlin/DynamicProgramming/editDistance.kt)|Description is in the file|
-|[minimumCardPickup](./scripts/kotlin/DynamicProgramming/minimumCardPickup.kt)|You are given an integer array `cards` where `cards[i]` represents the value of the `i`th card. A pair of cards are matching if the cards have the same value. Return the minimum number of consecutive cards you have to pick up to have a pair of matching cards among the picked cards. If it is impossible to have matching cards, return `-1`.
+|[minimumCardPickup](./scripts/kotlin/DynamicProgramming/minimumCardPickup.kt)|You are given an integer array `cards` where `cards[i]` represents the value of the `i`th card. A pair of cards are matching if the cards have the same value. Return the minimum number of consecutive cards you have to pick up to have a pair of matching cards among the picked cards. If it is impossible to have matching cards, return `-1`.|
+|[countTexts](./scripts/kotlin/DynamicProgramming/countTexts.kt)|Description is in the file|
 
 #### Backtracking
 
@@ -446,3 +447,4 @@ Topics:
 |[findMinHeightTrees](./scripts/kotlin/Tree/findMinHeightTrees.kt)|Given a tree of n nodes labelled from `0` to `n - 1`, and an array of `n - 1` edges where `edges[i] = [ai, bi]` indicates that there is an undirected edge between the two nodes `ai` and `bi` in the tree, you can choose any node of the tree as the root. When you select a node `x` as the root, the result tree has height `h`. Among all possible rooted trees, those with minimum height (i.e. `min(h)`)  are called minimum height trees (MHTs). Return a list of all MHTs' root labels. You can return the answer in any order.|
 |[maxDepth](./scripts/kotlin/Tree/maxDepth.kt)|Given a `n`-ary tree, find its maximum depth. The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.|
 |[postorder](./scripts/kotlin/Tree/postorder.kt)|Given the root of an n-ary tree, return the postorder traversal of its nodes' values.|
+|[averageOfSubtree](./scripts/kotlin/Tree/averageOfSubtree.kt)|Given the root of a binary tree, return the number of nodes where the value of the node is equal to the average of the values in its subtree.|
