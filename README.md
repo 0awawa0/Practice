@@ -364,6 +364,7 @@ Topics:
 |[generateParenthesis](./scripts/kotlin/Backtracking/generateParenthesis.kt)|Given `n` pairs of parentheses, write a function to generate all combinations of well-formed parentheses.|
 |[combinationSum2](./scripts/kotlin/Backtracking/combinationSum2.kt)|Description is in the file|
 |[permuteUnique](./scripts/kotlin/Backtracking/permuteUnique.kt)|Given a collection of numbers, `nums`, that might contain duplicates, return all possible unique permutations in any order.|
+|[combinationSum3](./scripts/kotlin/Backtracking/combinationSum3.kt)|Description is in the file|
 
 #### BinarySearch
 
