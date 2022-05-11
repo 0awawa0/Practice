@@ -325,6 +325,7 @@ Topics:
 |[judgeSquareSum](./scripts/kotlin/Math/judgeSquareSum.kt)|Given a non-negative integer `c`, decide whether there're two integers `a` and `b` such that `a^2+b^2=c`.|
 |[hammingDistance](./scripts/kotlin/Math/hammingDistance.kt)|The Hamming distance between two integers is the number of positions at which the corresponding bits are different. Given two integers x and y, calculate the Hamming distance.|
 |[integerBreak](./scripts/kotlin/Math/integerBreak.kt)|Given an integer `n`, break it into the `sum` of `k` positive integers, where `k >= 2`, and maximize the product of those integers. Return the maximum product you can get.|
+|[countVowelStrings](./scripts/kotlin/Math/countVowelStrings.kt)|Given an integer `n`, return the number of strings of length `n` that consist only of vowels (`a`, `e`, `i`, `o`, `u`) and are lexicographically sorted. A string `s` is lexicographically sorted if for all valid `i`, `s[i]` is the same as or comes before `s[i+1]` in the alphabet.|
 
 #### DynamicProgramming
 
