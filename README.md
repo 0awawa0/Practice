@@ -452,3 +452,4 @@ Topics:
 |[maxDepth](./scripts/kotlin/Tree/maxDepth.kt)|Given a `n`-ary tree, find its maximum depth. The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.|
 |[postorder](./scripts/kotlin/Tree/postorder.kt)|Given the root of an n-ary tree, return the postorder traversal of its nodes' values.|
 |[averageOfSubtree](./scripts/kotlin/Tree/averageOfSubtree.kt)|Given the root of a binary tree, return the number of nodes where the value of the node is equal to the average of the values in its subtree.|
+|[tree2str](./scripts/kotlin/Tree/tree2str.kt)|Given the root of a binary tree, construct a string consisting of parenthesis and integers from a binary tree with the preorder traversal way, and return it. Omit all the empty parenthesis pairs that do not affect the one-to-one mapping relationship between the string and the original binary tree.|
