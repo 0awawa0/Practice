@@ -292,6 +292,7 @@ Topics:
 |[carPooling](./scripts/kotlin/PriorityQueue/carPooling.kt)|There is a car with `capacity` empty seats. The vehicle only drives east (i.e., it cannot turn around and drive west). You are given the integer `capacity` and an array `trips` where `trip[i] = [numPassengersi, fromi, toi]` indicates that the `ith` trip has `numPassengersi` passengers and the locations to pick them up and drop them off are `fromi` and `toi` respectively. The locations are given as the number of kilometers due east from the car's initial location. Return `true` if it is possible to pick up and drop off all passengers for all the given trips, or `false` otherwise.|
 |[minCostPriorityQueue](./scripts/kotlin/PriorityQueue/minCostConnectPoints.kt)|Description is in the file|
 |[minimumEffortPath](./scripts/kotlin/PriorityQueue/minimumEffortPath.kt)|Description is in the file|
+|[networkDelayTime](./scripts/kotlin/PriorityQueue/networkDelayTime.kt)|You are given a network of `n` nodes, labeled from `1` to `n`. You are also given times, a list of travel times as directed edges `times[i] = (ui, vi, wi)`, where `ui` is the source node, `vi` is the target node, and `wi` is the time it takes for a signal to travel from source to target. We will send a signal from a given node `k`. Return the time it takes for all the `n` nodes to receive the signal. If it is impossible for all the `n` nodes to receive the signal, return `-1`.|
 
 #### Math
 
