@@ -219,6 +219,9 @@ Topics:
 |[removeDuplicates2](./scripts/kotlin/General/removeDuplicates2.kt)|You are given a string `s` and an integer `k`, a `k` duplicate removal consists of choosing `k` adjacent and equal letters from `s` and removing them, causing the left and the right side of the deleted substring to concatenate together. We repeatedly make `k` duplicate removals on `s` until we no longer can. Return the final string after all such duplicate removals have been made.|
 |[findLHS](./scripts/kotlin/General/findLHS.kt)|We define a harmonious array as an array where the difference between its maximum value and its minimum value is exactly `1`. Given an integer array `nums`, return the length of its longest harmonious subsequence among all its possible subsequences.|
 |[findRestaurant](./scripts/kotlin/General/findRestaurant.kt)|Suppose Andy and Doris want to choose a restaurant for dinner, and they both have a list of favorite restaurants represented by strings. You need to help them find out their common interest with the least list index sum. If there is a choice tie between answers, output all of them with no order requirement.|
+|[waysToSplitArray](./scripts/kotlin/General/waysToSplitArray.kt)|Description is in the file|
+|[divisorSubstrings](./scripts/kotlin/General/divisorSubstrings.kt)|Description is in the file|
+|[removeAnagrams](./scripts/kotlin/General/removeAnagrams.kt)|You are given a `0`-indexed string array `words`, where `words[i]` consists of lowercase English letters. In one operation, select any index `i` such that `0 < i < words.length` and `words[i - 1]` and `words[i]` are anagrams, and delete `words[i]` from `words`. Keep performing this operation as long as you can select an index that satisfies the conditions. Return words after performing all operations. It can be shown that selecting the indices for each operation in any arbitrary order will lead to the same result.|
 
 #### DFS & BFS
 
@@ -276,6 +279,7 @@ Topics:
 |[canMakeArithmeticProgression](./scripts/kotlin/Sorting/canMakeArithmeticProgression.kt)|Given an array of numbers `arr`. A sequence of numbers is called an arithmetic progression if the difference between any two consecutive elements is the same. Return `true` if the array can be rearranged to form an arithmetic progression, otherwise, return `false`.|
 |[minSubsequence](./scripts/kotlin/Sorting/minSubsequence.kt)|Given the array nums, obtain a subsequence of the array whose sum of elements is strictly greater than the sum of the non included elements in such subsequence.|
 |[numIdenticalPairs](./scripts/kotlin/Sorting/numIdenticalPairs.kt)|Given an array of integers nums. A pair (i,j) is called good if nums[i] == nums[j] and i < j. Return the number of good pairs.|
+|[maxConsecutive](./scripts/kotlin/Sorting/maxConsecutive.kt)|Alice manages a company and has rented some floors of a building as office space. Alice has decided some of these floors should be special floors, used for relaxation only. You are given two integers `bottom` and `top`, which denote that Alice has rented all the floors from `bottom` to `top` (inclusive). You are also given the integer array `special`, where `special[i]` denotes a `special` floor that Alice has designated for relaxation. Return the maximum number of consecutive floors without a special floor.|
 
 #### PriorityQueue
 
@@ -328,6 +332,7 @@ Topics:
 |[hammingDistance](./scripts/kotlin/Math/hammingDistance.kt)|The Hamming distance between two integers is the number of positions at which the corresponding bits are different. Given two integers x and y, calculate the Hamming distance.|
 |[integerBreak](./scripts/kotlin/Math/integerBreak.kt)|Given an integer `n`, break it into the `sum` of `k` positive integers, where `k >= 2`, and maximize the product of those integers. Return the maximum product you can get.|
 |[countVowelStrings](./scripts/kotlin/Math/countVowelStrings.kt)|Given an integer `n`, return the number of strings of length `n` that consist only of vowels (`a`, `e`, `i`, `o`, `u`) and are lexicographically sorted. A string `s` is lexicographically sorted if for all valid `i`, `s[i]` is the same as or comes before `s[i+1]` in the alphabet.|
+|[largestCombination](./scripts/kotlin/Math/largestCombination.kt)|The bitwise AND of an array `nums` is the bitwise AND of all integers in `nums`. You are given an array of positive integers `candidates`. Evaluate the bitwise AND of every combination of numbers of `candidates`. Each number in `candidates` may only be used once in each combination. Return the size of the largest combination of `candidates` with a bitwise AND greater than `0`.|
 
 #### DynamicProgramming
 
