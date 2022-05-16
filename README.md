@@ -460,3 +460,4 @@ Topics:
 |[postorder](./scripts/kotlin/Tree/postorder.kt)|Given the root of an n-ary tree, return the postorder traversal of its nodes' values.|
 |[averageOfSubtree](./scripts/kotlin/Tree/averageOfSubtree.kt)|Given the root of a binary tree, return the number of nodes where the value of the node is equal to the average of the values in its subtree.|
 |[tree2str](./scripts/kotlin/Tree/tree2str.kt)|Given the root of a binary tree, construct a string consisting of parenthesis and integers from a binary tree with the preorder traversal way, and return it. Omit all the empty parenthesis pairs that do not affect the one-to-one mapping relationship between the string and the original binary tree.|
+|[averageOfLevels](./scripts/kotlin/Tree/averageOfLevels.kt)|Given the `root` of a binary tree, return the average value of the nodes on each level in the form of an array. Answers within `10^-5` of the actual answer will be accepted.|
