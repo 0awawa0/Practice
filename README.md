@@ -336,6 +336,7 @@ Topics:
 |[integerBreak](./scripts/kotlin/Math/integerBreak.kt)|Given an integer `n`, break it into the `sum` of `k` positive integers, where `k >= 2`, and maximize the product of those integers. Return the maximum product you can get.|
 |[countVowelStrings](./scripts/kotlin/Math/countVowelStrings.kt)|Given an integer `n`, return the number of strings of length `n` that consist only of vowels (`a`, `e`, `i`, `o`, `u`) and are lexicographically sorted. A string `s` is lexicographically sorted if for all valid `i`, `s[i]` is the same as or comes before `s[i+1]` in the alphabet.|
 |[largestCombination](./scripts/kotlin/Math/largestCombination.kt)|The bitwise AND of an array `nums` is the bitwise AND of all integers in `nums`. You are given an array of positive integers `candidates`. Evaluate the bitwise AND of every combination of numbers of `candidates`. Each number in `candidates` may only be used once in each combination. Return the size of the largest combination of `candidates` with a bitwise AND greater than `0`.|
+|[findMaxAverage](./scripts/kotlin/Math/findMaxAverage.kt)|You are given an integer array `nums` consisting of `n` elements, and an integer `k`. Find a contiguous subarray whose length is equal to `k` that has the maximum average value and return this value.|
 
 #### DynamicProgramming
 
