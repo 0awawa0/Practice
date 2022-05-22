@@ -283,6 +283,7 @@ Topics:
 |[minSubsequence](./scripts/kotlin/Sorting/minSubsequence.kt)|Given the array nums, obtain a subsequence of the array whose sum of elements is strictly greater than the sum of the non included elements in such subsequence.|
 |[numIdenticalPairs](./scripts/kotlin/Sorting/numIdenticalPairs.kt)|Given an array of integers nums. A pair (i,j) is called good if nums[i] == nums[j] and i < j. Return the number of good pairs.|
 |[maxConsecutive](./scripts/kotlin/Sorting/maxConsecutive.kt)|Alice manages a company and has rented some floors of a building as office space. Alice has decided some of these floors should be special floors, used for relaxation only. You are given two integers `bottom` and `top`, which denote that Alice has rented all the floors from `bottom` to `top` (inclusive). You are also given the integer array `special`, where `special[i]` denotes a `special` floor that Alice has designated for relaxation. Return the maximum number of consecutive floors without a special floor.|
+|[maximumBags](./scripts/kotlin/Sorting/maximumBags.kt)|You have `n` bags numbered from `0` to `n - 1`. You are given two `0`-indexed integer arrays `capacity` and `rocks`. The `i`th bag can hold a maximum of `capacity[i]` rocks and currently contains `rocks[i]` rocks. You are also given an integer `additionalRocks`, the number of additional rocks you can place in any of the bags. Return the maximum number of bags that could have full capacity after placing the additional rocks in some bags.|
 
 #### PriorityQueue
 
@@ -337,6 +338,7 @@ Topics:
 |[countVowelStrings](./scripts/kotlin/Math/countVowelStrings.kt)|Given an integer `n`, return the number of strings of length `n` that consist only of vowels (`a`, `e`, `i`, `o`, `u`) and are lexicographically sorted. A string `s` is lexicographically sorted if for all valid `i`, `s[i]` is the same as or comes before `s[i+1]` in the alphabet.|
 |[largestCombination](./scripts/kotlin/Math/largestCombination.kt)|The bitwise AND of an array `nums` is the bitwise AND of all integers in `nums`. You are given an array of positive integers `candidates`. Evaluate the bitwise AND of every combination of numbers of `candidates`. Each number in `candidates` may only be used once in each combination. Return the size of the largest combination of `candidates` with a bitwise AND greater than `0`.|
 |[findMaxAverage](./scripts/kotlin/Math/findMaxAverage.kt)|You are given an integer array `nums` consisting of `n` elements, and an integer `k`. Find a contiguous subarray whose length is equal to `k` that has the maximum average value and return this value.|
+|[minimumLines](./scripts/kotlin/Math/minimumLines.kt)|You are given a 2D integer array `stockPrices` where `stockPrices[i] = [dayi, pricei]` indicates the price of the stock on day `dayi` is `pricei`. A line chart is created from the array by plotting the points on an XY plane with the X-axis representing the day and the Y-axis representing the price and connecting adjacent points. Return the minimum number of lines needed to represent the line chart.|
 
 #### DynamicProgramming
 
