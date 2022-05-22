@@ -367,6 +367,7 @@ Topics:
 |[minimumCardPickup](./scripts/kotlin/DynamicProgramming/minimumCardPickup.kt)|You are given an integer array `cards` where `cards[i]` represents the value of the `i`th card. A pair of cards are matching if the cards have the same value. Return the minimum number of consecutive cards you have to pick up to have a pair of matching cards among the picked cards. If it is impossible to have matching cards, return `-1`.|
 |[countTexts](./scripts/kotlin/DynamicProgramming/countTexts.kt)|Description is in the file|
 |[uniquePathsWithObstacles](./scripts/kotlin/DynamicProgramming/uniquePathsWithObstacles.kt)|You are given an `m x n` integer array `grid`. There is a robot initially located at the top-left corner (i.e., `grid[0][0]`). The robot tries to move to the bottom-right corner (i.e., `grid[m-1][n-1]`). The robot can only move either down or right at any point in time. An obstacle and space are marked as `1` or `0` respectively in grid. A path that the robot takes cannot include any square that is an obstacle. Return the number of possible unique paths that the robot can take to reach the bottom-right corner.|
+|[countSubstrings](./scripts/kotlin/DynamicProgramming/countSubstrings.kt)|Given a string `s`, return the number of palindromic substrings in it. A string is a palindrome when it reads the same backward as forward. A substring is a contiguous sequence of characters within the string.|
 
 #### Backtracking
 
