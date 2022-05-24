@@ -223,6 +223,8 @@ Topics:
 |[divisorSubstrings](./scripts/kotlin/General/divisorSubstrings.kt)|Description is in the file|
 |[removeAnagrams](./scripts/kotlin/General/removeAnagrams.kt)|You are given a `0`-indexed string array `words`, where `words[i]` consists of lowercase English letters. In one operation, select any index `i` such that `0 < i < words.length` and `words[i - 1]` and `words[i]` are anagrams, and delete `words[i]` from `words`. Keep performing this operation as long as you can select an index that satisfies the conditions. Return words after performing all operations. It can be shown that selecting the indices for each operation in any arbitrary order will lead to the same result.|
 |[maximumProduct](./scripts/kotlin/General/maximumProduct.kt)|Given an integer array `nums`, find three numbers whose product is maximum and return the maximum product.|
+|[longestValidParenthesis](./scripts/kotlin/General/longestValidParenthesis.kt)|Given a string containing just the characters `'('` and `')'`, find the length of the longest valid (well-formed) parentheses substring.|
+|[increasingTriplet](./scripts/kotlin/General/increasingTriplet.kt)|Given an integer array `nums`, return `true` if there exists a triple of indices `(i, j, k)` such that `i < j < k` and `nums[i] < nums[j] < nums[k]`. If no such indices exists, return `false`.|
 
 #### DFS & BFS
 
