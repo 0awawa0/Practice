@@ -225,6 +225,7 @@ Topics:
 |[maximumProduct](./scripts/kotlin/General/maximumProduct.kt)|Given an integer array `nums`, find three numbers whose product is maximum and return the maximum product.|
 |[longestValidParenthesis](./scripts/kotlin/General/longestValidParenthesis.kt)|Given a string containing just the characters `'('` and `')'`, find the length of the longest valid (well-formed) parentheses substring.|
 |[increasingTriplet](./scripts/kotlin/General/increasingTriplet.kt)|Given an integer array `nums`, return `true` if there exists a triple of indices `(i, j, k)` such that `i < j < k` and `nums[i] < nums[j] < nums[k]`. If no such indices exists, return `false`.|
+|[setZeroes](./scripts/kotlin/General/setZeroes.kt)|Given an `m x n` integer matrix `matrix`, if an element is `0`, set its entire row and column to `0`'s.|
 
 #### DFS & BFS
 
@@ -477,3 +478,4 @@ Topics:
 |[getTargetCopy](./scripts/kotlin/Tree/getTargetCopy.java)|Given two binary trees `original` and `cloned` and given a reference to a node `target` in the original tree. The `cloned` tree is a copy of the `original` tree. Return a reference to the same node in the `cloned` tree. Note that you are not allowed to change any of the two trees or the target node and the answer must be a reference to a node in the cloned tree.|
 |[isValidBST](./scripts/kotlin/Tree/isValidBST.kt)|Given the root of a binary tree, determine if it is a valid binary search tree (BST).|
 |[findTarget](./scripts/kotlin/Tree/findTarget.kt)|Given the root of a Binary Search Tree and a target number `k`, return true if there exist two elements in the BST such that their sum is equal to the given target.|
+|[zigZagLevelOrder](./scripts/kotlin/Tree/zigZagLevelOrder.kt)|Given the root of a binary tree, return the zigzag level order traversal of its nodes' values. (i.e., from left to right, then right to left for the next level and alternate between).|
