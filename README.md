@@ -226,6 +226,7 @@ Topics:
 |[longestValidParenthesis](./scripts/kotlin/General/longestValidParenthesis.kt)|Given a string containing just the characters `'('` and `')'`, find the length of the longest valid (well-formed) parentheses substring.|
 |[increasingTriplet](./scripts/kotlin/General/increasingTriplet.kt)|Given an integer array `nums`, return `true` if there exists a triple of indices `(i, j, k)` such that `i < j < k` and `nums[i] < nums[j] < nums[k]`. If no such indices exists, return `false`.|
 |[setZeroes](./scripts/kotlin/General/setZeroes.kt)|Given an `m x n` integer matrix `matrix`, if an element is `0`, set its entire row and column to `0`'s.|
+|[countAndSay](./scripts/kotlin/General/countAndSay.kt)|Description is in the file|
 
 #### DFS & BFS
 
