@@ -228,6 +228,7 @@ Topics:
 |[setZeroes](./scripts/kotlin/General/setZeroes.kt)|Given an `m x n` integer matrix `matrix`, if an element is `0`, set its entire row and column to `0`'s.|
 |[countAndSay](./scripts/kotlin/General/countAndSay.kt)|Description is in the file|
 |[longestConsecutive](./scripts/kotlin/General/longestConsecutive.kt)|Given an unsorted array of integers `nums`, return the length of the longest consecutive elements sequence.|
+|[findRepeatedDnaSequences](./scripts/kotlin/General/findRepeatedDnaSequences.kt)|Description is in the file|
 
 #### DFS & BFS
 
