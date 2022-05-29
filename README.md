@@ -229,6 +229,10 @@ Topics:
 |[countAndSay](./scripts/kotlin/General/countAndSay.kt)|Description is in the file|
 |[longestConsecutive](./scripts/kotlin/General/longestConsecutive.kt)|Given an unsorted array of integers `nums`, return the length of the longest consecutive elements sequence.|
 |[findRepeatedDnaSequences](./scripts/kotlin/General/findRepeatedDnaSequences.kt)|Description is in the file|
+|[maxProduct](./scripts/kotlin/General/maxProduct.kt)|Given a string array `words`, return the maximum value of `length(word[i]) * length(word[j])` where the two words do not share common letters. If no such two words exist, return `0`.|
+|[rearrangeCharacters](./scripts/kotlin/General/rearrangeCharacters.kt)|You are given two `0`-indexed strings `s` and `target`. You can take some letters from `s` and rearrange them to form new strings. Return the maximum number of copies of `target` that can be formed by taking letters from `s` and rearranging them.|
+|[discountPrices](./scripts/kotlin/General/discountPrices.kt)|Description is in the file|
+|[largestWordCount](./scripts/kotlin/General/largestWordCount.kt)|Desciprion is in the file|
 
 #### DFS & BFS
 
@@ -290,6 +294,7 @@ Topics:
 |[numIdenticalPairs](./scripts/kotlin/Sorting/numIdenticalPairs.kt)|Given an array of integers nums. A pair (i,j) is called good if nums[i] == nums[j] and i < j. Return the number of good pairs.|
 |[maxConsecutive](./scripts/kotlin/Sorting/maxConsecutive.kt)|Alice manages a company and has rented some floors of a building as office space. Alice has decided some of these floors should be special floors, used for relaxation only. You are given two integers `bottom` and `top`, which denote that Alice has rented all the floors from `bottom` to `top` (inclusive). You are also given the integer array `special`, where `special[i]` denotes a `special` floor that Alice has designated for relaxation. Return the maximum number of consecutive floors without a special floor.|
 |[maximumBags](./scripts/kotlin/Sorting/maximumBags.kt)|You have `n` bags numbered from `0` to `n - 1`. You are given two `0`-indexed integer arrays `capacity` and `rocks`. The `i`th bag can hold a maximum of `capacity[i]` rocks and currently contains `rocks[i]` rocks. You are also given an integer `additionalRocks`, the number of additional rocks you can place in any of the bags. Return the maximum number of bags that could have full capacity after placing the additional rocks in some bags.|
+|[maximumImportance](./scripts/kotlin/Sorting/maximumImportance.kt)|Description is in the file|
 
 #### PriorityQueue
 
