@@ -350,6 +350,7 @@ Topics:
 |[largestCombination](./scripts/kotlin/Math/largestCombination.kt)|The bitwise AND of an array `nums` is the bitwise AND of all integers in `nums`. You are given an array of positive integers `candidates`. Evaluate the bitwise AND of every combination of numbers of `candidates`. Each number in `candidates` may only be used once in each combination. Return the size of the largest combination of `candidates` with a bitwise AND greater than `0`.|
 |[findMaxAverage](./scripts/kotlin/Math/findMaxAverage.kt)|You are given an integer array `nums` consisting of `n` elements, and an integer `k`. Find a contiguous subarray whose length is equal to `k` that has the maximum average value and return this value.|
 |[minimumLines](./scripts/kotlin/Math/minimumLines.kt)|You are given a 2D integer array `stockPrices` where `stockPrices[i] = [dayi, pricei]` indicates the price of the stock on day `dayi` is `pricei`. A line chart is created from the array by plotting the points on an XY plane with the X-axis representing the day and the Y-axis representing the price and connecting adjacent points. Return the minimum number of lines needed to represent the line chart.|
+|[divideTwoIntegers](./scripts/kotlin/Math/divideTwoIntegers.kt)|Given two integers `dividend` and `divisor`, divide two integers without using multiplication, division, and mod operator.|
 
 #### DynamicProgramming
 
@@ -487,3 +488,4 @@ Topics:
 |[isValidBST](./scripts/kotlin/Tree/isValidBST.kt)|Given the root of a binary tree, determine if it is a valid binary search tree (BST).|
 |[findTarget](./scripts/kotlin/Tree/findTarget.kt)|Given the root of a Binary Search Tree and a target number `k`, return true if there exist two elements in the BST such that their sum is equal to the given target.|
 |[zigZagLevelOrder](./scripts/kotlin/Tree/zigZagLevelOrder.kt)|Given the root of a binary tree, return the zigzag level order traversal of its nodes' values. (i.e., from left to right, then right to left for the next level and alternate between).|
+|[buildTree](./scripts/kotlin/Tree/buildTree.kt)|Given two integer arrays `preorder` and `inorder` where `preorder` is the preorder traversal of a binary tree and `inorder` is the inorder traversal of the same tree, construct and return the binary tree.|
