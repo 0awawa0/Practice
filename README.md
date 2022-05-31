@@ -233,6 +233,7 @@ Topics:
 |[rearrangeCharacters](./scripts/kotlin/General/rearrangeCharacters.kt)|You are given two `0`-indexed strings `s` and `target`. You can take some letters from `s` and rearrange them to form new strings. Return the maximum number of copies of `target` that can be formed by taking letters from `s` and rearranging them.|
 |[discountPrices](./scripts/kotlin/General/discountPrices.kt)|Description is in the file|
 |[largestWordCount](./scripts/kotlin/General/largestWordCount.kt)|Desciprion is in the file|
+|[findErrorNums](./scripts/kotlin/General/findErrorNums.kt)|You have a set of integers `s`, which originally contains all the numbers from `1` to `n`. Unfortunately, due to some error, one of the numbers in `s` got duplicated to another number in the set, which results in repetition of one number and loss of another number. You are given an integer array `nums` representing the data status of this set after the error. Find the number that occurs twice and the number that is missing and return them in the form of an array.|
 
 #### DFS & BFS
 
