@@ -234,6 +234,7 @@ Topics:
 |[discountPrices](./scripts/kotlin/General/discountPrices.kt)|Description is in the file|
 |[largestWordCount](./scripts/kotlin/General/largestWordCount.kt)|Desciprion is in the file|
 |[findErrorNums](./scripts/kotlin/General/findErrorNums.kt)|You have a set of integers `s`, which originally contains all the numbers from `1` to `n`. Unfortunately, due to some error, one of the numbers in `s` got duplicated to another number in the set, which results in repetition of one number and loss of another number. You are given an integer array `nums` representing the data status of this set after the error. Find the number that occurs twice and the number that is missing and return them in the form of an array.|
+|[runningSum](./scripts/kotlin/General/runningSum.kt)|Given an array `nums`. We define a running sum of an array as `runningSum[i] = sum(nums[0]…nums[i])`. Return the running sum of `nums`.|
 
 #### DFS & BFS
 
@@ -439,6 +440,7 @@ Topics:
 |[addTwoNumbers](./scripts/kotlin/LinkedList/addTwoNumbers.kt)|You are given two non-empty linked lists representing two non-negative integers. The most significant digit comes first and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list. You may assume the two numbers do not contain any leading zero, except the number `0` itself.|
 |[swapNodes](./scripts/kotlin/LinkedList/swapNodes.kt)|You are given the head of a linked list, and an integer `k`. Return the head of the linked list after swapping the values of the `k`th node from the beginning and the `k`th node from the end (the list is 1-indexed).|
 |[NestedIterator](./scripts/kotlin/LinkedList/NestedIterator.kt)|Description is in the file|
+|[reverseKGroup](./scripts/kotlin/LinkedList/reverseKGroup.kt)|Given the head of a linked list, reverse the nodes of the list `k` at a time, and return the modified list. `k` is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of `k` then left-out nodes, in the end, should remain as it is. You may not alter the values in the list's nodes, only nodes themselves may be changed.|
 
 
 #### Tree
