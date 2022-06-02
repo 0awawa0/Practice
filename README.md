@@ -386,6 +386,7 @@ Topics:
 |[countSubstrings](./scripts/kotlin/DynamicProgramming/countSubstrings.kt)|Given a string `s`, return the number of palindromic substrings in it. A string is a palindrome when it reads the same backward as forward. A substring is a contiguous sequence of characters within the string.|
 |[findMaxForm](./scripts/kotlin/DynamicProgramming/findMaxForm.kt)|You are given an array of binary strings `strs` and two integers `m` and `n`. Return the size of the largest subset of `strs` such that there are at most `m` `0`'s and `n` `1`'s in the subset.|
 |[maxEnvelopes](./scripts/kotlin/DynamicProgramming/maxEnvelopes.kt)|You are given a 2D array of integers `envelopes` where `envelopes[i] = [wi, hi]` represents the width and the height of an envelope. One envelope can fit into another if and only if both the width and height of one envelope are greater than the other envelope's width and height. Return the maximum number of envelopes you can Russian doll (i.e., put one inside the other). Note: You cannot rotate an envelope.|
+|[findTheWinner](./scripts/kotlin/DynamicProgramming/findTheWinner.kt)|Description is in the file|
 
 #### Backtracking
 
