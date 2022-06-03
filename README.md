@@ -353,6 +353,7 @@ Topics:
 |[findMaxAverage](./scripts/kotlin/Math/findMaxAverage.kt)|You are given an integer array `nums` consisting of `n` elements, and an integer `k`. Find a contiguous subarray whose length is equal to `k` that has the maximum average value and return this value.|
 |[minimumLines](./scripts/kotlin/Math/minimumLines.kt)|You are given a 2D integer array `stockPrices` where `stockPrices[i] = [dayi, pricei]` indicates the price of the stock on day `dayi` is `pricei`. A line chart is created from the array by plotting the points on an XY plane with the X-axis representing the day and the Y-axis representing the price and connecting adjacent points. Return the minimum number of lines needed to represent the line chart.|
 |[divideTwoIntegers](./scripts/kotlin/Math/divideTwoIntegers.kt)|Given two integers `dividend` and `divisor`, divide two integers without using multiplication, division, and mod operator.|
+|[countPrimes](./scripts/kotlin/Math/countPrimes.kt)|Given an integer `n`, return the number of prime numbers that are strictly less than `n`.|
 
 #### DynamicProgramming
 
