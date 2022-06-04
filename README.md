@@ -399,6 +399,7 @@ Topics:
 |[combinationSum2](./scripts/kotlin/Backtracking/combinationSum2.kt)|Description is in the file|
 |[permuteUnique](./scripts/kotlin/Backtracking/permuteUnique.kt)|Given a collection of numbers, `nums`, that might contain duplicates, return all possible unique permutations in any order.|
 |[combinationSum3](./scripts/kotlin/Backtracking/combinationSum3.kt)|Description is in the file|
+|[solveNQueens](./scripts/kotlin/Backtracking/solveNQueens.kt)|The `n`-queens puzzle is the problem of placing `n` queens on an `n x n` chessboard such that no two queens attack each other. Given an integer `n`, return all distinct solutions to the `n`-queens puzzle. You may return the answer in any order. Each solution contains a distinct board configuration of the `n`-queens' placement, where `'Q'` and `'.'` both indicate a queen and an empty space, respectively.|
 
 #### BinarySearch
 
@@ -494,3 +495,5 @@ Topics:
 |[findTarget](./scripts/kotlin/Tree/findTarget.kt)|Given the root of a Binary Search Tree and a target number `k`, return true if there exist two elements in the BST such that their sum is equal to the given target.|
 |[zigZagLevelOrder](./scripts/kotlin/Tree/zigZagLevelOrder.kt)|Given the root of a binary tree, return the zigzag level order traversal of its nodes' values. (i.e., from left to right, then right to left for the next level and alternate between).|
 |[buildTree](./scripts/kotlin/Tree/buildTree.kt)|Given two integer arrays `preorder` and `inorder` where `preorder` is the preorder traversal of a binary tree and `inorder` is the inorder traversal of the same tree, construct and return the binary tree.|
+|[rightSideView](./scripts/kotlin/Tree/rightSideView.kt)|Given the root of a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.|
+|[pathSum](./scripts/kotlin/Tree/pathSum.kt)|Given the root of a binary tree and an integer `targetSum`, return all root-to-leaf paths where the sum of the node values in the path equals `targetSum`. Each path should be returned as a list of the node values, not node references. A root-to-leaf path is a path starting from the root and ending at any leaf node. A leaf is a node with no children.|
