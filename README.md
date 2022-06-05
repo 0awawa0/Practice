@@ -235,6 +235,9 @@ Topics:
 |[largestWordCount](./scripts/kotlin/General/largestWordCount.kt)|Desciprion is in the file|
 |[findErrorNums](./scripts/kotlin/General/findErrorNums.kt)|You have a set of integers `s`, which originally contains all the numbers from `1` to `n`. Unfortunately, due to some error, one of the numbers in `s` got duplicated to another number in the set, which results in repetition of one number and loss of another number. You are given an integer array `nums` representing the data status of this set after the error. Find the number that occurs twice and the number that is missing and return them in the form of an array.|
 |[runningSum](./scripts/kotlin/General/runningSum.kt)|Given an array `nums`. We define a running sum of an array as `runningSum[i] = sum(nums[0]…nums[i])`. Return the running sum of `nums`.|
+|[minMaxGame](./scripts/kotlin/General/minMaxGame.kt)|Description is in the file|
+|[arrayChange](./scripts/kotlin/General/arrayChange.kt)|Description is in the file|
+|[TextEditor](./scripts/kotlin/General/TextEditor.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -297,6 +300,7 @@ Topics:
 |[maxConsecutive](./scripts/kotlin/Sorting/maxConsecutive.kt)|Alice manages a company and has rented some floors of a building as office space. Alice has decided some of these floors should be special floors, used for relaxation only. You are given two integers `bottom` and `top`, which denote that Alice has rented all the floors from `bottom` to `top` (inclusive). You are also given the integer array `special`, where `special[i]` denotes a `special` floor that Alice has designated for relaxation. Return the maximum number of consecutive floors without a special floor.|
 |[maximumBags](./scripts/kotlin/Sorting/maximumBags.kt)|You have `n` bags numbered from `0` to `n - 1`. You are given two `0`-indexed integer arrays `capacity` and `rocks`. The `i`th bag can hold a maximum of `capacity[i]` rocks and currently contains `rocks[i]` rocks. You are also given an integer `additionalRocks`, the number of additional rocks you can place in any of the bags. Return the maximum number of bags that could have full capacity after placing the additional rocks in some bags.|
 |[maximumImportance](./scripts/kotlin/Sorting/maximumImportance.kt)|Description is in the file|
+|[partitionArray](./scripts/kotlin/Sorting/partitionArray.kt)|You are given an integer array `nums` and an integer `k`. You may partition `nums` into one or more subsequences such that each element in `nums` appears in exactly one of the subsequences. Return the minimum number of subsequences needed such that the difference between the maximum and minimum values in each subsequence is at most `k`. A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.|
 
 #### PriorityQueue
 
