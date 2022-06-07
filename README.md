@@ -238,6 +238,7 @@ Topics:
 |[minMaxGame](./scripts/kotlin/General/minMaxGame.kt)|Description is in the file|
 |[arrayChange](./scripts/kotlin/General/arrayChange.kt)|Description is in the file|
 |[TextEditor](./scripts/kotlin/General/TextEditor.kt)|Description is in the file|
+|[findSmallestSetOfVertices](./scripts/kotlin/General/findSmallestSetOfVertices.kt)|Given a directed acyclic graph, with `n` vertices numbered from `0` to `n-1`, and an array `edges` where `edges[i] = [fromi, toi]` represents a directed edge from node `fromi` to node `toi`. Find the smallest set of vertices from which all nodes in the graph are reachable. It's guaranteed that a unique solution exists. Notice that you can return the vertices in any order.|
 
 #### DFS & BFS
 
@@ -260,6 +261,7 @@ Topics:
 |[calcEquation](./scripts/kotlin/DFS%26BFS/calcEquation.kt)|You are given an array of variable pairs equations and an array of real numbers values, where `equations[i] = [Ai, Bi]` and `values[i]` represent the equation `Ai / Bi = values[i]`. Each `Ai` or `Bi` is a string that represents a single variable. You are also given some queries, where `queries[j] = [Cj, Dj]` represents the `j`th query where you must find the answer for `Cj / Dj = ?`. Return the answers to all queries. If a single answer cannot be determined, return `-1.0`.|
 |[criticalConnections](./scripts/kotlin/DFS%26BFS/criticalConnections.kt)|There are `n` servers numbered from `0` to `n - 1` connected by undirected server-to-server connections forming a network where `connections[i] = [ai, bi]` represents a connection between servers `ai` and `bi`. Any server can reach other servers directly or indirectly through the network. A critical connection is a connection that, if removed, will make some servers unable to reach some other server. Return all critical connections in the network in any order.|
 |[longestIncreasingPath](./scripts/kotlin/DFS%26BFS/longestIncreasingPath.kt)|Given an `m x n` integers matrix, return the length of the longest increasing path in `matrix`. From each cell, you can either move in four directions: left, right, up, or down. You may not move diagonally or move outside the boundary (i.e., wrap-around is not allowed).|
+|[canVisitAllRooms](./scripts/kotlin/DFS%26BFS/canVisitAllRooms.kt)|There are `n` rooms labeled from `0` to `n - 1` and all the rooms are locked except for room `0`. Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key. When you visit a room, you may find a set of distinct keys in it. Each key has a number on it, denoting which room it unlocks, and you can take all of them with you to unlock the other rooms. Given an array `rooms` where `rooms[i]` is the set of keys that you can obtain if you visited room `i`, return `true` if you can visit all the rooms, or `false` otherwise.|
 
 #### Stack
 
