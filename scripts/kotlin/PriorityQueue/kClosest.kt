@@ -1,0 +1,20 @@
+
+/*
+Given an array of points where points[i] = [xi, yi] represents a point on the X-Y plane and an integer k, return the k closest points to the origin (0, 0).
+
+The distance between two points on the X-Y plane is the Euclidean distance (i.e., √(x1 - x2)^2 + (y1 - y2)^2).
+
+You may return the answer in any order. The answer is guaranteed to be unique (except for the order that it is in).
+*/
+
+fun kClosest(points: Array<IntArray>, k: Int): Array<IntArray> {
+    val queue = PriorityQueue<IntArray>(compareBy { 
+        val x = it[0].toDouble()
+        val y = it[1].toDouble()
+        return@compareBy sqrt((x * x) + (y * y))
+    })
+        
+    for (point in points) queue.add(point)
+    val result = Array<IntArray>(k) { queue.poll() }
+    return result
+}

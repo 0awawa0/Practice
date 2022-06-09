@@ -322,6 +322,8 @@ Topics:
 |[minimumEffortPath](./scripts/kotlin/PriorityQueue/minimumEffortPath.kt)|Description is in the file|
 |[networkDelayTime](./scripts/kotlin/PriorityQueue/networkDelayTime.kt)|You are given a network of `n` nodes, labeled from `1` to `n`. You are also given times, a list of travel times as directed edges `times[i] = (ui, vi, wi)`, where `ui` is the source node, `vi` is the target node, and `wi` is the time it takes for a signal to travel from source to target. We will send a signal from a given node `k`. Return the time it takes for all the `n` nodes to receive the signal. If it is impossible for all the `n` nodes to receive the signal, return `-1`.|
 |[findKthLargest](./scripts/kotlin/PriorityQueue/findKthLargest.kt)|Given an integer array `nums` and an integer `k`, return the `k`th largest element in the array. Note that it is the `k`th largest element in the sorted order, not the `k`th distinct element.|
+|[frequencySort](./scripts/kotlin/PriorityQueue/frequencySort.kt)|Given a string `s`, sort it in decreasing order based on the frequency of the characters. The frequency of a character is the number of times it appears in the string. Return the sorted string. If there are multiple answers, return any of them.|
+|[kClosest](./scripts/kotlin/PriorityQueue/kClosest.kt)|Given an array of points where `points[i] = [xi, yi]` represents a point on the X-Y plane and an integer `k`, return the `k` closest points to the origin `(0, 0)`. The distance between two points on the X-Y plane is the Euclidean distance (i.e., `√(x1 - x2)^2 + (y1 - y2)^2)`. You may return the answer in any order.|
 
 #### Math
 
