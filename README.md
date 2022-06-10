@@ -304,6 +304,7 @@ Topics:
 |[maximumBags](./scripts/kotlin/Sorting/maximumBags.kt)|You have `n` bags numbered from `0` to `n - 1`. You are given two `0`-indexed integer arrays `capacity` and `rocks`. The `i`th bag can hold a maximum of `capacity[i]` rocks and currently contains `rocks[i]` rocks. You are also given an integer `additionalRocks`, the number of additional rocks you can place in any of the bags. Return the maximum number of bags that could have full capacity after placing the additional rocks in some bags.|
 |[maximumImportance](./scripts/kotlin/Sorting/maximumImportance.kt)|Description is in the file|
 |[partitionArray](./scripts/kotlin/Sorting/partitionArray.kt)|You are given an integer array `nums` and an integer `k`. You may partition `nums` into one or more subsequences such that each element in `nums` appears in exactly one of the subsequences. Return the minimum number of subsequences needed such that the difference between the maximum and minimum values in each subsequence is at most `k`. A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.|
+|[largestNumber](./scripts/kotlin/Sorting/largestNumber.kt)|Given a list of non-negative integers `nums`, arrange them such that they form the largest number and return it. Since the result may be very large, so you need to return a string instead of an integer.|
 
 #### PriorityQueue
 
