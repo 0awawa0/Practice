@@ -328,6 +328,7 @@ Topics:
 |[findKthLargest](./scripts/kotlin/PriorityQueue/findKthLargest.kt)|Given an integer array `nums` and an integer `k`, return the `k`th largest element in the array. Note that it is the `k`th largest element in the sorted order, not the `k`th distinct element.|
 |[frequencySort](./scripts/kotlin/PriorityQueue/frequencySort.kt)|Given a string `s`, sort it in decreasing order based on the frequency of the characters. The frequency of a character is the number of times it appears in the string. Return the sorted string. If there are multiple answers, return any of them.|
 |[kClosest](./scripts/kotlin/PriorityQueue/kClosest.kt)|Given an array of points where `points[i] = [xi, yi]` represents a point on the X-Y plane and an integer `k`, return the `k` closest points to the origin `(0, 0)`. The distance between two points on the X-Y plane is the Euclidean distance (i.e., `√(x1 - x2)^2 + (y1 - y2)^2)`. You may return the answer in any order.|
+|[furthestBuilding](./scripts/kotlin/PriorityQueue/furthestBuildring.kt)|Description is in the file|
 
 #### Math
 
