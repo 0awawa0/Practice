@@ -413,6 +413,7 @@ Topics:
 |[trap](./scripts/kotlin/DynamicProgramming/trap.kt)|Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.|
 |[nthUglyNumber](./scripts/kotlin/DynamicProgramming/nthUglyNumber.kt)|An ugly number is a positive integer whose prime factors are limited to `2`, `3`, and `5`. Given an integer `n`, return the `n`th ugly number.|
 |[numTrees](./scripts/kotlin/DynamicProgramming/numTrees.kt)|Given an integer `n`, return the number of structurally unique BST's (binary search trees) which has exactly `n` nodes of unique values from `1` to `n`.|
+|[minFallingPathSum](./scripts/kotlin/DynamicProgramming/minFallingPathSum.kt)|Given an `n x n` array of integers `matrix`, return the minimum sum of any falling path through matrix. A falling path starts at any element in the first row and chooses the element in the next row that is either directly below or diagonally left/right. Specifically, the next element from position `(row, col)` will be `(row + 1, col - 1)`, `(row + 1, col)`, or `(row + 1, col + 1)`.|
 
 #### Backtracking
 
