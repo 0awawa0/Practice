@@ -329,6 +329,7 @@ Topics:
 |[frequencySort](./scripts/kotlin/PriorityQueue/frequencySort.kt)|Given a string `s`, sort it in decreasing order based on the frequency of the characters. The frequency of a character is the number of times it appears in the string. Return the sorted string. If there are multiple answers, return any of them.|
 |[kClosest](./scripts/kotlin/PriorityQueue/kClosest.kt)|Given an array of points where `points[i] = [xi, yi]` represents a point on the X-Y plane and an integer `k`, return the `k` closest points to the origin `(0, 0)`. The distance between two points on the X-Y plane is the Euclidean distance (i.e., `√(x1 - x2)^2 + (y1 - y2)^2)`. You may return the answer in any order.|
 |[furthestBuilding](./scripts/kotlin/PriorityQueue/furthestBuildring.kt)|Description is in the file|
+|[scheduleCourse](./scripts/kotlin/PriorityQueue/scheduleCourse.kt)|There are `n` different online courses numbered from `1` to `n`. You are given an array courses where `courses[i] = [durationi, lastDayi]` indicate that the `i`th course should be taken continuously for `durationi` days and must be finished before or on `lastDayi`. You will start on the 1st day and you cannot take two or more courses simultaneously. Return the maximum number of courses that you can take.|
 
 #### Math
 
