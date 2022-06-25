@@ -243,6 +243,7 @@ Topics:
 |[minOperations](./scripts/kotlin/General/minOperations.kt)|You are given an integer array `nums` and an integer `x`. In one operation, you can either remove the leftmost or the rightmost element from the array `nums` and subtract its value from `x`. Note that this modifies the array for future operations. Return the minimum number of operations to reduce `x` to exactly `0` if it is possible, otherwise, return `-1`.|
 |[maximumUniqueSubarray](./scripts/kotlin/General/maximumUniqueSubarray.kt)|You are given an array of positive integers `nums` and want to erase a subarray containing unique elements. The score you get by erasing the subarray is equal to the sum of its elements. Return the maximum score you can get by erasing exactly one subarray.|
 |[insertInterval](./scripts/kotlin/General/insertInterval.kt)|You are given an array of non-overlapping intervals intervals where `intervals[i] = [starti, endi]` represent the start and the end of the `i`th interval and intervals is sorted in ascending order by `starti`. You are also given an interval `newInterval = [start, end]` that represents the start and end of another interval. Insert `newInterval` into `intervals` such that intervals is still sorted in ascending order by `starti` and intervals still does not have any overlapping intervals (merge overlapping intervals if necessary). Return `intervals` after the insertion.|
+|[checkPossibility](./scripts/kotlin/General/checkPossibility.kt)|Given an array `nums` with `n` integers, your task is to check if it could become non-decreasing by modifying at most one element. We define an array is non-decreasing if `nums[i] <= nums[i + 1]` holds for every `i` (`0`-based) such that (`0 <= i <= n - 2`).|
 
 #### DFS & BFS
 
@@ -416,6 +417,7 @@ Topics:
 |[nthUglyNumber](./scripts/kotlin/DynamicProgramming/nthUglyNumber.kt)|An ugly number is a positive integer whose prime factors are limited to `2`, `3`, and `5`. Given an integer `n`, return the `n`th ugly number.|
 |[numTrees](./scripts/kotlin/DynamicProgramming/numTrees.kt)|Given an integer `n`, return the number of structurally unique BST's (binary search trees) which has exactly `n` nodes of unique values from `1` to `n`.|
 |[minFallingPathSum](./scripts/kotlin/DynamicProgramming/minFallingPathSum.kt)|Given an `n x n` array of integers `matrix`, return the minimum sum of any falling path through matrix. A falling path starts at any element in the first row and chooses the element in the next row that is either directly below or diagonally left/right. Specifically, the next element from position `(row, col)` will be `(row + 1, col - 1)`, `(row + 1, col)`, or `(row + 1, col + 1)`.|
+|[minPathSum](./scripts/kotlin/DynamicProgramming/minPathSum.kt)|Given a `m x n` grid filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path. Note: You can only move either down or right at any point in time.|
 
 #### Backtracking
 
