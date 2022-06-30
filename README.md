@@ -313,6 +313,7 @@ Topics:
 |[largestNumber](./scripts/kotlin/Sorting/largestNumber.kt)|Given a list of non-negative integers `nums`, arrange them such that they form the largest number and return it. Since the result may be very large, so you need to return a string instead of an integer.|
 |[minDeletions](./scripts/kotlin/Sorting/minDeletions.kt)|A string `s` is called good if there are no two different characters in `s` that have the same frequency. Given a string `s`, return the minimum number of characters you need to delete to make `s` good.|
 |[reconstructQueue](./scripts/kotlin/Sorting/reconstructQueue.kt)|You are given an array of people, `people`, which are the attributes of some people in a queue (not necessarily in order). Each `people[i] = [hi, ki]` represents the `i`th person of height `hi` with exactly `ki` other people in front who have a height greater than or equal to `hi`. Reconstruct and return the queue that is represented by the input array `people`. The returned queue should be formatted as an array `queue`, where `queue[j] = [hj, kj]` is the attributes of the `j`th person in the `queue` (`queue[0]` is the person at the front of the queue).|
+|[minMoves2](./scripts/kotlin/Sorting/minMoves2.kt)|Given an integer array `nums` of size `n`, return the minimum number of moves required to make all array elements equal. In one move, you can increment or decrement an element of the array by `1`.|
 
 #### PriorityQueue
 
@@ -427,6 +428,7 @@ Topics:
 |[longestPalindromicSubseq](./scripts/kotlin/DynamicProgramming/longestPalindromicSubseq.kt)|Given a string `s`, find the longest palindromic subsequence's length in `s`. A subsequence is a sequence that can be derived from another sequence by deleting some or no elements without changing the order of the remaining elements.|
 |[matrixBlockSum](./scripts/kotlin/DynamicProgramming/matrixBlockSum.kt)|Description is in the file|
 |[coinChange2](./scripts/kotlin/DynamicProgramming/coinChange2.kt)|You are given an integer array `coins` representing coins of different denominations and an integer `amount` representing a total amount of money. Return the number of combinations that make up that `amount`. If that amount of money cannot be made up by any combination of the coins, return `0`. You may assume that you have an infinite number of each kind of coin. The answer is guaranteed to fit into a signed 32-bit integer.|
+|[combinationSum4](./scripts/kotlin/DynamicProgramming/combinationSum4.kt)|Given an array of distinct integers `nums` and a target integer `target`, return the number of possible combinations that add up to target. The test cases are generated so that the answer can fit in a 32-bit integer.|
 
 #### Backtracking
 
