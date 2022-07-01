@@ -314,6 +314,7 @@ Topics:
 |[minDeletions](./scripts/kotlin/Sorting/minDeletions.kt)|A string `s` is called good if there are no two different characters in `s` that have the same frequency. Given a string `s`, return the minimum number of characters you need to delete to make `s` good.|
 |[reconstructQueue](./scripts/kotlin/Sorting/reconstructQueue.kt)|You are given an array of people, `people`, which are the attributes of some people in a queue (not necessarily in order). Each `people[i] = [hi, ki]` represents the `i`th person of height `hi` with exactly `ki` other people in front who have a height greater than or equal to `hi`. Reconstruct and return the queue that is represented by the input array `people`. The returned queue should be formatted as an array `queue`, where `queue[j] = [hj, kj]` is the attributes of the `j`th person in the `queue` (`queue[0]` is the person at the front of the queue).|
 |[minMoves2](./scripts/kotlin/Sorting/minMoves2.kt)|Given an integer array `nums` of size `n`, return the minimum number of moves required to make all array elements equal. In one move, you can increment or decrement an element of the array by `1`.|
+|[maximumUnits](./scripts/kotlin/Sorting/maximumUnits.kt)|Description is in the file|
 
 #### PriorityQueue
 
@@ -378,6 +379,7 @@ Topics:
 |[divideTwoIntegers](./scripts/kotlin/Math/divideTwoIntegers.kt)|Given two integers `dividend` and `divisor`, divide two integers without using multiplication, division, and mod operator.|
 |[countPrimes](./scripts/kotlin/Math/countPrimes.kt)|Given an integer `n`, return the number of prime numbers that are strictly less than `n`.|
 |[maximumXor](./scripts/kotlin/Math/maximumXor.kt)|You are given a `0`-indexed integer array `nums`. In one operation, select any non-negative integer `x` and an index `i`, then update `nums[i]` to be equal to `nums[i] AND (nums[i] XOR x)`. Note that `AND` is the bitwise `AND` operation and `XOR` is the bitwise `XOR` operation. Return the maximum possible bitwise `XOR` of all elements of `nums` after applying the operation any number of times.|
+|[integerReplacement](./scripts/kotlin/Math/integerReplacement.kt)|Description is in the file|
 
 #### DynamicProgramming
 
