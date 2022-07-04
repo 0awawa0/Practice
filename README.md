@@ -247,6 +247,7 @@ Topics:
 |[maxScore](./scripts/kotlin/General/maxScore.kt)|There are several cards arranged in a row, and each card has an associated number of points. The points are given in the integer array `cardPoints`. In one step, you can take one card from the beginning or from the end of the row. You have to take exactly `k` cards. Your score is the sum of the points of the cards you have taken. Given the integer array `cardPoints` and the integer `k`, return the maximum score you can obtain.|
 |[decodeMessage](./scripts/kotlin/General/decodeMessage.kt)|Description is in the file|
 |[spiralMatrix4](./scripts/kotlin/General/spiralMatrix4.kt)|You are given two integers `m` and `n`, which represent the dimensions of a matrix. You are also given the head of a linked list of integers. Generate an `m x n` matrix that contains the integers in the linked list presented in spiral order (clockwise), starting from the top-left of the matrix. If there are remaining empty spaces, fill them with `-1`. Return the generated matrix.|
+|[candy](./scripts/kotlin/General/candy.kt)|Description is in the file|
 
 #### DFS & BFS
 
