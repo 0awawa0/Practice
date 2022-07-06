@@ -248,6 +248,7 @@ Topics:
 |[decodeMessage](./scripts/kotlin/General/decodeMessage.kt)|Description is in the file|
 |[spiralMatrix4](./scripts/kotlin/General/spiralMatrix4.kt)|You are given two integers `m` and `n`, which represent the dimensions of a matrix. You are also given the head of a linked list of integers. Generate an `m x n` matrix that contains the integers in the linked list presented in spiral order (clockwise), starting from the top-left of the matrix. If there are remaining empty spaces, fill them with `-1`. Return the generated matrix.|
 |[candy](./scripts/kotlin/General/candy.kt)|Description is in the file|
+|[pivotIndex](./scripts/kotlin/General/pivotIndex.kt)|Given an array of integers `nums`, calculate the pivot index of this array. The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right. If the index is on the left edge of the array, then the left sum is `0` because there are no elements to the left. This also applies to the right edge of the array. Return the leftmost pivot index. If no such index exists, return `-1`.|
 
 #### DFS & BFS
 
