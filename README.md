@@ -438,6 +438,7 @@ Topics:
 |[combinationSum4](./scripts/kotlin/DynamicProgramming/combinationSum4.kt)|Given an array of distinct integers `nums` and a target integer `target`, return the number of possible combinations that add up to target. The test cases are generated so that the answer can fit in a 32-bit integer.|
 |[peopleAwareOfSecret](./scripts/kotlin/DynamicProgramming/peopleAwareOfSecret.kt)|On day `1`, one person discovers a secret. You are given an integer `delay`, which means that each person will share the secret with a new person every day, starting from `delay` days after discovering the secret. You are also given an integer `forget`, which means that each person will forget the secret `forget` days after discovering it. A person cannot share the secret on the same day they forgot it, or on any day afterwards. Given an integer `n`, return the number of people who know the secret at the end of day `n`. Since the answer may be very large, return it modulo `10^9 + 7`.|
 |[countPaths](./scripts/kotlin/DynamicProgramming/countPaths.kt)|You are given an `m x n` integer matrix `grid`, where you can move from a cell to any adjacent cell in all 4 directions. Return the number of strictly increasing paths in the `grid` such that you can start from any cell and end at any cell. Since the answer may be very large, return it modulo `10^9 + 7`. Two paths are considered different if they do not have exactly the same sequence of visited cells.|
+|[isInterleave](./scripts/kotlin/DynamicProgramming/isInterleave.kt)|Description is in the file|
 
 #### Backtracking
 
