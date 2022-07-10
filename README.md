@@ -441,6 +441,7 @@ Topics:
 |[countPaths](./scripts/kotlin/DynamicProgramming/countPaths.kt)|You are given an `m x n` integer matrix `grid`, where you can move from a cell to any adjacent cell in all 4 directions. Return the number of strictly increasing paths in the `grid` such that you can start from any cell and end at any cell. Since the answer may be very large, return it modulo `10^9 + 7`. Two paths are considered different if they do not have exactly the same sequence of visited cells.|
 |[isInterleave](./scripts/kotlin/DynamicProgramming/isInterleave.kt)|Description is in the file|
 |[minCost](./scripts/kotlin/DynamicProgramming/minCost.kt)|Description is in the file|
+|[jumpGame4](./scripts/kotlin/DynamicProgramming/jumpGame4.kt)|You are given a `0`-indexed integer array `nums` and an integer `k`. You are initially standing at index `0`. In one move, you can jump at most `k` steps forward without going outside the boundaries of the array. That is, you can jump from index `i` to any index in the range `[i + 1, min(n - 1, i + k)]` inclusive. You want to reach the last index of the array (index `n - 1`). Your score is the sum of all `nums[j]` for each index `j` you visited in the array. Return the maximum score you can get.|
 
 #### Backtracking
 
