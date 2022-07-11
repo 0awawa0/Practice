@@ -250,6 +250,9 @@ Topics:
 |[candy](./scripts/kotlin/General/candy.kt)|Description is in the file|
 |[pivotIndex](./scripts/kotlin/General/pivotIndex.kt)|Given an array of integers `nums`, calculate the pivot index of this array. The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right. If the index is on the left edge of the array, then the left sum is `0` because there are no elements to the left. This also applies to the right edge of the array. Return the leftmost pivot index. If no such index exists, return `-1`.|
 |[numberOfSubarrays](./scripts/kotlin/General/numberOfSubarrays.kt)|Given an array of integers `nums` and an integer `k`. A continuous subarray is called nice if there are `k` odd numbers on it. Return the number of nice sub-arrays.|
+|[findMiddleIndex](./scripts/kotlin/General/findMiddleIndex.kt)|Given a `0`-indexed integer array `nums`, find the leftmost `middleIndex` (i.e., the smallest amongst all the possible ones). A `middleIndex` is an index where `nums[0] + nums[1] + ... + nums[middleIndex-1] == nums[middleIndex+1] + nums[middleIndex+2] + ... + nums[nums.length-1]`. If `middleIndex == 0`, the left side sum is considered to be `0`. Similarly, if `middleIndex == nums.length - 1`, the right side sum is considered to be `0`. Return the leftmost `middleIndex` that satisfies the condition, or `-1` if there is no such index.|
+|[SmallestInfiniteSet](./scripts/kotlin/General/SmallestInfiniteSet.kt)|Description is in the file|
+|[movePiecesToObtainAString](./scripts/kotlin/General/movePiecesToObtainAString.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -386,6 +389,7 @@ Topics:
 |[countPrimes](./scripts/kotlin/Math/countPrimes.kt)|Given an integer `n`, return the number of prime numbers that are strictly less than `n`.|
 |[maximumXor](./scripts/kotlin/Math/maximumXor.kt)|You are given a `0`-indexed integer array `nums`. In one operation, select any non-negative integer `x` and an index `i`, then update `nums[i]` to be equal to `nums[i] AND (nums[i] XOR x)`. Note that `AND` is the bitwise `AND` operation and `XOR` is the bitwise `XOR` operation. Return the maximum possible bitwise `XOR` of all elements of `nums` after applying the operation any number of times.|
 |[integerReplacement](./scripts/kotlin/Math/integerReplacement.kt)|Description is in the file|
+|[fillCups](./scripts/kotlin/Math/fillCups.kt)|You have a water dispenser that can dispense cold, warm, and hot water. Every second, you can either fill up `2` cups with different types of water, or `1` cup of any type of water. You are given a `0`-indexed integer array amount of length `3` where `amount[0]`, `amount[1]`, and `amount[2]` denote the number of cold, warm, and hot water cups you need to fill respectively. Return the minimum number of seconds needed to fill up all the cups.|
 
 #### DynamicProgramming
 
@@ -557,3 +561,4 @@ Topics:
 |[WordFilter](./scripts/kotlin/Tree/WordFilter.kt)|Design a special dictionary with some words that searchs the words in it by a prefix and a suffix.|
 |[suggestProducts](./scripts/kotlin/Tree/suggestProducts.kt)|You are given an array of strings `products` and a string `searchWord`. Design a system that suggests at most three product names from `products` after each character of `searchWord` is typed. Suggested products should have common prefix with `searchWord`. If there are more than three products with a common prefix return the three lexicographically minimums products. Return a list of lists of the suggested products after each character of `searchWord` is typed.|
 |[minimumLengthEncoding](./scripts/kotlin/Tree/minimumLengthEncoding.kt)|Description is in the file|
+|[evaluateTree](./scripts/kotlin/Tree/evaluateTree.kt)|Description is in the file|
