@@ -446,6 +446,7 @@ Topics:
 |[isInterleave](./scripts/kotlin/DynamicProgramming/isInterleave.kt)|Description is in the file|
 |[minCost](./scripts/kotlin/DynamicProgramming/minCost.kt)|Description is in the file|
 |[jumpGame4](./scripts/kotlin/DynamicProgramming/jumpGame4.kt)|You are given a `0`-indexed integer array `nums` and an integer `k`. You are initially standing at index `0`. In one move, you can jump at most `k` steps forward without going outside the boundaries of the array. That is, you can jump from index `i` to any index in the range `[i + 1, min(n - 1, i + k)]` inclusive. You want to reach the last index of the array (index `n - 1`). Your score is the sum of all `nums[j]` for each index `j` you visited in the array. Return the maximum score you can get.|
+|[makesquare](./scripts/kotlin/DynamicProgramming/makesquare.kt)|You are given an integer array matchsticks where `matchsticks[i]` is the length of the `i`th matchstick. You want to use all the matchsticks to make one square. You should not break any stick, but you can link them up, and each matchstick must be used exactly one time. Return `true` if you can make this square and false otherwise.|
 
 #### Backtracking
 
