@@ -253,6 +253,8 @@ Topics:
 |[findMiddleIndex](./scripts/kotlin/General/findMiddleIndex.kt)|Given a `0`-indexed integer array `nums`, find the leftmost `middleIndex` (i.e., the smallest amongst all the possible ones). A `middleIndex` is an index where `nums[0] + nums[1] + ... + nums[middleIndex-1] == nums[middleIndex+1] + nums[middleIndex+2] + ... + nums[nums.length-1]`. If `middleIndex == 0`, the left side sum is considered to be `0`. Similarly, if `middleIndex == nums.length - 1`, the right side sum is considered to be `0`. Return the leftmost `middleIndex` that satisfies the condition, or `-1` if there is no such index.|
 |[SmallestInfiniteSet](./scripts/kotlin/General/SmallestInfiniteSet.kt)|Description is in the file|
 |[movePiecesToObtainAString](./scripts/kotlin/General/movePiecesToObtainAString.kt)|Description is in the file|
+|[numberOfPairs](./scripts/kotlin/General/numberOfPairs.kt)|Description is in the file|
+|[maximumSum](./scripts/kotlin/General/maximumSum.kt)|You are given a `0`-indexed array `nums` consisting of positive integers. You can choose two indices `i` and `j`, such that `i != j`, and the sum of digits of the number `nums[i]` is equal to that of `nums[j]`. Return the maximum value of `nums[i] + nums[j]` that you can obtain over all possible indices `i` and `j` that satisfy the conditions.|
 
 #### DFS & BFS
 
@@ -349,6 +351,7 @@ Topics:
 |[furthestBuilding](./scripts/kotlin/PriorityQueue/furthestBuildring.kt)|Description is in the file|
 |[scheduleCourse](./scripts/kotlin/PriorityQueue/scheduleCourse.kt)|There are `n` different online courses numbered from `1` to `n`. You are given an array courses where `courses[i] = [durationi, lastDayi]` indicate that the `i`th course should be taken continuously for `durationi` days and must be finished before or on `lastDayi`. You will start on the 1st day and you cannot take two or more courses simultaneously. Return the maximum number of courses that you can take.|
 |[isPossible](./scripts/kotlin/PriorityQueue/isPossible.kt)|Description is in the file|
+|[smallestTrimmedNumbers](./scripts/kotlin/PriorityQueue/smallestTrimmedNumbers.kt)|Description is in the file|
 
 #### Math
 
@@ -392,6 +395,7 @@ Topics:
 |[maximumXor](./scripts/kotlin/Math/maximumXor.kt)|You are given a `0`-indexed integer array `nums`. In one operation, select any non-negative integer `x` and an index `i`, then update `nums[i]` to be equal to `nums[i] AND (nums[i] XOR x)`. Note that `AND` is the bitwise `AND` operation and `XOR` is the bitwise `XOR` operation. Return the maximum possible bitwise `XOR` of all elements of `nums` after applying the operation any number of times.|
 |[integerReplacement](./scripts/kotlin/Math/integerReplacement.kt)|Description is in the file|
 |[fillCups](./scripts/kotlin/Math/fillCups.kt)|You have a water dispenser that can dispense cold, warm, and hot water. Every second, you can either fill up `2` cups with different types of water, or `1` cup of any type of water. You are given a `0`-indexed integer array amount of length `3` where `amount[0]`, `amount[1]`, and `amount[2]` denote the number of cold, warm, and hot water cups you need to fill respectively. Return the minimum number of seconds needed to fill up all the cups.|
+|[minimumDeletions](./scripts/kotlin/Math/minimumDeletions.kt)|You are given two positive integer arrays `nums` and `numsDivide`. You can delete any number of elements from `nums`. Return the minimum number of deletions such that the smallest element in `nums` divides all the elements of `numsDivide`. If this is not possible, return `-1`. Note that an integer `x` divides `y` if `y % x == 0`.|
 
 #### DynamicProgramming
 
@@ -449,6 +453,7 @@ Topics:
 |[minCost](./scripts/kotlin/DynamicProgramming/minCost.kt)|Description is in the file|
 |[jumpGame4](./scripts/kotlin/DynamicProgramming/jumpGame4.kt)|You are given a `0`-indexed integer array `nums` and an integer `k`. You are initially standing at index `0`. In one move, you can jump at most `k` steps forward without going outside the boundaries of the array. That is, you can jump from index `i` to any index in the range `[i + 1, min(n - 1, i + k)]` inclusive. You want to reach the last index of the array (index `n - 1`). Your score is the sum of all `nums[j]` for each index `j` you visited in the array. Return the maximum score you can get.|
 |[makesquare](./scripts/kotlin/DynamicProgramming/makesquare.kt)|You are given an integer array matchsticks where `matchsticks[i]` is the length of the `i`th matchstick. You want to use all the matchsticks to make one square. You should not break any stick, but you can link them up, and each matchstick must be used exactly one time. Return `true` if you can make this square and false otherwise.|
+|[kInversePairs](./scripts/kotlin/DynamicProgramming/kInversePairs.kt)|For an integer array `nums`, an inverse pair is a pair of integers `[i, j]` where `0 <= i < j < nums.length` and `nums[i] > nums[j]`. Given two integers `n` and `k`, return the number of different arrays consist of numbers from `1` to `n` such that there are exactly `k` inverse pairs. Since the answer can be huge, return it modulo `10^9 + 7`.|
 
 #### Backtracking
 
