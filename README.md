@@ -255,6 +255,7 @@ Topics:
 |[movePiecesToObtainAString](./scripts/kotlin/General/movePiecesToObtainAString.kt)|Description is in the file|
 |[numberOfPairs](./scripts/kotlin/General/numberOfPairs.kt)|Description is in the file|
 |[maximumSum](./scripts/kotlin/General/maximumSum.kt)|You are given a `0`-indexed array `nums` consisting of positive integers. You can choose two indices `i` and `j`, such that `i != j`, and the sum of digits of the number `nums[i]` is equal to that of `nums[j]`. Return the maximum value of `nums[i] + nums[j]` that you can obtain over all possible indices `i` and `j` that satisfy the conditions.|
+|[numSubmatrixSumTarget](./scripts/kotlin/General/numSubmatrixSumTarget.kt)|Given a `matrix` and a `target`, return the number of non-empty submatrices that sum to `target`. A submatrix `x1, y1, x2, y2` is the set of all cells `matrix[x][y]` with `x1 <= x <= x2` and `y1 <= y <= y2`. Two submatrices `(x1, y1, x2, y2)` and `(x1', y1', x2', y2')` are different if they have some coordinate that is different: for example, if `x1 != x1'`.|
 
 #### DFS & BFS
 
