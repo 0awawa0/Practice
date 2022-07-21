@@ -512,6 +512,7 @@ Topics:
 |[swapNodes](./scripts/kotlin/LinkedList/swapNodes.kt)|You are given the head of a linked list, and an integer `k`. Return the head of the linked list after swapping the values of the `k`th node from the beginning and the `k`th node from the end (the list is 1-indexed).|
 |[NestedIterator](./scripts/kotlin/LinkedList/NestedIterator.kt)|Description is in the file|
 |[reverseKGroup](./scripts/kotlin/LinkedList/reverseKGroup.kt)|Given the head of a linked list, reverse the nodes of the list `k` at a time, and return the modified list. `k` is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of `k` then left-out nodes, in the end, should remain as it is. You may not alter the values in the list's nodes, only nodes themselves may be changed.|
+|[reverseBetween](./scripts/kotlin/LinkedList/reverseBetween.kt)|Given the head of a singly linked list and two integers `left` and `right` where `left <= right`, reverse the nodes of the list from position left to position right, and return the reversed list.|
 
 
 #### Tree
