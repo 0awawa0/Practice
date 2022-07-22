@@ -513,6 +513,7 @@ Topics:
 |[NestedIterator](./scripts/kotlin/LinkedList/NestedIterator.kt)|Description is in the file|
 |[reverseKGroup](./scripts/kotlin/LinkedList/reverseKGroup.kt)|Given the head of a linked list, reverse the nodes of the list `k` at a time, and return the modified list. `k` is a positive integer and is less than or equal to the length of the linked list. If the number of nodes is not a multiple of `k` then left-out nodes, in the end, should remain as it is. You may not alter the values in the list's nodes, only nodes themselves may be changed.|
 |[reverseBetween](./scripts/kotlin/LinkedList/reverseBetween.kt)|Given the head of a singly linked list and two integers `left` and `right` where `left <= right`, reverse the nodes of the list from position left to position right, and return the reversed list.|
+|[partition](./scripts/kotlin/LinkedList/partition.kt)|Given the head of a linked list and a value `x`, partition it such that all nodes less than `x` come before nodes greater than or equal to `x`. You should preserve the original relative order of the nodes in each of the two partitions.|
 
 
 #### Tree
