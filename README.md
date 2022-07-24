@@ -256,6 +256,12 @@ Topics:
 |[numberOfPairs](./scripts/kotlin/General/numberOfPairs.kt)|Description is in the file|
 |[maximumSum](./scripts/kotlin/General/maximumSum.kt)|You are given a `0`-indexed array `nums` consisting of positive integers. You can choose two indices `i` and `j`, such that `i != j`, and the sum of digits of the number `nums[i]` is equal to that of `nums[j]`. Return the maximum value of `nums[i] + nums[j]` that you can obtain over all possible indices `i` and `j` that satisfy the conditions.|
 |[numSubmatrixSumTarget](./scripts/kotlin/General/numSubmatrixSumTarget.kt)|Given a `matrix` and a `target`, return the number of non-empty submatrices that sum to `target`. A submatrix `x1, y1, x2, y2` is the set of all cells `matrix[x][y]` with `x1 <= x <= x2` and `y1 <= y <= y2`. Two submatrices `(x1, y1, x2, y2)` and `(x1', y1', x2', y2')` are different if they have some coordinate that is different: for example, if `x1 != x1'`.|
+|[bestHand](./scripts/kotlin/General/bestHand.kt)|Description is in the file|
+|[zeroFilledSubarray](./scripts/kotlin/General/zeroFilledSubarray.kt)|Given an integer array `nums`, return the number of subarrays filled with `0`. A subarray is a contiguous non-empty sequence of elements within an array.|
+|[NumberContainers](./scripts/kotlin/General/NumberContainers.kt)|Description is in the file|
+|[repeatedCharacter](./scripts/kotlin/General/repeatedCharacter.kt)|Description is in the file|
+|[equalPairs](./scripts/kotlin/General/equalPairs.kt)|Given a `0`-indexed `n x n` integer matrix grid, return the number of pairs `(Ri, Cj)` such that row `Ri` and column `Cj` are equal. A row and column pair is considered equal if they contain the same elements in the same order (i.e. an equal array).|
+|[FoodRatings](./scripts/kotlin/General/FoodRatings.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -329,6 +335,7 @@ Topics:
 |[minMoves2](./scripts/kotlin/Sorting/minMoves2.kt)|Given an integer array `nums` of size `n`, return the minimum number of moves required to make all array elements equal. In one move, you can increment or decrement an element of the array by `1`.|
 |[maximumUnits](./scripts/kotlin/Sorting/maximumUnits.kt)|Description is in the file|
 |[maxArea](./scripts/kotlin/Sorting/maxArea.kt)|Description is in the file|
+|[countSmaller](./scripts/kotlin/Sorting/countSmaller.kt)|You are given an integer array `nums` and you have to return a new `counts` array. The `counts` array has the property where `counts[i]` is the number of smaller elements to the right of `nums[i]`.|
 
 #### PriorityQueue
 
