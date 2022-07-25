@@ -491,6 +491,8 @@ Topics:
 |[lengthOfLIS](./scripts/kotlin/BinarySearch/lengthOfLIS.kt)|Given an integer array `nums`, return the length of the longest strictly increasing subsequence.|
 |[searchMatrix2](./scripts/kotlin/BinarySearch/searchMatrix2.kt)|Write an efficient algorithm that searches for a value `target` in an `m x n` integer matrix `matrix`.|
 |[findMedianSortedArrays](./scripts/kotlin/BinarySearch/findMedianSortedArrays.kt)|Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return the median of the two sorted arrays.|
+|[TimeMap](./scripts/kotlin/BinarySearch/TimeMap.kt)|Description is in the file|
+|[searchRange](./scripts/kotlin/BinarySearch/searchRange.kt)|Given an array of integers `nums` sorted in non-decreasing order, find the starting and ending position of a given `target` value. If `target` is not found in the array, return `[-1, -1]`. You must write an algorithm with `O(log n)` runtime complexity.|
 
 #### Linked list
 | File | Task |
