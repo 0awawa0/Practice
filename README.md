@@ -262,6 +262,7 @@ Topics:
 |[repeatedCharacter](./scripts/kotlin/General/repeatedCharacter.kt)|Description is in the file|
 |[equalPairs](./scripts/kotlin/General/equalPairs.kt)|Given a `0`-indexed `n x n` integer matrix grid, return the number of pairs `(Ri, Cj)` such that row `Ri` and column `Cj` are equal. A row and column pair is considered equal if they contain the same elements in the same order (i.e. an equal array).|
 |[FoodRatings](./scripts/kotlin/General/FoodRatings.kt)|Description is in the file|
+|[sortColors](./scripts/kotlin/General/sortColors.kt)|Given an array `nums` with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue. We will use the integers `0`, `1`, and `2` to represent the color red, white, and blue, respectively. You must solve this problem without using the library's sort function.|
 
 #### DFS & BFS
 
