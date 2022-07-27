@@ -585,3 +585,4 @@ Topics:
 |[minimumLengthEncoding](./scripts/kotlin/Tree/minimumLengthEncoding.kt)|Description is in the file|
 |[evaluateTree](./scripts/kotlin/Tree/evaluateTree.kt)|Description is in the file|
 |[numMatchingSubseq](./scripts/kotlin/Tree/numMatchingSubseq.kt)|Given a string `s` and an array of strings `words`, return the number of `words[i]` that is a subsequence of `s`. A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.|
+|[flatten](./scripts/kotlin/Tree/flatten.kt)|Description is in the file|
