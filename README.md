@@ -263,6 +263,7 @@ Topics:
 |[equalPairs](./scripts/kotlin/General/equalPairs.kt)|Given a `0`-indexed `n x n` integer matrix grid, return the number of pairs `(Ri, Cj)` such that row `Ri` and column `Cj` are equal. A row and column pair is considered equal if they contain the same elements in the same order (i.e. an equal array).|
 |[FoodRatings](./scripts/kotlin/General/FoodRatings.kt)|Description is in the file|
 |[sortColors](./scripts/kotlin/General/sortColors.kt)|Given an array `nums` with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue. We will use the integers `0`, `1`, and `2` to represent the color red, white, and blue, respectively. You must solve this problem without using the library's sort function.|
+|[wordSubsets](./scripts/kotlin/General/wordSubsets.kt)|You are given two string arrays `words1` and `words2`. A string `b` is a subset of string `a` if every letter in `b` occurs in a including multiplicity. A string `a` from `words1` is universal if for every string `b` in `words2`, `b` is a subset of `a`. Return an array of all the universal strings in `words1`. You may return the answer in any order.|
 
 #### DFS & BFS
 
