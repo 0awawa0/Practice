@@ -264,6 +264,8 @@ Topics:
 |[FoodRatings](./scripts/kotlin/General/FoodRatings.kt)|Description is in the file|
 |[sortColors](./scripts/kotlin/General/sortColors.kt)|Given an array `nums` with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue. We will use the integers `0`, `1`, and `2` to represent the color red, white, and blue, respectively. You must solve this problem without using the library's sort function.|
 |[wordSubsets](./scripts/kotlin/General/wordSubsets.kt)|You are given two string arrays `words1` and `words2`. A string `b` is a subset of string `a` if every letter in `b` occurs in a including multiplicity. A string `a` from `words1` is universal if for every string `b` in `words2`, `b` is a subset of `a`. Return an array of all the universal strings in `words1`. You may return the answer in any order.|
+|[minimumOperations](./scripts/kotlin/General/minimumOperations.kt)|Description is in the file|
+|[compress](./scripts/kotlin/General/compress.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -291,6 +293,8 @@ Topics:
 |[canFinish](./scripts/kotlin/DFS%26BFS/canFinish.kt)|There are a total of `numCourses` courses you have to take, labeled from `0` to `numCourses - 1`. You are given an array prerequisites where `prerequisites[i] = [ai, bi]` indicates that you must take course `bi` first if you want to take course `ai`. Return `true` if you can finish all courses. Otherwise, return `false`.|
 |[findPaths](./scripts/kotlin/DFS%26BFS/findPaths.kt)|There is an `m x n` grid with a ball. The ball is initially at the position `[startRow, startColumn]`. You are allowed to move the ball to one of the four adjacent cells in the grid (possibly out of the grid crossing the grid boundary). You can apply at most `maxMove` moves to the ball. Given the five integers `m, n, maxMove, startRow, startColumn`, return the number of paths to move the ball out of the grid boundary. Since the answer can be very large, return it modulo `10^9 + 7`.|
 |[accountsMerge](./scripts/kotlin/DFS%26BFS/accountsMerge.kt)|Given a list of `accounts` where each element `accounts[i]` is a list of strings, where the first element `accounts[i][0]` is a name, and the rest of the elements are emails representing emails of the account. Now, we would like to merge these accounts. Two accounts definitely belong to the same person if there is some common email to both accounts. Note that even if two accounts have the same name, they may belong to different people as people could have the same name. A person can have any number of accounts initially, but all of their accounts definitely have the same name. After merging the accounts, return the accounts in the following format: the first element of each account is the name, and the rest of the elements are emails in sorted order. The accounts themselves can be returned in any order.|
+|[closestMeetingNode](./scripts/kotlin/DFS%26BFS/closestMeetingNode.kt)|Description is in the file|
+|[longestCycle](./scripts/kotlin/DFS%26BFS/longestCycle.kt)|You are given a directed graph of `n` nodes numbered from `0` to `n - 1`, where each node has at most one outgoing edge. The graph is represented with a given `0`-indexed array edges of size `n`, indicating that there is a directed edge from node `i` to node `edges[i]`. If there is no outgoing edge from node `i`, then `edges[i] == -1`. Return the length of the longest cycle in the graph. If no cycle exists, return `-1`. A cycle is a path that starts and ends at the same node.|
 
 #### Stack
 
@@ -407,6 +411,7 @@ Topics:
 |[integerReplacement](./scripts/kotlin/Math/integerReplacement.kt)|Description is in the file|
 |[fillCups](./scripts/kotlin/Math/fillCups.kt)|You have a water dispenser that can dispense cold, warm, and hot water. Every second, you can either fill up `2` cups with different types of water, or `1` cup of any type of water. You are given a `0`-indexed integer array amount of length `3` where `amount[0]`, `amount[1]`, and `amount[2]` denote the number of cold, warm, and hot water cups you need to fill respectively. Return the minimum number of seconds needed to fill up all the cups.|
 |[minimumDeletions](./scripts/kotlin/Math/minimumDeletions.kt)|You are given two positive integer arrays `nums` and `numsDivide`. You can delete any number of elements from `nums`. Return the minimum number of deletions such that the smallest element in `nums` divides all the elements of `numsDivide`. If this is not possible, return `-1`. Note that an integer `x` divides `y` if `y % x == 0`.|
+|[maximumGroups](./scripts/kotlin/Math/maximumGroups.kt)|Description is in the file|
 
 #### DynamicProgramming
 
