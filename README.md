@@ -501,6 +501,7 @@ Topics:
 |[findMedianSortedArrays](./scripts/kotlin/BinarySearch/findMedianSortedArrays.kt)|Given two sorted arrays `nums1` and `nums2` of size `m` and `n` respectively, return the median of the two sorted arrays.|
 |[TimeMap](./scripts/kotlin/BinarySearch/TimeMap.kt)|Description is in the file|
 |[searchRange](./scripts/kotlin/BinarySearch/searchRange.kt)|Given an array of integers `nums` sorted in non-decreasing order, find the starting and ending position of a given `target` value. If `target` is not found in the array, return `[-1, -1]`. You must write an algorithm with `O(log n)` runtime complexity.|
+|[kthSmallest](./scripts/kotlin/BinarySearch/kthSmallest.kt)|Given an `n x n` matrix where each of the rows and columns is sorted in ascending order, return the `k`th smallest element in the matrix. Note that it is the `k`th smallest element in the sorted order, not the `k`th distinct element.|
 
 #### Linked list
 | File | Task |
