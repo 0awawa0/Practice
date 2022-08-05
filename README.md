@@ -367,6 +367,7 @@ Topics:
 |[scheduleCourse](./scripts/kotlin/PriorityQueue/scheduleCourse.kt)|There are `n` different online courses numbered from `1` to `n`. You are given an array courses where `courses[i] = [durationi, lastDayi]` indicate that the `i`th course should be taken continuously for `durationi` days and must be finished before or on `lastDayi`. You will start on the 1st day and you cannot take two or more courses simultaneously. Return the maximum number of courses that you can take.|
 |[isPossible](./scripts/kotlin/PriorityQueue/isPossible.kt)|Description is in the file|
 |[smallestTrimmedNumbers](./scripts/kotlin/PriorityQueue/smallestTrimmedNumbers.kt)|Description is in the file|
+|[leastInterval](./scripts/kotlin/PriorityQueue/leastInterval.kt)|Given a characters array `tasks`, representing the tasks a CPU needs to do, where each letter represents a different task. Tasks could be done in any order. Each task is done in one unit of time. For each unit of time, the CPU could complete either one task or just be idle. However, there is a non-negative integer `n` that represents the cooldown period between two same tasks (the same letter in the array), that is that there must be at least `n` units of time between any two same tasks. Return the least number of units of times that the CPU will take to finish all the given tasks.|
 
 #### Math
 
