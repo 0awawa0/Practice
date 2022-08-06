@@ -472,6 +472,7 @@ Topics:
 |[jumpGame4](./scripts/kotlin/DynamicProgramming/jumpGame4.kt)|You are given a `0`-indexed integer array `nums` and an integer `k`. You are initially standing at index `0`. In one move, you can jump at most `k` steps forward without going outside the boundaries of the array. That is, you can jump from index `i` to any index in the range `[i + 1, min(n - 1, i + k)]` inclusive. You want to reach the last index of the array (index `n - 1`). Your score is the sum of all `nums[j]` for each index `j` you visited in the array. Return the maximum score you can get.|
 |[makesquare](./scripts/kotlin/DynamicProgramming/makesquare.kt)|You are given an integer array matchsticks where `matchsticks[i]` is the length of the `i`th matchstick. You want to use all the matchsticks to make one square. You should not break any stick, but you can link them up, and each matchstick must be used exactly one time. Return `true` if you can make this square and false otherwise.|
 |[kInversePairs](./scripts/kotlin/DynamicProgramming/kInversePairs.kt)|For an integer array `nums`, an inverse pair is a pair of integers `[i, j]` where `0 <= i < j < nums.length` and `nums[i] > nums[j]`. Given two integers `n` and `k`, return the number of different arrays consist of numbers from `1` to `n` such that there are exactly `k` inverse pairs. Since the answer can be huge, return it modulo `10^9 + 7`.|
+|[poorPigs](./scripts/kotlin/DynamicProgramming/poorPigs.kt)|Description is in the file|
 
 #### Backtracking
 
