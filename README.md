@@ -266,6 +266,7 @@ Topics:
 |[wordSubsets](./scripts/kotlin/General/wordSubsets.kt)|You are given two string arrays `words1` and `words2`. A string `b` is a subset of string `a` if every letter in `b` occurs in a including multiplicity. A string `a` from `words1` is universal if for every string `b` in `words2`, `b` is a subset of `a`. Return an array of all the universal strings in `words1`. You may return the answer in any order.|
 |[minimumOperations](./scripts/kotlin/General/minimumOperations.kt)|Description is in the file|
 |[compress](./scripts/kotlin/General/compress.kt)|Description is in the file|
+|[taskSchedulerII](./scripts/kotlin/General/taskSchedulerII.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -473,6 +474,8 @@ Topics:
 |[makesquare](./scripts/kotlin/DynamicProgramming/makesquare.kt)|You are given an integer array matchsticks where `matchsticks[i]` is the length of the `i`th matchstick. You want to use all the matchsticks to make one square. You should not break any stick, but you can link them up, and each matchstick must be used exactly one time. Return `true` if you can make this square and false otherwise.|
 |[kInversePairs](./scripts/kotlin/DynamicProgramming/kInversePairs.kt)|For an integer array `nums`, an inverse pair is a pair of integers `[i, j]` where `0 <= i < j < nums.length` and `nums[i] > nums[j]`. Given two integers `n` and `k`, return the number of different arrays consist of numbers from `1` to `n` such that there are exactly `k` inverse pairs. Since the answer can be huge, return it modulo `10^9 + 7`.|
 |[poorPigs](./scripts/kotlin/DynamicProgramming/poorPigs.kt)|Description is in the file|
+|[validPartition](./scripts/kotlin/DynamicProgramming/validPartition.kt)|Description is in the file|
+|[countPermutation](./scripts/kotlin/DynamicProgramming/countPermutation.kt)|Description is in the file|
 
 #### Backtracking
 
@@ -596,3 +599,4 @@ Topics:
 |[evaluateTree](./scripts/kotlin/Tree/evaluateTree.kt)|Description is in the file|
 |[numMatchingSubseq](./scripts/kotlin/Tree/numMatchingSubseq.kt)|Given a string `s` and an array of strings `words`, return the number of `words[i]` that is a subsequence of `s`. A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.|
 |[flatten](./scripts/kotlin/Tree/flatten.kt)|Description is in the file|
+|[reachableNodes](./scripts/kotlin/Tree/reachableNodes.kt)|There is an undirected tree with `n` nodes labeled from `0` to `n - 1` and `n - 1` edges. You are given a 2D integer array `edges` of length `n - 1` where `edges[i] = [ai, bi]` indicates that there is an edge between nodes `ai` and `bi` in the tree. You are also given an integer array `restricted` which represents restricted nodes. Return the maximum number of nodes you can reach from node `0` without visiting a restricted node. Note that node `0` will not be a restricted node.|
