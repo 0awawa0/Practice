@@ -490,6 +490,7 @@ Topics:
 |[combinationSum3](./scripts/kotlin/Backtracking/combinationSum3.kt)|Description is in the file|
 |[solveNQueens](./scripts/kotlin/Backtracking/solveNQueens.kt)|The `n`-queens puzzle is the problem of placing `n` queens on an `n x n` chessboard such that no two queens attack each other. Given an integer `n`, return all distinct solutions to the `n`-queens puzzle. You may return the answer in any order. Each solution contains a distinct board configuration of the `n`-queens' placement, where `'Q'` and `'.'` both indicate a queen and an empty space, respectively.|
 |[totalNQueens](./scripts/kotlin/Backtracking/totalNQueens.kt)|The `n`-queens puzzle is the problem of placing `n` queens on an `n x n` chessboard such that no two queens attack each other. Given an integer `n`, return the number of distinct solutions to the `n`-queens puzzle.|
+|[findWords](./scripts/kotlin/Backtracking/findWords.kt)|Given an `m x n` board of characters and a list of strings words, return all words on the board. Each word must be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.|
 
 #### BinarySearch
 
