@@ -346,6 +346,7 @@ Topics:
 |[maximumUnits](./scripts/kotlin/Sorting/maximumUnits.kt)|Description is in the file|
 |[maxArea](./scripts/kotlin/Sorting/maxArea.kt)|Description is in the file|
 |[countSmaller](./scripts/kotlin/Sorting/countSmaller.kt)|You are given an integer array `nums` and you have to return a new `counts` array. The `counts` array has the property where `counts[i]` is the number of smaller elements to the right of `nums[i]`.|
+|[minSetSize](./scripts/kotlin/Sorting/minSetSize.kt)|You are given an integer array `arr`. You can choose a set of integers and remove all the occurrences of these integers in the array. Return the minimum size of the set so that at least half of the integers of the array are removed.|
 
 #### PriorityQueue
 
