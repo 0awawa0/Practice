@@ -269,6 +269,9 @@ Topics:
 |[taskSchedulerII](./scripts/kotlin/General/taskSchedulerII.kt)|Description is in the file|
 |[edgeScore](./scripts/kotlin/General/edgeScore.kt)|You are given a directed graph with `n` nodes labeled from `0` to `n - 1`, where each node has exactly one outgoing edge. The graph is represented by a given `0`-indexed integer array `edges` of length `n`, where `edges[i]` indicates that there is a directed edge from node `i` to node `edges[i]`. The edge score of a node `i` is defined as the sum of the labels of all the nodes that have an edge pointing to `i`. Return the node with the highest edge score. If multiple nodes have the same edge score, return the node with the smallest index.|
 |[isPossible](./scripts/kotlin/General/isPossible.kt)|Description is in the file|
+|[largestPalindromic](./scripts/kotlin/General/largestPalindromic.kt)|Description is in the file|
+|[minNumberOfHours](./scripts/kotlin/General/minNumberOfHours.kt)|Description is in the file|
+|[minimumRecolors](./scripts/kotlin/General/minimumRecolors.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -608,3 +611,4 @@ Topics:
 |[numMatchingSubseq](./scripts/kotlin/Tree/numMatchingSubseq.kt)|Given a string `s` and an array of strings `words`, return the number of `words[i]` that is a subsequence of `s`. A subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.|
 |[flatten](./scripts/kotlin/Tree/flatten.kt)|Description is in the file|
 |[reachableNodes](./scripts/kotlin/Tree/reachableNodes.kt)|There is an undirected tree with `n` nodes labeled from `0` to `n - 1` and `n - 1` edges. You are given a 2D integer array `edges` of length `n - 1` where `edges[i] = [ai, bi]` indicates that there is an edge between nodes `ai` and `bi` in the tree. You are also given an integer array `restricted` which represents restricted nodes. Return the maximum number of nodes you can reach from node `0` without visiting a restricted node. Note that node `0` will not be a restricted node.|
+|[amountOfTime](./scripts/kotlin/Tree/amountOfTime.kt)|Description is in the file.|
