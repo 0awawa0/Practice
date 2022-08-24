@@ -320,6 +320,7 @@ Topics:
 |[StockSpanner](./scripts/kotlin/Stack/StockSpanner.kt)|Design an algorithm that collects daily price quotes for some stock and returns the span of that stock's price for the current day.|
 |[minStack](./scripts/kotlin/Stack/minStack.kt)|Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.|
 |[find132Pattern](./scripts/kotlin/Stack/find132Pattern.kt)|Given an array of `n` integers `nums`, a 132 pattern is a subsequence of three integers `nums[i]`, `nums[j]` and `nums[k]` such that `i < j < k` and `nums[i] < nums[k] < nums[j]`. Return `true` if there is a 132 pattern in `nums`, otherwise, return `false`.|
+|[asteroidCollision](./scripts/kotlin/Stack/asteroidCollision.kt)|We are given an array `asteroids` of integers representing asteroids in a row. For each asteroid, the absolute value represents its size, and the sign represents its direction (positive meaning right, negative meaning left). Each asteroid moves at the same speed. Find out the state of the asteroids after all collisions. If two asteroids meet, the smaller one will explode. If both are the same size, both will explode. Two asteroids moving in the same direction will never meet.|
 
 #### Sorting
 
