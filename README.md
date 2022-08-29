@@ -272,6 +272,10 @@ Topics:
 |[largestPalindromic](./scripts/kotlin/General/largestPalindromic.kt)|Description is in the file|
 |[minNumberOfHours](./scripts/kotlin/General/minNumberOfHours.kt)|Description is in the file|
 |[minimumRecolors](./scripts/kotlin/General/minimumRecolors.kt)|Description is in the file|
+|[reorderedPowerOf2](./scripts/kotlin/General/reorderedPowerOf2.kt)|You are given an integer `n`. We reorder the digits in any order (including the original order) such that the leading digit is not zero. Return `true` if and only if we can do this so that the resulting number is a power of two.|
+|[diagonalSort](./scripts/kotlin/General/diagonalSort.kt)|A matrix diagonal is a diagonal line of cells starting from some cell in either the topmost row or leftmost column and going in the bottom-right direction until reaching the matrix's end. For example, the matrix diagonal starting from `mat[2][0]`, where mat is a `6 x 3` matrix, includes cells `mat[2][0]`, `mat[3][1]`, and `mat[4][2]`. Given an `m x n` matrix `mat` of integers, sort each matrix diagonal in ascending order and return the resulting matrix.|
+|[garbageCollection](./scripts/kotlin/General/garbageCollection.kt)|You are given a `0`-indexed array of strings garbage where `garbage[i]` represents the assortment of garbage at the `i`th house. `garbage[i]` consists only of the characters `'M'`, `'P'` and `'G'` representing one unit of metal, paper and glass garbage respectively. Picking up one unit of any type of garbage takes `1` minute. You are also given a `0`-indexed integer array `travel` where `travel[i]` is the number of minutes needed to go from house `i` to house `i + 1`. There are three garbage trucks in the city, each responsible for picking up one type of garbage. Each garbage truck starts at house `0` and must visit each house in order; however, they do not need to visit every house. Only one garbage truck may be used at any given moment. While one truck is driving or picking up garbage, the other two trucks cannot do anything. Return the minimum number of minutes needed to pick up all the garbage.|
+|[removeStars](./scripts/kotlin/General/removeStars.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -352,6 +356,7 @@ Topics:
 |[maxArea](./scripts/kotlin/Sorting/maxArea.kt)|Description is in the file|
 |[countSmaller](./scripts/kotlin/Sorting/countSmaller.kt)|You are given an integer array `nums` and you have to return a new `counts` array. The `counts` array has the property where `counts[i]` is the number of smaller elements to the right of `nums[i]`.|
 |[minSetSize](./scripts/kotlin/Sorting/minSetSize.kt)|You are given an integer array `arr`. You can choose a set of integers and remove all the occurrences of these integers in the array. Return the minimum size of the set so that at least half of the integers of the array are removed.|
+|[answerQueries](./scripts/kotlin/Sorting/answerQueries.kt)|You are given an integer array `nums` of length `n`, and an integer array queries of length `m`. Return an array answer of length `m` where `answer[i]` is the maximum size of a subsequence that you can take from `nums` such that the sum of its elements is less than or equal to `queries[i]`. A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.|
 
 #### PriorityQueue
 
@@ -613,3 +618,4 @@ Topics:
 |[flatten](./scripts/kotlin/Tree/flatten.kt)|Description is in the file|
 |[reachableNodes](./scripts/kotlin/Tree/reachableNodes.kt)|There is an undirected tree with `n` nodes labeled from `0` to `n - 1` and `n - 1` edges. You are given a 2D integer array `edges` of length `n - 1` where `edges[i] = [ai, bi]` indicates that there is an edge between nodes `ai` and `bi` in the tree. You are also given an integer array `restricted` which represents restricted nodes. Return the maximum number of nodes you can reach from node `0` without visiting a restricted node. Note that node `0` will not be a restricted node.|
 |[amountOfTime](./scripts/kotlin/Tree/amountOfTime.kt)|Description is in the file.|
+|[pathSumIII](./scripts/kotlin/Tree/pathSumIII.kt)|Given the root of a binary tree and an integer `targetSum`, return the number of paths where the sum of the values along the path equals `targetSum`. The path does not need to start or end at the root or a leaf, but it must go downwards (i.e., traveling only from parent nodes to child nodes).|
