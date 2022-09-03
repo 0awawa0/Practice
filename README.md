@@ -506,6 +506,7 @@ Topics:
 |[totalNQueens](./scripts/kotlin/Backtracking/totalNQueens.kt)|The `n`-queens puzzle is the problem of placing `n` queens on an `n x n` chessboard such that no two queens attack each other. Given an integer `n`, return the number of distinct solutions to the `n`-queens puzzle.|
 |[findWords](./scripts/kotlin/Backtracking/findWords.kt)|Given an `m x n` board of characters and a list of strings words, return all words on the board. Each word must be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.|
 |[smallestNumber](./scripts/kotlin/Backtracking/smallestNumber.kt)|Description is in the file|
+|[numsSameConsecDiff](./scripts/kotlin/Backtracking/numsSameConsecDiff.kt)|Return all non-negative integers of length `n` such that the absolute difference between every two consecutive digits is `k`. Note that every number in the answer must not have leading zeros. For example, `01` has one leading zero and is invalid. You may return the answer in any order.|
 
 #### BinarySearch
 
