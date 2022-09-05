@@ -276,6 +276,8 @@ Topics:
 |[diagonalSort](./scripts/kotlin/General/diagonalSort.kt)|A matrix diagonal is a diagonal line of cells starting from some cell in either the topmost row or leftmost column and going in the bottom-right direction until reaching the matrix's end. For example, the matrix diagonal starting from `mat[2][0]`, where mat is a `6 x 3` matrix, includes cells `mat[2][0]`, `mat[3][1]`, and `mat[4][2]`. Given an `m x n` matrix `mat` of integers, sort each matrix diagonal in ascending order and return the resulting matrix.|
 |[garbageCollection](./scripts/kotlin/General/garbageCollection.kt)|You are given a `0`-indexed array of strings garbage where `garbage[i]` represents the assortment of garbage at the `i`th house. `garbage[i]` consists only of the characters `'M'`, `'P'` and `'G'` representing one unit of metal, paper and glass garbage respectively. Picking up one unit of any type of garbage takes `1` minute. You are also given a `0`-indexed integer array `travel` where `travel[i]` is the number of minutes needed to go from house `i` to house `i + 1`. There are three garbage trucks in the city, each responsible for picking up one type of garbage. Each garbage truck starts at house `0` and must visit each house in order; however, they do not need to visit every house. Only one garbage truck may be used at any given moment. While one truck is driving or picking up garbage, the other two trucks cannot do anything. Return the minimum number of minutes needed to pick up all the garbage.|
 |[removeStars](./scripts/kotlin/General/removeStars.kt)|Description is in the file|
+|[findSubarrays](./scripts/kotlin/General/findSubarrays.kt)|Given a `0`-indexed integer array `nums`, determine whether there exist two subarrays of length `2` with equal sum. Note that the two subarrays must begin at different indices. Return `true` if these subarrays exist, and `false` otherwise. A subarray is a contiguous non-empty sequence of elements within an array.|
+|[checkDistances](./scripts/kotlin/General/checkDistances.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -507,6 +509,7 @@ Topics:
 |[findWords](./scripts/kotlin/Backtracking/findWords.kt)|Given an `m x n` board of characters and a list of strings words, return all words on the board. Each word must be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once in a word.|
 |[smallestNumber](./scripts/kotlin/Backtracking/smallestNumber.kt)|Description is in the file|
 |[numsSameConsecDiff](./scripts/kotlin/Backtracking/numsSameConsecDiff.kt)|Return all non-negative integers of length `n` such that the absolute difference between every two consecutive digits is `k`. Note that every number in the answer must not have leading zeros. For example, `01` has one leading zero and is invalid. You may return the answer in any order.|
+|[numberOfWays](./scripts/kotlin/Backtracking/numberOfWays.kt)|Description is in the file|
 
 #### BinarySearch
 
@@ -622,3 +625,4 @@ Topics:
 |[amountOfTime](./scripts/kotlin/Tree/amountOfTime.kt)|Description is in the file.|
 |[pathSumIII](./scripts/kotlin/Tree/pathSumIII.kt)|Given the root of a binary tree and an integer `targetSum`, return the number of paths where the sum of the values along the path equals `targetSum`. The path does not need to start or end at the root or a leaf, but it must go downwards (i.e., traveling only from parent nodes to child nodes).|
 |[distanceK](./scripts/kotlin/Tree/distanceK.kt)|Given the root of a binary tree, the value of a target node `target`, and an integer `k`, return an array of the values of all nodes that have a distance `k` from the target node. You can return the answer in any order.|
+|[verticalTraversal](./scripts/kotlin/Tree/verticalTraversal.kt)|Description is in the file|
