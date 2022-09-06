@@ -278,6 +278,7 @@ Topics:
 |[removeStars](./scripts/kotlin/General/removeStars.kt)|Description is in the file|
 |[findSubarrays](./scripts/kotlin/General/findSubarrays.kt)|Given a `0`-indexed integer array `nums`, determine whether there exist two subarrays of length `2` with equal sum. Note that the two subarrays must begin at different indices. Return `true` if these subarrays exist, and `false` otherwise. A subarray is a contiguous non-empty sequence of elements within an array.|
 |[checkDistances](./scripts/kotlin/General/checkDistances.kt)|Description is in the file|
+|[minWindow](./scripts/kotlin/General/minWindow.kt)|Given two strings `s` and `t` of lengths `m` and `n` respectively, return the minimum window substring of `s` such that every character in `t` (including duplicates) is included in the window. If there is no such substring, return the empty string `""`. The testcases will be generated such that the answer is unique. A substring is a contiguous sequence of characters within the string.|
 
 #### DFS & BFS
 
