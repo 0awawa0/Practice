@@ -282,6 +282,7 @@ Topics:
 |[numberOfWeakCharacters](./scripts/kotlin/General/numberOfWeakCharacters.kt)|You are playing a game that contains multiple characters, and each of the characters has two main properties: attack and defense. You are given a 2D integer array `properties` where `properties[i] = [attacki, defensei]` represents the properties of the `i`th character in the game. A character is said to be weak if any other character has both attack and defense levels strictly greater than this character's attack and defense levels. More formally, a character `i` is said to be weak if there exists another character `j` where `attackj > attacki` and `defensej > defensei`. Return the number of weak characters.|
 |[mostFrequentEven](./scripts/kotlin/General/mostFrequentEven.kt)|Given an integer array `nums`, return _the most frequent even element_. If there is a tie, return the **smallest** one. If there is no such element, return `-1`.|
 |[partitionString](./scripts/kotlin/General/partitionString.kt)|Given a string `s`, partition the string into one or more substrings such that the characters in each substring are unique. That is, no letter appears in a single substring more than once. Return the minimum number of substrings in such a partition. Note that each character should belong to exactly one substring in a partition.|
+|[validUtf8](./scripts/kotlin/General/validUtf8.kt)|Description is in the file|
 
 #### DFS & BFS
 
