@@ -283,6 +283,7 @@ Topics:
 |[mostFrequentEven](./scripts/kotlin/General/mostFrequentEven.kt)|Given an integer array `nums`, return _the most frequent even element_. If there is a tie, return the **smallest** one. If there is no such element, return `-1`.|
 |[partitionString](./scripts/kotlin/General/partitionString.kt)|Given a string `s`, partition the string into one or more substrings such that the characters in each substring are unique. That is, no letter appears in a single substring more than once. Return the minimum number of substrings in such a partition. Note that each character should belong to exactly one substring in a partition.|
 |[validUtf8](./scripts/kotlin/General/validUtf8.kt)|Description is in the file|
+|[findOriginalArray](./scripts/kotlin/General/findOriginalArray.kt)|An integer array `original` is transformed into a doubled array `changed` by appending twice the value of every element in `original`, and then randomly shuffling the resulting array. Given an array `changed`, return `original` if `changed` is a doubled array. If changed is not a doubled array, return an empty array. The elements in `original` may be returned in any order.|
 
 #### DFS & BFS
 
