@@ -284,6 +284,9 @@ Topics:
 |[partitionString](./scripts/kotlin/General/partitionString.kt)|Given a string `s`, partition the string into one or more substrings such that the characters in each substring are unique. That is, no letter appears in a single substring more than once. Return the minimum number of substrings in such a partition. Note that each character should belong to exactly one substring in a partition.|
 |[validUtf8](./scripts/kotlin/General/validUtf8.kt)|Description is in the file|
 |[findOriginalArray](./scripts/kotlin/General/findOriginalArray.kt)|An integer array `original` is transformed into a doubled array `changed` by appending twice the value of every element in `original`, and then randomly shuffling the resulting array. Given an array `changed`, return `original` if `changed` is a doubled array. If changed is not a doubled array, return an empty array. The elements in `original` may be returned in any order.|
+|[longestContinuousSubstring](./scripts/kotlin/General/longestContinuousSubstring.kt)|An alphabetical continuous string is a string consisting of consecutive letters in the alphabet. In other words, it is any substring of the string `"abcdefghijklmnopqrstuvwxyz"`. Given a string s consisting of lowercase letters only, return the length of the longest alphabetical continuous substring.|
+|[smallestSubarrays](./scripts/kotlin/General/smallestSubarrays.kt)|Description is in the file|
+|[countDaysTogether](./scripts/kotlin/General/countDaysTogether.kt)|Description is in the file|
 
 #### DFS & BFS
 
@@ -367,6 +370,7 @@ Topics:
 |[minSetSize](./scripts/kotlin/Sorting/minSetSize.kt)|You are given an integer array `arr`. You can choose a set of integers and remove all the occurrences of these integers in the array. Return the minimum size of the set so that at least half of the integers of the array are removed.|
 |[answerQueries](./scripts/kotlin/Sorting/answerQueries.kt)|You are given an integer array `nums` of length `n`, and an integer array queries of length `m`. Return an array answer of length `m` where `answer[i]` is the maximum size of a subsequence that you can take from `nums` such that the sum of its elements is less than or equal to `queries[i]`. A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.|
 |[bagOfTokensScore](./scripts/kotlin/Sorting/bagOfTokensScore.kt)|Description is in the file.|
+|[matchPlayersAndTrainers](./scripts/kotlin/Sorting/matchPlayersAndTrainers.kt)|Description is in the file.|
 
 #### PriorityQueue
 
@@ -439,6 +443,7 @@ Topics:
 |[minimumDeletions](./scripts/kotlin/Math/minimumDeletions.kt)|You are given two positive integer arrays `nums` and `numsDivide`. You can delete any number of elements from `nums`. Return the minimum number of deletions such that the smallest element in `nums` divides all the elements of `numsDivide`. If this is not possible, return `-1`. Note that an integer `x` divides `y` if `y % x == 0`.|
 |[maximumGroups](./scripts/kotlin/Math/maximumGroups.kt)|Description is in the file|
 |[mirrorReflection](./scripts/kotlin/Math/mirrorReflection.kt)|There is a special square room with mirrors on each of the four walls. Except for the southwest corner, there are receptors on each of the remaining corners, numbered `0`, `1`, and `2`. The square room has walls of length `p` and a laser ray from the southwest corner first meets the east wall at a distance `q` from the `0`th receptor. Given the two integers `p` and `q`, return the number of the receptor that the ray meets first. The test cases are guaranteed so that the ray will meet a receptor eventually.|
+|[smallestEvenMultiple](./scripts/kotlin/Math/smallestEvenMultiple.kt)|Given a positive integer `n`, return the smallest positive integer that is a multiple of both `2` and `n`.|
 
 #### DynamicProgramming
 
@@ -636,3 +641,5 @@ Topics:
 |[verticalTraversal](./scripts/kotlin/Tree/verticalTraversal.kt)|Description is in the file|
 |[minGroups](./scripts/kotlin/Tree/minGroups.kt)|You are given a 2D integer array `intervals` where `intervals[i] = [lefti, righti]` represents the **inclusive** interval `[lefti, righti]`. You have to divide the intervals into one or more **groups** such that each interval is in **exactly** one group, and no two intervals that are in the same group **intersect** each other. Return _the **minimum** number of groups you need to make_. Two intervals **intersect** if there is at least one common number between them. For example, the intervals `[1, 5]` and `[5, 8]` intersect.|
 |[pseudoPalindromicPaths](./scripts/kotlin/Tree/pseudoPalindromicPaths.kt)|Given a binary tree where node values are digits from `1` to `9`. A path in the binary tree is said to be pseudo-palindromic if at least one permutation of the node values in the path is a palindrome. Return the number of pseudo-palindromic paths going from the root node to leaf nodes.|
+|[reverseOddLevels](./scripts/kotlin/Tree/reverseOddLevels.kt)|Given the root of a perfect binary tree, reverse the node values at each odd level of the tree. Return the root of the reversed tree. A binary tree is perfect if all parent nodes have two children and all leaves are on the same level. The level of a node is the number of edges along the path between it and the root node.|
+|[sumPrefixScores](./scripts/kotlin/Tree/sumPrefixScores.kt)|You are given an array words of size `n` consisting of non-empty strings. We define the score of a string `word` as the number of strings `words[i]` such that `word` is a prefix of `words[i]`. Return an array answer of size `n` where `answer[i]` is the sum of scores of every non-empty prefix of `words[i]`. Note that a string is considered as a prefix of itself.|
