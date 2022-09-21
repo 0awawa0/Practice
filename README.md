@@ -287,6 +287,7 @@ Topics:
 |[longestContinuousSubstring](./scripts/kotlin/General/longestContinuousSubstring.kt)|An alphabetical continuous string is a string consisting of consecutive letters in the alphabet. In other words, it is any substring of the string `"abcdefghijklmnopqrstuvwxyz"`. Given a string s consisting of lowercase letters only, return the length of the longest alphabetical continuous substring.|
 |[smallestSubarrays](./scripts/kotlin/General/smallestSubarrays.kt)|Description is in the file|
 |[countDaysTogether](./scripts/kotlin/General/countDaysTogether.kt)|Description is in the file|
+|[sumEvenAfterQueries](./scripts/kotlin/General/sumEvenAfterQueries.kt)|You are given an integer array `nums` and an array `queries` where `queries[i] = [vali, indexi]`. For each query `i`, first, apply `nums[indexi] = nums[indexi] + vali`, then print the sum of the even values of `nums`. Return an integer array `answer` where `answer[i]` is the answer to the `i`th query.|
 
 #### DFS & BFS
 
