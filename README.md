@@ -288,6 +288,10 @@ Topics:
 |[smallestSubarrays](./scripts/kotlin/General/smallestSubarrays.kt)|Description is in the file|
 |[countDaysTogether](./scripts/kotlin/General/countDaysTogether.kt)|Description is in the file|
 |[sumEvenAfterQueries](./scripts/kotlin/General/sumEvenAfterQueries.kt)|You are given an integer array `nums` and an array `queries` where `queries[i] = [vali, indexi]`. For each query `i`, first, apply `nums[indexi] = nums[indexi] + vali`, then print the sum of the even values of `nums`. Return an integer array `answer` where `answer[i]` is the answer to the `i`th query.|
+|[equationPossible](./scripts/kotlin/General/equationPossible.kt)|You are given an array of strings `equations` that represent relationships between variables where each string `equations[i]` is of length `4` and takes one of two different forms: `"xi==yi"` or `"xi!=yi"`.Here, `xi` and `yi` are lowercase letters (not necessarily different) that represent one-letter variable names. Return `true` if it is possible to assign integers to variable names so as to satisfy all the given equations, or `false` otherwise.|
+|[goodIndices](./scripts/kotlin/General/goodIndices.kt)|Description is in the file.|
+|[longestSubarray](./scripts/kotlin/General/longestSubarray.kt)|Description is in the file.|
+
 
 #### DFS & BFS
 
