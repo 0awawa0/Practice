@@ -1,0 +1,56 @@
+
+/*
+There are n dominoes in a line, and we place each domino vertically upright. In the beginning, we simultaneously push some of the dominoes either to the left or to the right.
+
+After each second, each domino that is falling to the left pushes the adjacent domino on the left. Similarly, the dominoes falling to the right push their adjacent dominoes standing on the right.
+
+When a vertical domino has dominoes falling on it from both sides, it stays still due to the balance of the forces.
+
+For the purposes of this question, we will consider that a falling domino expends no additional force to a falling or already fallen domino.
+
+You are given a string dominoes representing the initial state where:
+
+    dominoes[i] = 'L', if the ith domino has been pushed to the left,
+    dominoes[i] = 'R', if the ith domino has been pushed to the right, and
+    dominoes[i] = '.', if the ith domino has not been pushed.
+
+Return a string representing the final state.
+*/
+
+
+fun pushDominoes(dominoes: String): String {
+    val rightTraverse = IntArray(dominoes.length)
+    
+    var currForce = 0
+    for (i in dominoes.indices) {
+        if (dominoes[i] == 'R') currForce = 1
+        if (dominoes[i] == '.' && currForce > 0) currForce++
+        if (dominoes[i] == 'L') currForce = 0
+        rightTraverse[i] = currForce
+    }
+    
+    val leftTraverse = IntArray(dominoes.length)
+    currForce = 0
+    for (i in dominoes.lastIndex downTo 0) {
+        if (dominoes[i] == 'L') currForce = 1
+        if (dominoes[i] == '.' && currForce > 0) currForce++
+        if (dominoes[i] == 'R') currForce = 0
+        
+        leftTraverse[i] = currForce
+    }
+
+    val result = StringBuilder()
+    for (i in dominoes.indices) {
+        val leftForce = leftTraverse[i]
+        val rightForce = rightTraverse[i]
+        
+        when {
+            leftForce == rightForce -> result.append('.')
+            leftForce == 0 -> result.append('R')
+            rightForce == 0 -> result.append('L')
+            leftForce < rightForce -> result.append('L')
+            else -> result.append('R')
+        }
+    }
+    return result.toString()
+}
