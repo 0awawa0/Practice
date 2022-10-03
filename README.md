@@ -291,6 +291,8 @@ Topics:
 |[equationPossible](./scripts/kotlin/General/equationPossible.kt)|You are given an array of strings `equations` that represent relationships between variables where each string `equations[i]` is of length `4` and takes one of two different forms: `"xi==yi"` or `"xi!=yi"`.Here, `xi` and `yi` are lowercase letters (not necessarily different) that represent one-letter variable names. Return `true` if it is possible to assign integers to variable names so as to satisfy all the given equations, or `false` otherwise.|
 |[goodIndices](./scripts/kotlin/General/goodIndices.kt)|Description is in the file.|
 |[longestSubarray](./scripts/kotlin/General/longestSubarray.kt)|Description is in the file.|
+|[minCost](./scripts/kotlin/General/minCost.kt)|Alice has `n` balloons arranged on a rope. You are given a `0`-indexed string `colors` where `colors[i]` is the color of the `i`th balloon. Alice wants the rope to be colorful. She does not want two consecutive balloons to be of the same color, so she asks Bob for help. Bob can remove some balloons from the rope to make it colorful. You are given a `0`-indexed integer array `neededTime` where `neededTime[i]` is the time (in seconds) that Bob needs to remove the `i`th balloon from the rope. Return the minimum time Bob needs to make the rope colorful.|
+|[maxSum](./scripts/kotlin/General/maxSum.kt)|You are given an `m x n` integer matrix `grid`. Return the maximum sum of the elements of an hourglass. Note that an hourglass cannot be rotated and must be entirely contained within the matrix.|
 
 
 #### DFS & BFS
@@ -450,6 +452,7 @@ Topics:
 |[mirrorReflection](./scripts/kotlin/Math/mirrorReflection.kt)|There is a special square room with mirrors on each of the four walls. Except for the southwest corner, there are receptors on each of the remaining corners, numbered `0`, `1`, and `2`. The square room has walls of length `p` and a laser ray from the southwest corner first meets the east wall at a distance `q` from the `0`th receptor. Given the two integers `p` and `q`, return the number of the receptor that the ray meets first. The test cases are guaranteed so that the ray will meet a receptor eventually.|
 |[smallestEvenMultiple](./scripts/kotlin/Math/smallestEvenMultiple.kt)|Given a positive integer `n`, return the smallest positive integer that is a multiple of both `2` and `n`.|
 |[concatenatedBinary](./scripts/kotlin/Math/concatenatedBinary.kt)|Given an integer `n`, return the decimal value of the binary string formed by concatenating the binary representations of `1` to `n` in order, modulo `10^9 + 7`.|
+|[minimizeXOR](./scripts/kotlin/Math/minimizeXOR.kt)|Description is in the file.|
 
 #### DynamicProgramming
 
@@ -530,6 +533,7 @@ Topics:
 |[smallestNumber](./scripts/kotlin/Backtracking/smallestNumber.kt)|Description is in the file|
 |[numsSameConsecDiff](./scripts/kotlin/Backtracking/numsSameConsecDiff.kt)|Return all non-negative integers of length `n` such that the absolute difference between every two consecutive digits is `k`. Note that every number in the answer must not have leading zeros. For example, `01` has one leading zero and is invalid. You may return the answer in any order.|
 |[numberOfWays](./scripts/kotlin/Backtracking/numberOfWays.kt)|Description is in the file|
+|[numRollsToTarget](./scripts/kotlin/Backtracking/numRollsToTarget.kt)|You have `n` dice and each die has `k` faces numbered from `1` to `k`. Given three integers `n`, `k`, and `target`, return the number of possible ways (out of the kn total ways) to roll the dice so the sum of the face-up numbers equals `target`. Since the answer may be too large, return it modulo `10^9 + 7`.|
 
 #### BinarySearch
 
