@@ -294,6 +294,7 @@ Topics:
 |[minCost](./scripts/kotlin/General/minCost.kt)|Alice has `n` balloons arranged on a rope. You are given a `0`-indexed string `colors` where `colors[i]` is the color of the `i`th balloon. Alice wants the rope to be colorful. She does not want two consecutive balloons to be of the same color, so she asks Bob for help. Bob can remove some balloons from the rope to make it colorful. You are given a `0`-indexed integer array `neededTime` where `neededTime[i]` is the time (in seconds) that Bob needs to remove the `i`th balloon from the rope. Return the minimum time Bob needs to make the rope colorful.|
 |[maxSum](./scripts/kotlin/General/maxSum.kt)|You are given an `m x n` integer matrix `grid`. Return the maximum sum of the elements of an hourglass. Note that an hourglass cannot be rotated and must be entirely contained within the matrix.|
 |[checkIfPangram](./scripts/kotlin/General/checkIfPangram.kt)|A pangram is a sentence where every letter of the English alphabet appears at least once. Given a string sentence containing only lowercase English letters, return true if sentence is a pangram, or false otherwise.|
+|[distinctNames](./scripts/kotlin/General/distinctNames.kt)|Description is in the file.|
 
 
 #### DFS & BFS
