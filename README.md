@@ -518,6 +518,7 @@ Topics:
 |[countPermutation](./scripts/kotlin/DynamicProgramming/countPermutation.kt)|Description is in the file|
 |[numFactoredBinaryTrees](./scripts/kotlin/DynamicProgramming/numFactoredBinaryTrees.kt)|Given an array of unique integers, `arr`, where each integer `arr[i]` is strictly greater than `1`. We make a binary tree using these integers, and each number may be used for any number of times. Each non-leaf node's value should be equal to the product of the values of its children. Return the number of binary trees we can make. The answer may be too large so return the answer modulo `10^9 + 7`.|
 |[findLength](./scripts/kotlin/DynamicProgramming/findLength.kt)|Given two integer arrays `nums1` and `nums2`, return the maximum length of a subarray that appears in both arrays.|
+|[perfectSquares](./scripts/kotlin/DynamicProgramming/perfectSquares.kt)|Given an integer `n`, return _the least number of perfect square numbers that sum to_ `n`. A **perfect square** is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, `1`, `4`, `9`, and `16` are perfect squares while `3` and `11` are not.|
 
 #### Backtracking
 
