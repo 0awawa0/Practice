@@ -91,7 +91,7 @@ Given a string `s`, sort it in decreasing order based on the frequency of the ch
 ## [K Closest](./code/kClosest.kt)
 Given an array of points where `points[i] = [xi, yi]` represents a point on the X-Y plane and an integer `k`, return the `k` closest points to the origin `(0, 0)`. The distance between two points on the X-Y plane is the Euclidean distance (i.e., `√(x1 - x2)^2 + (y1 - y2)^2)`. You may return the answer in any order.
 
-## [Furthest Building](./code/furthestBuildring.kt)
+## [Furthest Building](./furthestBuilding/README.md)
 You are given an integer array heights representing the heights of buildings, some bricks, and some ladders.
 
 You start your journey from building 0 and move to the next building by possibly using bricks or ladders.
