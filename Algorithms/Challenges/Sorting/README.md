@@ -130,3 +130,8 @@ Conversely, if you have `k` (`k >= 3`) positive real numbers `a1, a2, a3, ..., a
 The perimeter of a polygon is the sum of lengths of its sides.
 
 Return the largest possible perimeter of a polygon whose sides can be formed from `nums`, or `-1` if it is not possible to create a polygon.
+
+## [Find Least Num of Unique Ints](./findLeastNumOfUniqueInts/README.md)
+
+Given an array of integers `arr` and an integer `k`. Find the least number of unique integers after removing exactly `k` elements.
+
