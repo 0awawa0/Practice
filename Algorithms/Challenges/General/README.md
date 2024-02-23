@@ -1169,3 +1169,13 @@ Given an array of integers called `nums`, you can perform the following operatio
 The score of the operation is the sum of the deleted elements.
 Your task is to find the maximum number of operations that can be performed, such that all operations have the same score.
 Return the maximum number of operations possible that satisfy the condition mentioned above.
+
+## [Last Non Empty String](./lastNonEmptyString/README.md)
+You are given a string `s`.
+
+Consider performing the following operation until `s` becomes empty:
+
+    For every alphabet character from 'a' to 'z', remove the first occurrence of that character in s (if it exists).
+
+Return the value of the string `s` right before applying the last operation.
+

@@ -308,3 +308,15 @@ Given two integer arrays `nums1` and `nums2`, return the maximum length of a sub
 
 ## [Perfect Squares](./code/perfectSquares.kt)
 Given an integer `n`, return _the least number of perfect square numbers that sum to_ `n`. A **perfect square** is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, `1`, `4`, `9`, and `16` are perfect squares while `3` and `11` are not.
+
+## [Max Operations](./MaxOperations/README.md)
+
+Given an array of integers called `nums`, you can perform any of the following operation while `nums` contains at least `2` elements:
+
+    Choose the first two elements of nums and delete them.
+    Choose the last two elements of nums and delete them.
+    Choose the first and the last elements of nums and delete them.
+
+The score of the operation is the sum of the deleted elements.
+Your task is to find the maximum number of operations that can be performed, such that all operations have the same score.
+Return the maximum number of operations possible that satisfy the condition mentioned above.
